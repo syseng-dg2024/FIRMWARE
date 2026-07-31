@@ -1,2 +1,2 @@
 # FIRMWARE
-Lists of firmware versions by device type
+Lists of firmware versions by MANUFACTURER_DEVICE-TYPE_COMPONENT
