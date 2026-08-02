@@ -9,12 +9,7 @@ os.makedirs('data', exist_ok=True)
 async def main():
     crawler = BeautifulSoupCrawler(
         max_requests_per_crawl=1,
-        use_session_pool=True,
     )
-
-    @crawler.on_request_handler_start
-    async def handler(context):
-        print(f"Processing {context.request.url}")
 
     @crawler.on_page_scraped
     async def on_page_scraped(context):
