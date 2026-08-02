@@ -3,7 +3,7 @@ name: Parse Firmware Data
 on:
   push:
     paths:
-      - 'data/raw/**'
+      - './github/data/raw/**'
   workflow_dispatch:
 
 permissions:
@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
       
       - name: Parse all firmware data
-        run: python scripts/PARSE_FIRMWARE.py
+        run: python .github/scripts/PARSE_FIRMWARE.py
       
       - name: Commit changes
         run: |
