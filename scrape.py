@@ -3,16 +3,29 @@ from bs4 import BeautifulSoup
 import json
 import os
 from datetime import datetime
+import time
 
 os.makedirs('data', exist_ok=True)
 
 url = "https://www.se.com/us/en/faqs/FA279197/"
+
+# More realistic browser headers
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.5',
+    'Accept-Encoding': 'gzip, deflate',
+    'DNT': '1',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    'Referer': 'https://www.se.com/'
 }
 
 try:
-    response = requests.get(url, timeout=10, headers=headers)
+    # Add a small delay
+    time.sleep(1)
+    
+    response = requests.get(url, timeout=15, headers=headers, allow_redirects=True)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
     
@@ -33,14 +46,15 @@ try:
             row_data = []
             
             for cell in cells:
-                # Get text and any links
                 text = cell.get_text(strip=True)
                 link = cell.find('a')
                 link_text = link.get('href') if link else None
+                link_label = link.get_text(strip=True) if link else None
                 
                 row_data.append({
                     'text': text,
-                    'link': link_text
+                    'link': link_text,
+                    'link_label': link_label
                 })
             
             if row_data:
@@ -64,6 +78,9 @@ try:
     
     print(f"Scrape successful! Found {len(tables)} table(s)")
     
+except requests.exceptions.HTTPError as e:
+    print(f"HTTP Error: {e}")
+    exit(1)
 except Exception as e:
     print(f"Error: {e}")
     exit(1)
