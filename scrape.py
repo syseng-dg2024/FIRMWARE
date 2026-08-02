@@ -5,15 +5,14 @@ from datetime import datetime
 from crawlee.crawlers import PlaywrightCrawler, PlaywrightCrawlingContext
 from bs4 import BeautifulSoup
 
-# Disable sandbox for GitHub Actions
-os.environ['CRAWLEE_CHROMIUM_ARGS'] = '--no-sandbox --disable-setuid-sandbox'
-
 os.makedirs('data', exist_ok=True)
 
 async def main() -> None:
+    # Use Firefox instead of Chromium - it handles sandboxing better in CI/CD
     crawler = PlaywrightCrawler(
         max_requests_per_crawl=1,
         headless=True,
+        browser_type='firefox',
     )
 
     @crawler.router.default_handler
