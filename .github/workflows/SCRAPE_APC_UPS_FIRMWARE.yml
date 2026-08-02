@@ -1,4 +1,4 @@
-name: Scrape APC Firmware Table
+name: Scrape APC UPS Firmware Table
 
 on:
   workflow_dispatch:
