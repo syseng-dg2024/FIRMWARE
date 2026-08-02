@@ -29,7 +29,7 @@ jobs:
           python-version: '3.11'
       
       - name: Parse HTML to JSON
-        run: python scripts/parse_scraped_firmware.py
+        run: python scripts/SCRAPE_FIRMWARE.py
       
       - name: Commit changes
         run: |
