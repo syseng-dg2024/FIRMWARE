@@ -21,7 +21,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install requests requests-html beautifulsoup4
+          pip install requests requests-html beautifulsoup4 lxml_html_clean
       
       - name: Run scraper
         run: python scrape.py
