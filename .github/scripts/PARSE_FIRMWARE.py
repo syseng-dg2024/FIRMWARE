@@ -73,6 +73,6 @@ def parse_nmc_firmware(input_file, output_file):
 # Main execution
 if __name__ == "__main__":
     print("Starting firmware data parsing...")
-    parse_ups_firmware('TEMP/INPUT/APC/UPS/UPS_Firmware.txt', 'TEMP/OUTPUT/APC/UPS/UPS_Firmware_Lookup.json')
-    parse_nmc_firmware('TEMP/INPUT/APC/UPS/NMC_Firmware.txt', 'TEMP/OUTPUT/APC/UPS/NMC_Firmware_Lookup.json')
+    parse_ups_firmware('TEMP/INPUT/UPS_Firmware.txt', 'TEMP/OUTPUT/UPS_Firmware_Lookup.json')
+    parse_nmc_firmware('TEMP/INPUT/NMC_Firmware.txt', 'TEMP/OUTPUT/NMC_Firmware_Lookup.json')
     print("All firmware data processed successfully!")
