@@ -41,7 +41,7 @@ def parse_scraped_html():
             "lookups": lookups
         }
         
-        with open('APC/UPS/UPS_Formware_Lookup.json', 'w') as f:
+        with open('APC/UPS/UPS_Firmware_Lookup.json', 'w') as f:
             json.dump(output, f, indent=2)
         
         print(f"Scraped and parsed: {len(lookups)} UPS entries")
