@@ -22,8 +22,11 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install crawlee beautifulsoup4
-          npx playwright install chromium
+          pip install crawlee beautifulsoup4 playwright
+      
+      - name: Install Playwright browsers
+        run: |
+          python -m playwright install chromium
       
       - name: Run scraper
         run: python scrape.py
