@@ -4,7 +4,7 @@ import os
 import gzip
 from datetime import datetime
 
-os.makedirs('TEMP/OUTPUT', exist_ok=True)
+os.makedirs('APC/UPS', exist_ok=True)
 
 def parse_scraped_html():
     """Parse HTML file and extract firmware table"""
@@ -41,7 +41,7 @@ def parse_scraped_html():
             "lookups": lookups
         }
         
-        with open('TEMP/OUTPUT/TEST.json', 'w') as f:
+        with open('APC/UPS/UPS_Formware_Lookup.json', 'w') as f:
             json.dump(output, f, indent=2)
         
         print(f"Scraped and parsed: {len(lookups)} UPS entries")
