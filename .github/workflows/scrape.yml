@@ -2,14 +2,24 @@ name: Web Scraper
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Debug - List files
+        run: |
+          pwd
+          ls -la
+          echo "---"
+          find . -name "scrape.py" -o -name "*.yml"
       
       - name: Set up Python
         uses: actions/setup-python@v5
