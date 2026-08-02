@@ -12,7 +12,8 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -21,7 +22,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install requests requests-html beautifulsoup4 lxml_html_clean
+          pip install requests beautifulsoup4
       
       - name: Run scraper
         run: python scrape.py
