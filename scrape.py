@@ -1,20 +1,24 @@
-import asyncio
 import json
 import os
 from datetime import datetime
-from crawlee.http_crawler import HttpCrawler
+from crawlee.crawlers import PlaywrightCrawler, PlaywrightCrawlingContext
 from bs4 import BeautifulSoup
 
 os.makedirs('data', exist_ok=True)
 
-async def main():
-    crawler = HttpCrawler(
+async def main() -> None:
+    crawler = PlaywrightCrawler(
         max_requests_per_crawl=1,
+        headless=True,
     )
 
-    @crawler.on_response_received
-    async def handle_response(context):
-        soup = BeautifulSoup(context.http_response.text, 'html.parser')
+    @crawler.router.default_handler
+    async def request_handler(context: PlaywrightCrawlingContext) -> None:
+        context.log.info(f'Processing {context.request.url} ...')
+        
+        # Get the page content
+        content = await context.page.content()
+        soup = BeautifulSoup(content, 'html.parser')
         
         # Extract title
         title = soup.find('h1')
@@ -63,9 +67,12 @@ async def main():
         with open('data/scraped_data.json', 'w') as f:
             json.dump(data, f, indent=2)
         
-        print(f"Scrape successful! Found {len(tables)} table(s)")
+        context.log.info(f'Scrape successful! Found {len(tables)} table(s)')
+        await context.push_data(data)
 
+    # Run the crawler
     await crawler.run(['https://www.se.com/us/en/faqs/FA279197/'])
 
 if __name__ == '__main__':
+    import asyncio
     asyncio.run(main())
