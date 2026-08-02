@@ -22,7 +22,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install crawlee beautifulsoup4 playwright
+          pip install crawlee beautifulsoup4 playwright browserforge
       
       - name: Install Playwright browsers
         run: |
