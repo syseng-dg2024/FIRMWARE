@@ -21,7 +21,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install crawlee beautifulsoup4
+          pip install --upgrade crawlee beautifulsoup4
       
       - name: Run scraper
         run: python scrape.py
