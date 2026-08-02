@@ -36,12 +36,12 @@ jobs:
           python-version: '3.11'
       
       - name: Parse HTML to JSON
-        run: python .github/scripts/SCRAPE_FIRMWARE.py
+        run: python .github/scripts/SCRAPE_APC_UPS_FIRMWARE.py
       
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add TEMP/OUTPUT/
+          git add APC/UPS/
           git commit -m "Update scraped firmware data" || echo "No changes"
           git push
