@@ -1,0 +1,25 @@
+name: Scheduled Web Scraper
+
+on:
+  push: # Runs whenever you push code
+  schedule:
+    - cron: '0 0 * * *' # Runs automatically every day at midnight UTC
+
+jobs:
+  scrape-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v4
+
+    - name: Fetch website data
+      run: |
+        # Replace the URL below with the target site or API endpoint
+        curl -sL "view-source:https://www.se.com/us/en/faqs/FA279197/" -o data.txt
+
+    - name: Commit and push if data changed
+      run: |
+        git config user.name "Automated Scraper"
+        git config user.email "actions@github.com"
+        git add data.txt
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Scraped new data" && git push)
