@@ -1,3 +1,4 @@
+import asyncio
 import json
 import os
 from datetime import datetime
@@ -64,6 +65,7 @@ async def main() -> None:
             'total_tables': len(tables)
         }
         
+        # Save to file
         with open('data/scraped_data.json', 'w') as f:
             json.dump(data, f, indent=2)
         
@@ -74,5 +76,4 @@ async def main() -> None:
     await crawler.run(['https://www.se.com/us/en/faqs/FA279197/'])
 
 if __name__ == '__main__':
-    import asyncio
     asyncio.run(main())
