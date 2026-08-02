@@ -2,7 +2,7 @@ import json
 import os
 from datetime import datetime
 
-os.makedirs('TEMP/OUTPUT/APC/UPS', exist_ok=True)
+os.makedirs('TEMP/OUTPUT', exist_ok=True)
 
 def parse_ups_firmware(input_file, output_file):
     """Parse UPS firmware data into lookup format"""
