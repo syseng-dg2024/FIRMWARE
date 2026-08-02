@@ -1,6 +1,7 @@
 import json
 import re
 import os
+import gzip
 from datetime import datetime
 
 os.makedirs('TEMP/OUTPUT', exist_ok=True)
@@ -8,8 +9,13 @@ os.makedirs('TEMP/OUTPUT', exist_ok=True)
 def parse_scraped_html():
     """Parse HTML file and extract firmware table"""
     try:
-        with open('firmware_raw.html', 'r', encoding='utf-8') as f:
-            html = f.read()
+        # Try to read as gzip first, then fall back to plain text
+        try:
+            with gzip.open('firmware_raw.html', 'rt', encoding='utf-8') as f:
+                html = f.read()
+        except:
+            with open('firmware_raw.html', 'r', encoding='utf-8') as f:
+                html = f.read()
         
         lookups = {}
         
