@@ -5,15 +5,15 @@ from datetime import datetime
 from crawlee.crawlers import PlaywrightCrawler, PlaywrightCrawlingContext
 from bs4 import BeautifulSoup
 
+# Disable sandbox for GitHub Actions
+os.environ['CRAWLEE_CHROMIUM_ARGS'] = '--no-sandbox --disable-setuid-sandbox'
+
 os.makedirs('data', exist_ok=True)
 
 async def main() -> None:
     crawler = PlaywrightCrawler(
         max_requests_per_crawl=1,
         headless=True,
-        launch_context={
-            'args': ['--no-sandbox', '--disable-setuid-sandbox'],
-        },
     )
 
     @crawler.router.default_handler
