@@ -11,6 +11,9 @@ async def main() -> None:
     crawler = PlaywrightCrawler(
         max_requests_per_crawl=1,
         headless=True,
+        launch_context={
+            'args': ['--no-sandbox', '--disable-setuid-sandbox'],
+        },
     )
 
     @crawler.router.default_handler
