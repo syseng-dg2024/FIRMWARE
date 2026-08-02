@@ -2,18 +2,19 @@ import asyncio
 import json
 import os
 from datetime import datetime
-from crawlee.beautifulsoup_crawler import BeautifulSoupCrawler
+from crawlee.http_crawler import HttpCrawler
+from bs4 import BeautifulSoup
 
 os.makedirs('data', exist_ok=True)
 
 async def main():
-    crawler = BeautifulSoupCrawler(
+    crawler = HttpCrawler(
         max_requests_per_crawl=1,
     )
 
-    @crawler.on_page_scraped
-    async def on_page_scraped(context):
-        soup = context.soup
+    @crawler.on_response_received
+    async def handle_response(context):
+        soup = BeautifulSoup(context.http_response.text, 'html.parser')
         
         # Extract title
         title = soup.find('h1')
