@@ -1,8 +1,5 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from bs4 import BeautifulSoup
+import requests
+from requests_html import HTMLSession
 import json
 import os
 from datetime import datetime
@@ -12,47 +9,30 @@ os.makedirs('data', exist_ok=True)
 url = "https://www.se.com/us/en/faqs/FA279197/"
 
 try:
-    # Configure Chrome for headless browsing
-    options = webdriver.ChromeOptions()
-    options.add_argument('--headless')
-    options.add_argument('--no-sandbox')
-    options.add_argument('--disable-dev-shm-usage')
-    options.add_argument('--disable-blink-features=AutomationControlled')
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option('useAutomationExtension', False)
-    
-    driver = webdriver.Chrome(options=options)
-    driver.get(url)
-    
-    # Wait for page to load
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_all_elements_located((By.TAG_NAME, "table"))
-    )
-    
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    driver.quit()
+    session = HTMLSession()
+    response = session.get(url, timeout=15)
     
     # Extract page title
-    title = soup.find('h1')
-    title_text = title.get_text(strip=True) if title else "No title found"
+    title = response.html.find('h1', first=True)
+    title_text = title.text if title else "No title found"
     
     # Find all tables
-    tables = soup.find_all('table')
+    tables = response.html.find('table')
     table_data = []
     
     for idx, table in enumerate(tables):
-        rows = table.find_all('tr')
+        rows = table.find('tr')
         table_rows = []
         
         for row in rows:
-            cells = row.find_all(['td', 'th'])
+            cells = row.find(['td', 'th'])
             row_data = []
             
             for cell in cells:
-                text = cell.get_text(strip=True)
-                link = cell.find('a')
-                link_text = link.get('href') if link else None
-                link_label = link.get_text(strip=True) if link else None
+                text = cell.text
+                link = cell.find('a', first=True)
+                link_text = link.attrs.get('href') if link else None
+                link_label = link.text if link else None
                 
                 row_data.append({
                     'text': text,
