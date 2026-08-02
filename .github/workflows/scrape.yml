@@ -19,7 +19,7 @@ jobs:
           pwd
           ls -la
           echo "---"
-          find . -name "scrape.py" -o -name "*.yml"
+          find . -name "scrape.py"
       
       - name: Set up Python
         uses: actions/setup-python@v5
