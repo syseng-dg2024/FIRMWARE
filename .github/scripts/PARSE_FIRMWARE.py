@@ -2,7 +2,7 @@ import json
 import os
 from datetime import datetime
 
-os.makedirs('data/output/APC/UPS', exist_ok=True)
+os.makedirs('.github/data/output/APC/UPS', exist_ok=True)
 
 def parse_ups_firmware(input_file, output_file):
     """Parse UPS firmware data into lookup format"""
@@ -64,6 +64,6 @@ def parse_nmc_firmware(input_file, output_file):
 
 # Main execution
 if __name__ == "__main__":
-    parse_ups_firmware('data/raw/APC_UPS_data.txt', 'data/output/APC/UPS/UPS_Firmware_Lookup.json')
-    parse_nmc_firmware('data/raw/APC_NMC_data.txt', 'data/output/APC/UPS/NMC_Firmware_Lookup.json')
+    parse_ups_firmware('.github/data/raw/APC_UPS_data.txt', '.github/data/output/APC/UPS/UPS_Firmware_Lookup.json')
+    parse_nmc_firmware('.github/data/raw/APC_NMC_data.txt', '.github/data/output/APC/UPS/NMC_Firmware_Lookup.json')
     print(f"\n✓ All firmware data processed successfully!")
