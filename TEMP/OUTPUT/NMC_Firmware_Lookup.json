@@ -1,1 +1,5 @@
-
+{
+  "description": "APC NMC Firmware Lookup Table - NMC Type/Model to Latest Version",
+  "lastUpdated": "8-2-2026",
+  "lookups": {}
+}
