@@ -1,25 +1,32 @@
-name: Scheduled Web Scraper
+name: Web Scraper
 
 on:
-  push: # Runs whenever you push code
   schedule:
-    - cron: '0 0 * * *' # Runs automatically every day at midnight UTC
+    - cron: '0 0 * * *'  # Daily at midnight UTC
+  workflow_dispatch:     # Allow manual triggering
 
 jobs:
-  scrape-and-commit:
+  scrape:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out repo
-      uses: actions/checkout@v4
-
-    - name: Fetch website data
-      run: |
-        # Replace the URL below with the target site or API endpoint
-        curl -sL "view-source:https://www.se.com/us/en/faqs/FA279197/" -o data.txt
-
-    - name: Commit and push if data changed
-      run: |
-        git config user.name "Automated Scraper"
-        git config user.email "actions@github.com"
-        git add data.txt
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Scraped new data" && git push)
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+      
+      - name: Run scraper
+        run: python scrape.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          git commit -m "Update scraped data" || echo "No changes"
+          git push
