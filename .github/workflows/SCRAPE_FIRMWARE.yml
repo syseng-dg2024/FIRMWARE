@@ -1,0 +1,40 @@
+name: Scrape APC Firmware Table
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday (optional)
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Scrape firmware table
+        run: |
+          curl -s -L --max-time 15 "https://www.se.com/us/en/faqs/FA279197/" > /tmp/firmware.html
+          if grep -q "Access Denied" /tmp/firmware.html; then
+            echo "Access denied"
+            exit 1
+          fi
+          cat /tmp/firmware.html > firmware_raw.html
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Parse HTML to JSON
+        run: python scripts/parse_scraped_firmware.py
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add TEMP/OUTPUT/
+          git commit -m "Update scraped firmware data" || echo "No changes"
+          git push
