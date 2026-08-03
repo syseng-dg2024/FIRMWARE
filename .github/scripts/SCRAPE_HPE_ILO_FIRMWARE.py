@@ -32,22 +32,22 @@ def scrape_hpe_ilo_versions():
             with urllib.request.urlopen(req, timeout=15) as response:
                 data = json.loads(response.read().decode('utf-8'))
             
-            # Extract version from the response
-            if isinstance(data, list) and len(data) > 0:
-                latest = data[0]  # First item is latest version
-                if 'swItem' in latest and 'versionId' in latest['swItem']:
-                    version = latest['swItem']['versionId']
-                    title = latest['swItem'].get('localizedTitle', 'Unknown')
-                    status = latest['swItem'].get('status', 'Unknown')
-                    release_date = latest['swItem'].get('customerAvailableDate', 'Unknown')
-                    
-                    lookups[ilo_version] = {
-                        "version": version,
-                        "title": title,
-                        "status": status,
-                        "releaseDate": release_date
-                    }
-                    print(f"{ilo_version}: v{version}")
+            # Extract version from the response - it's a single object with swItem key
+            if 'swItem' in data and 'versionId' in data['swItem']:
+                version = data['swItem']['versionId']
+                title = data['swItem'].get('localizedTitle', 'Unknown')
+                status = data['swItem'].get('status', 'Unknown')
+                release_date = data['swItem'].get('customerAvailableDate', 'Unknown')
+                
+                lookups[ilo_version] = {
+                    "version": version,
+                    "title": title,
+                    "status": status,
+                    "releaseDate": release_date
+                }
+                print(f"{ilo_version}: v{version}")
+            else:
+                print(f"{ilo_version}: No swItem data found")
         
         except Exception as e:
             print(f"Error scraping {ilo_version}: {e}")
