@@ -1,5 +1,24 @@
 {
   "description": "HPE iLO Firmware Lookup Table - Latest versions for iLO4, iLO5, iLO6",
   "lastUpdated": "8-3-2026",
-  "lookups": {}
+  "lookups": {
+    "iLO4": {
+      "version": "2.82",
+      "title": "Online ROM Flash Component for Windows - HPE Integrated Lights-Out 4",
+      "status": "AVAILABLE",
+      "releaseDate": "2 Mar 2023"
+    },
+    "iLO5": {
+      "version": "3.21",
+      "title": "Online ROM Flash Firmware Package - HPE Integrated Lights-Out 5",
+      "status": "AVAILABLE",
+      "releaseDate": "31 Jul 2026"
+    },
+    "iLO6": {
+      "version": "1.78",
+      "title": "Online ROM Flash Firmware Package - HPE Integrated Lights-Out 6",
+      "status": "AVAILABLE",
+      "releaseDate": "31 Jul 2026"
+    }
+  }
 }
