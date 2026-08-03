@@ -1,5 +1,6 @@
 import json
-import requests
+import urllib.request
+import urllib.error
 import os
 from datetime import datetime
 
@@ -27,10 +28,9 @@ def scrape_hpe_ilo_versions():
                 "Accept": "application/json",
             }
             
-            response = requests.get(url, headers=headers, timeout=15)
-            response.raise_for_status()
-            
-            data = response.json()
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=15) as response:
+                data = json.loads(response.read().decode('utf-8'))
             
             # Extract version from the response
             if isinstance(data, list) and len(data) > 0:
