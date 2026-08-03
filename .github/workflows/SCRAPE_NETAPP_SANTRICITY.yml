@@ -1,0 +1,31 @@
+name: Scrape NetApp SANtricity Version
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 11 * * *'  # 11 AM UTC (6 AM EDT, 5 AM EST)
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Scrape NetApp SANtricity version
+        run: python .github/scripts/SCRAPE_NETAPP_SANTRICITY.py
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add NetApp/SANtricity/SANtricity_Latest.json
+          git commit -m "Update NetApp SANtricity latest version" || echo "No changes"
+          git push
