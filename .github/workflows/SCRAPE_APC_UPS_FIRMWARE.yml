@@ -3,7 +3,7 @@ name: Scrape APC Firmware Table
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '0 10 * * *'
 
 permissions:
   contents: write
@@ -44,6 +44,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add TEMP/OUTPUT/
+          git add APC/UPS/UPS_Firmware_Lookup.json
           git commit -m "Update scraped firmware data" || echo "No changes"
           git push
