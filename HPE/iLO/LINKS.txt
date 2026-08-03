@@ -1,4 +1,5 @@
 iLO:
+Get the actual links- use developer tools -> Network -> refresh page -> stop network trace -> click on Feth/XDR, export har -> same for JS -> upload to AI to parse the URL
 iLO4: https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-b5848d0ffeab4506&tab=releaseNotes
 iLO5: https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-2dc80c4ae4b943fa&tab=releaseNotes
 iLO6: https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-994a0b6ce04a44b9&tab=releaseNotes
