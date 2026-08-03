@@ -1,6 +1,6 @@
 {
   "description": "APC UPS Firmware Lookup Table - ID to Latest Version mapping",
-  "lastUpdated": "8-2-2026",
+  "lastUpdated": "8-3-2026",
   "lookups": {
     "5008": "UPS 02.7",
     "1029": "UPS 15.6",
