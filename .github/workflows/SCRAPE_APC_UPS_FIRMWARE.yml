@@ -38,7 +38,7 @@ jobs:
           python-version: '3.11'
       
       - name: Parse HTML to JSON
-        run: python .github/scripts/SCRAPE_FIRMWARE.py
+        run: python .github/scripts/SCRAPE_APC_UPS_FIRMWARE.py
       
       - name: Commit changes
         run: |
