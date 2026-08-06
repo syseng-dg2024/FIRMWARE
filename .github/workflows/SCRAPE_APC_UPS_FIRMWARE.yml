@@ -14,19 +14,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Scrape firmware table
+      - name: Scrape firmware table with browser emulation
         run: |
-          curl -s -L --max-time 15 \
-            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" \
-            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" \
-            -H "Accept-Language: en-US,en;q=0.5" \
-            -H "Accept-Encoding: gzip, deflate" \
+          curl -s -L --max-time 30 \
+            -H "Host: www.se.com" \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" \
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" \
+            -H "Accept-Encoding: gzip, deflate, br" \
+            -H "Accept-Language: en-US,en;q=0.9" \
+            -H "Cache-Control: max-age=0" \
             -H "Connection: keep-alive" \
+            -H "DNT: 1" \
+            -H "Pragma: no-cache" \
+            -H "Referer: https://www.se.com/" \
+            -H "Sec-Fetch-Dest: document" \
+            -H "Sec-Fetch-Mode: navigate" \
+            -H "Sec-Fetch-Site: same-origin" \
+            -H "Sec-Fetch-User: ?1" \
             -H "Upgrade-Insecure-Requests: 1" \
+            -H "sec-ch-ua: \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Microsoft Edge\";v=\"120\"" \
+            -H "sec-ch-ua-mobile: ?0" \
+            -H "sec-ch-ua-platform: \"Windows\"" \
+            --compressed \
+            --tlsv1.2 \
             "https://www.se.com/us/en/faqs/FA279197/" > /tmp/firmware.html
           
           if grep -q "Access Denied\|403\|Forbidden" /tmp/firmware.html; then
-            echo "Access denied"
+            echo "Access denied - trying alternative method..."
             exit 1
           fi
           
@@ -44,6 +58,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull origin main
           git add APC/UPS/UPS_Firmware_Lookup.json
-          git commit -m "Update scraped firmware data" || echo "No changes"
-          git push
+          git commit -m "Update APC UPS firmware data" || echo "No changes"
+          git push origin main
