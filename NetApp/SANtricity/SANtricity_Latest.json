@@ -1,11 +1,11 @@
 {
   "description": "NetApp E-Series SANtricity OS Latest Release",
-  "lastUpdated": "8-5-2026",
-  "latestVersion": "11.90R5",
+  "lastUpdated": "8-6-2026",
+  "latestVersion": "11.90R6",
   "parsed": {
     "major": 11,
     "minor": 90,
-    "r": 5,
-    "full": "11.90R5"
+    "r": 6,
+    "full": "11.90R6"
   }
 }
