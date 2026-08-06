@@ -22,10 +22,11 @@ jobs:
       - name: Scrape HPE iLO firmware versions
         run: python .github/scripts/SCRAPE_HPE_ILO_FIRMWARE.py
       
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull origin main
           git add HPE/iLO/iLO_Firmware_Lookup.json
           git commit -m "Update HPE iLO firmware versions" || echo "No changes"
-          git push
+          git push origin main
