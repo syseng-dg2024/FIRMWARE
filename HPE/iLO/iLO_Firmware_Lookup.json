@@ -1,6 +1,6 @@
 {
   "description": "HPE iLO Firmware Lookup Table - Latest versions for iLO4, iLO5, iLO6",
-  "lastUpdated": "8-6-2026",
+  "lastUpdated": "8-7-2026",
   "lookups": {
     "iLO4": {
       "version": "2.82",
