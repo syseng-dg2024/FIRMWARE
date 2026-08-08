@@ -26,7 +26,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull origin main
           git add APC/UPS/UPS_Firmware_Lookup.json
           git commit -m "Update APC UPS firmware versions" || echo "No changes"
+          git pull origin main --rebase
           git push origin main
