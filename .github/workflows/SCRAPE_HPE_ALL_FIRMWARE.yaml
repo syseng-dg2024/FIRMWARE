@@ -1,0 +1,32 @@
+name: Scrape HPE iLO Firmware
+
+on:
+  workflow_dispatch:
+  schedule:
+    
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Scrape HPE iLO firmware versions
+        run: python .github/scripts/SCRAPE_HPE_ILO_FIRMWARE.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add HPE/iLO/iLO_Firmware_Lookup.json
+          git commit -m "Update HPE iLO firmware versions" || true
+          git pull origin main --rebase
+          git push origin main
