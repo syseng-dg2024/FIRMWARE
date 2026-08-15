@@ -1,9 +1,9 @@
-name: Scrape HPE SPP Firmware Manifest
+name: Scrape HPE SPP Firmware
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 12 * * *'  # 12 PM UTC
+    - cron: '0 12 * * *'
 
 permissions:
   contents: write
@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: '3.11'
       
-      - name: Scrape HPE SPP firmware manifest
+      - name: Scrape HPE SPP firmware
         run: python .github/scripts/SCRAPE_HPE_SPP_FIRMWARE.py
       
       - name: Commit and push changes
