@@ -36,18 +36,21 @@ def get_latest_spp_version():
         with urllib.request.urlopen(req, timeout=30) as response:
             html = response.read().decode('utf-8')
         
-        # Extract version directories (format: YYYY.MM.DD.DD)
-        version_pattern = r'\[DIR\]\s+(\d{4}\.\d{2}\.\d{2}\.\d{2})/'
+        # Extract version directories using href pattern
+        version_pattern = r'href="(\d{4}\.\d{2}\.\d{2}\.\d{2})/"'
         versions = re.findall(version_pattern, html)
         
         if not versions:
             print("No SPP versions found")
             return None
         
+        # Remove duplicates and sort
+        versions = list(set(versions))
         versions_sorted = sorted(versions, key=lambda v: tuple(map(int, v.split('.'))))
         latest_version = versions_sorted[-1]
         
-        print(f"Found {len(versions_sorted)} SPP versions, latest: {latest_version}")
+        print(f"Found {len(versions_sorted)} unique SPP versions")
+        print(f"Latest version: {latest_version}")
         return latest_version
     
     except Exception as e:
@@ -102,21 +105,22 @@ def scrape_hpe_spp_firmware(version):
                 version_elem = product.find('.//version')
                 fw_version = version_elem.attrib.get('value', 'N/A') if version_elem is not None else None
                 
-                if name and fw_version and is_critical_component(name):
-                    product_id = product.attrib.get('id', '')
-                    lookups[product_id] = {
-                        "name": name,
-                        "version": fw_version
-                    }
-                    
-                    # Categorize for reporting
-                    for category, keywords in CRITICAL_COMPONENTS.items():
-                        for keyword in keywords:
-                            if keyword.lower() in name.lower():
-                                if category not in categories:
-                                    categories[category] = []
-                                categories[category].append(name)
-                                break
+                if name and fw_version:
+                    if is_critical_component(name):
+                        product_id = product.attrib.get('id', '')
+                        lookups[product_id] = {
+                            "name": name,
+                            "version": fw_version
+                        }
+                        
+                        # Categorize for reporting
+                        for category, keywords in CRITICAL_COMPONENTS.items():
+                            for keyword in keywords:
+                                if keyword.lower() in name.lower():
+                                    if category not in categories:
+                                        categories[category] = []
+                                    categories[category].append(name)
+                                    break
             
             except Exception as e:
                 continue
