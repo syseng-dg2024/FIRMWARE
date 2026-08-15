@@ -7,6 +7,20 @@ from datetime import datetime
 
 os.makedirs('HPE/SPP', exist_ok=True)
 
+# Critical firmware components to match
+CRITICAL_COMPONENTS = {
+    "BIOS": ["System ROM", "Firmware Flash", "BIOS"],
+    "iLO": ["iLO 5", "iLO 4", "iLO 6", "Lights-Out"],
+    "System ROM": ["System ROM", "Redundant"],
+    "Power Management": ["Power Management Controller", "PMC"],
+    "Power Supply": ["Power Supply Firmware", "PSU"],
+    "Innovation Engine": ["Innovation Engine", "IE Firmware"],
+    "SPS": ["Server Platform Services", "SPS Firmware"],
+    "Network Adapters": ["Ethernet", "Network", "NIC", "Adapter"],
+    "Storage": ["Storage Controller", "RAID", "SAS", "HBA", "Fibre Channel"],
+    "Video": ["Video Controller", "iLO Virtual"],
+}
+
 def get_latest_spp_version():
     """Get the latest SPP Gen10 version from the repository listing"""
     
@@ -23,7 +37,6 @@ def get_latest_spp_version():
             html = response.read().decode('utf-8')
         
         # Extract version directories (format: YYYY.MM.DD.DD)
-        # Pattern: [DIR] 2026.07.00.00/
         version_pattern = r'\[DIR\]\s+(\d{4}\.\d{2}\.\d{2}\.\d{2})/'
         versions = re.findall(version_pattern, html)
         
@@ -31,21 +44,32 @@ def get_latest_spp_version():
             print("No SPP versions found")
             return None
         
-        # Sort versions and get the latest
         versions_sorted = sorted(versions, key=lambda v: tuple(map(int, v.split('.'))))
         latest_version = versions_sorted[-1]
         
-        print(f"Found {len(versions_sorted)} SPP versions")
-        print(f"Latest version: {latest_version}")
-        
+        print(f"Found {len(versions_sorted)} SPP versions, latest: {latest_version}")
         return latest_version
     
     except Exception as e:
         print(f"Error fetching directory listing: {e}")
         return None
 
-def scrape_hpe_spp_manifest(version):
-    """Scrape HPE SPP Gen10 firmware manifest XML for a specific version"""
+def is_critical_component(name):
+    """Check if a firmware component is critical"""
+    if not name:
+        return False
+    
+    name_lower = name.lower()
+    
+    for category, keywords in CRITICAL_COMPONENTS.items():
+        for keyword in keywords:
+            if keyword.lower() in name_lower:
+                return True
+    
+    return False
+
+def scrape_hpe_spp_critical_firmware(version):
+    """Scrape HPE SPP Gen10 firmware manifest and filter for critical components only"""
     
     url = f"https://downloads.linux.hpe.com/SDR/repo/spp-gen10/{version}/manifest/meta.xml"
     
@@ -59,14 +83,14 @@ def scrape_hpe_spp_manifest(version):
         with urllib.request.urlopen(req, timeout=30) as response:
             xml_content = response.read()
         
-        # Parse XML
         root = ET.fromstring(xml_content)
         meta = root.find('meta')
         products = meta.findall('product')
         
-        print(f"Found {len(products)} firmware components")
+        print(f"Found {len(products)} total firmware components")
         
         lookups = {}
+        categories = {}
         
         for product in products:
             try:
@@ -78,29 +102,40 @@ def scrape_hpe_spp_manifest(version):
                 version_elem = product.find('.//version')
                 fw_version = version_elem.attrib.get('value', 'N/A') if version_elem is not None else None
                 
-                if name and fw_version:
-                    # Use product ID as key
+                if name and fw_version and is_critical_component(name):
                     product_id = product.attrib.get('id', '')
                     lookups[product_id] = {
                         "name": name,
                         "version": fw_version
                     }
+                    
+                    # Categorize for reporting
+                    for category, keywords in CRITICAL_COMPONENTS.items():
+                        for keyword in keywords:
+                            if keyword.lower() in name.lower():
+                                if category not in categories:
+                                    categories[category] = []
+                                categories[category].append(name)
+                                break
+            
             except Exception as e:
                 continue
         
         output = {
-            "description": "HPE Service Pack for ProLiant (SPP) Gen10 Firmware Manifest",
+            "description": "HPE Service Pack for ProLiant (SPP) Gen10 - Critical Firmware Components Only",
             "sppVersion": version,
             "url": url,
             "lastUpdated": datetime.now().strftime("%-m-%-d-%Y"),
-            "totalComponents": len(lookups),
+            "totalCriticalComponents": len(lookups),
+            "categories": categories,
             "lookups": lookups
         }
         
-        with open('HPE/SPP/SPP_Gen10_Firmware_Manifest.json', 'w') as f:
+        with open('HPE/SPP/SPP_Gen10_Critical_Firmware.json', 'w') as f:
             json.dump(output, f, indent=2)
         
-        print(f"Extracted {len(lookups)} firmware components to SPP_Gen10_Firmware_Manifest.json")
+        print(f"Extracted {len(lookups)} critical firmware components")
+        print(f"Categories: {', '.join(categories.keys())}")
         return len(lookups)
     
     except Exception as e:
@@ -110,6 +145,6 @@ def scrape_hpe_spp_manifest(version):
 if __name__ == "__main__":
     latest_version = get_latest_spp_version()
     if latest_version:
-        scrape_hpe_spp_manifest(latest_version)
+        scrape_hpe_spp_critical_firmware(latest_version)
     else:
         print("Could not determine latest SPP version")
