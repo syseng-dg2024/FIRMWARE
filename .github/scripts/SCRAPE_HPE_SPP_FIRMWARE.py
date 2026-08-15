@@ -68,7 +68,7 @@ def is_critical_component(name):
     
     return False
 
-def scrape_hpe_spp_critical_firmware(version):
+def scrape_hpe_spp_firmware(version):
     """Scrape HPE SPP Gen10 firmware manifest and filter for critical components only"""
     
     url = f"https://downloads.linux.hpe.com/SDR/repo/spp-gen10/{version}/manifest/meta.xml"
@@ -122,7 +122,7 @@ def scrape_hpe_spp_critical_firmware(version):
                 continue
         
         output = {
-            "description": "HPE Service Pack for ProLiant (SPP) Gen10 - Critical Firmware Components Only",
+            "description": "HPE Service Pack for ProLiant (SPP) Gen10 Firmware Manifest - Critical Components",
             "sppVersion": version,
             "url": url,
             "lastUpdated": datetime.now().strftime("%-m-%-d-%Y"),
@@ -131,7 +131,7 @@ def scrape_hpe_spp_critical_firmware(version):
             "lookups": lookups
         }
         
-        with open('HPE/SPP/SPP_Gen10_Critical_Firmware.json', 'w') as f:
+        with open('HPE/SPP/SPP_Gen10_Firmware_Manifest.json', 'w') as f:
             json.dump(output, f, indent=2)
         
         print(f"Extracted {len(lookups)} critical firmware components")
@@ -145,6 +145,6 @@ def scrape_hpe_spp_critical_firmware(version):
 if __name__ == "__main__":
     latest_version = get_latest_spp_version()
     if latest_version:
-        scrape_hpe_spp_critical_firmware(latest_version)
+        scrape_hpe_spp_firmware(latest_version)
     else:
         print("Could not determine latest SPP version")
