@@ -2,7 +2,6 @@ name: Scrape HPE iLO Firmware
 
 on:
   workflow_dispatch:
-  schedule:
     
 
 permissions:
@@ -20,7 +19,7 @@ jobs:
           python-version: '3.11'
       
       - name: Scrape HPE iLO firmware versions
-        run: python .github/scripts/SCRAPE_HPE_ILO_FIRMWARE.py
+        run: python .github/scripts/SCRAPE_HPE_ALL_FIRMWARE.py
       
       - name: Commit and push changes
         run: |
