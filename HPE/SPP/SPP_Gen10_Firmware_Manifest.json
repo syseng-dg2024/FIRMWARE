@@ -1,1 +1,3216 @@
-
+{
+  "description": "HPE Service Pack for ProLiant (SPP) Gen10 Firmware Manifest",
+  "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen10/2026.07.00.00/manifest/meta.xml",
+  "lastUpdated": "8-15-2026",
+  "totalComponents": 802,
+  "lookups": {
+    "7204c0f5c514445a87ae5a6c742f6a37": {
+      "name": "HPE Intel i40e Drivers for SUSE Linux Enterprise Server 15",
+      "version": "2.28.16-1"
+    },
+    "8d2bd99747b540d2a364efef8e58a91c": {
+      "name": "HPE Broadcom NetXtreme-E Firmware Package for BCM5741x adapters",
+      "version": "237.1.148000"
+    },
+    "e3abad55c63d42f3bfc00d8212a8e9d4": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - EH000900JWHPK and EH000600JWHPH Drives",
+      "version": "HPD9"
+    },
+    "4f553e0eca5b43ffbef2ba98a24ef5c1": {
+      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters - Microsoft Windows Server 2022 (x86_64)",
+      "version": "2026.06.02"
+    },
+    "0f3487315f10473a903e3c353d754526": {
+      "name": "Identifiers for Intel Xeon E-23xx Processor for Microsoft Windows",
+      "version": "10.1.19886.8592"
+    },
+    "81500ed23ae94776ba24fd962d1f8bd1": {
+      "name": "Identifiers for AMD EPYC Processors (Third Generation) for Microsoft Windows",
+      "version": "6.4.8.206"
+    },
+    "3d4b3948a2e7454589365f36eee4d988": {
+      "name": "Universal Firmware Package for Drives -  VR000480KXLXF",
+      "version": "HPK4"
+    },
+    "e8f02987fae14861a37eb27a43adf117": {
+      "name": "HPE MegaRAID Storage Administrator for Windows 64-bit (HPE MRSA for MR Controllers)",
+      "version": "8.16.13.0"
+    },
+    "aacf76bfa7674de086e8a84063eadb98": {
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware  for HPE Gen10 Servers",
+      "version": "05.01.05.103"
+    },
+    "75bc856a96a1425a954558bdb79908f8": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VK000480GWSXF, VK000960GWSXH, VK001920GWSXK, MK000480GWUGF, MK000960GWUGH and MK001920GWUGK Drives",
+      "version": "HPG4"
+    },
+    "a5e366733eda432d8665f3d8aaa40d56": {
+      "name": "Online NVMe SSD Flash Component for VMware ESXi - VO002000KWVVC, VO004000KWVUR, MO001600KWVUU, MO003200KWVUV and MO006400KWVVA Drives",
+      "version": "4ICRHPK3"
+    },
+    "0a8a267d13ac4d5588a19d1f0bcc2f5d": {
+      "name": "NVIDIA Firmware Package(FWPKG) for HPE Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter",
+      "version": "16.35.8008"
+    },
+    "8e8482d9e6e6494a8e54ec40143d190a": {
+      "name": "HPE Broadcom tg3 Ethernet Drivers for SUSE Linux Enterprise Server 15",
+      "version": "3.139y-2"
+    },
+    "f25420df1f7142d3a5eccbf213f27251": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE Apollo 6500 Gen10 Plus/HPE ProLiant XL675d Gen10 Plus (A47) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "4502e15e8e6c48d58b299fb45b3d1658": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant MicroServer Gen10 Plus v2 (U64) Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "b80afd72e0994f04bb439cddf1f507eb": {
+      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
+      "version": "1.0.3"
+    },
+    "74085bfad3ea4badb1e5c0235f47c1ea": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - EO000400PXDBQ, EO000800PXDCK, EO001600PXDCH, MO000800PXDBP, MO001600PXDCC, MO003200PXDCD, MO006400PXDCE, VO000960PXDBN, VO001920PXDBR, VO003840PXDBT, VO007680PXDBU and VO015300PXDBV Drives",
+      "version": "HPD5"
+    },
+    "cca7377cd12644cab41f5bd7e94cc2bd": {
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR100/Ethernet 100Gb 1-port QSFP56 PCIe4 x16 MCX653105A-ECAT Adapter : HPE part numbers P23665-B21 and P23665-H21",
+      "version": "20.43.8004"
+    },
+    "d626b04e2b74450287a682c2c77ab027": {
+      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE Mellanox IB only ConnectX4 and ConnectX5 devices on Windows x86_64 platform",
+      "version": "1.0.0.18"
+    },
+    "aa3d4b3746e2485289f458134b1187cd": {
+      "name": "Online ROM Flash Component for VMware ESXi - HPE Apollo 2000 Gen10 Plus Backplane Expander FW",
+      "version": "1.27"
+    },
+    "41c374eaf1f14df3b6eb451ccf1a1aaf": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB010000GWZGT, MB012000GWZGU, MB014000GWZGV and MB016000GWZHD Drives",
+      "version": "HPG1"
+    },
+    "a8ea930bfde1449ab4444eb61f65be31": {
+      "name": "Online Firmware Upgrade Utility (Windows x64) for Mellanox Open Ethernet cards",
+      "version": "1.0.0.15"
+    },
+    "f64fce49b8774319b4cc4ce2ecc3d153": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB001000GWJAN, MB002000GWFWA and MB004000GWFWB Drives",
+      "version": "HPG1"
+    },
+    "75fceb5f9b96474d8e651b3560059cbc": {
+      "name": "Online NVMe SSD Flash Component for Ubuntu Linux (x64) - VO000960KXAVL, VO001920KXAVP, VO003840KXAVQ, VO007680KXAVR, MO000800KXAVN, MO001600KXAVT, MO003200KXAVU and MO006400KXAVV Drives",
+      "version": "HPK5"
+    },
+    "b50552ebf09d445294b0b81e162643cf": {
+      "name": "NVIDIA Firmware Package (FWPKG) - Mellanox MCX631102AS-ADAT Ethernet 10/25Gb 2-port SFP28 Adapter for HPE",
+      "version": "26.49.1014"
+    },
+    "707f07cb4d404d119f2788d168e17586": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL325/DL325 v2/DL345 Gen10 Plus (A43) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "38d3787c49804ab1b404f61b3cd58354": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VO000800JWZJP, VO001600JWZJQ, VO003200JWZJR and VO006400JWZJT Drives",
+      "version": "HPD5"
+    },
+    "1368ab3d45fb40b799c33ccbe297c322": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant DL380 Gen10 (U30) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "b81956d2c370432aad5ffc0ea6fc40b3": {
+      "name": "Online ROM Flash for Windows x64 - Advanced Power Capping Microcontroller Firmware for HPE Gen10, Gen10 Plus, and ML30 Gen11 Servers",
+      "version": "1.1.4"
+    },
+    "db808d6aa2e24648bcc5e3f46d635b1a": {
+      "name": "HPE Lights-Out Online Configuration Utility for Linux (AMD64/EM64T)",
+      "version": "6.1.0.0"
+    },
+    "3f857d7b01734aa494f8146516002d2e": {
+      "name": "Firmware Package - HPE MR416i-p Gen10 Plus Tri Mode Controller ",
+      "version": "52.36.3-6584"
+    },
+    "0e95d953f6c341e2ab45544cad6adaa1": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant ML110 Gen10 (U33) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "71ab729e72394b149248324ae1538718": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB016000JWXKH Drive",
+      "version": "HPDC"
+    },
+    "bd2780f798b64cefbb3916c847ffd755": {
+      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters for VMware vSphere 8.0",
+      "version": "2026.06.02"
+    },
+    "4a6cd8bdbba64726bce1bd7c81b875da": {
+      "name": "Red Hat Enterprise Linux 10 Update 1 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
+    },
+    "e6bb5c297d78402ab079f188773b5efc": {
+      "name": "Mellanox WinOF2 Driver for Microsoft Windows Server 2022",
+      "version": "26.4.27095.0"
+    },
+    "2433baff8f4443ed8ddae6e9a115bc4d": {
+      "name": "Intel i350 Driver for Windows Server 2022",
+      "version": "14.0.13.0"
+    },
+    "d4703104e9be4c8387cee2672366ebb8": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB012000JWDFD Drive",
+      "version": "HPD5"
+    },
+    "cd1eb2802ed24b6aa04d98effb166b0e": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - EO000400PXDBQ, EO000800PXDCK, EO001600PXDCH, MO000800PXDBP, MO001600PXDCC, MO003200PXDCD, MO006400PXDCE, VO000960PXDBN, VO001920PXDBR, VO003840PXDBT, VO007680PXDBU and VO015300PXDBV  Drives",
+      "version": "HPD5"
+    },
+    "81cb1e1fa07441fc9994562f591c5c30": {
+      "name": "HPE QLogic NX2 10/20 GbE Multifunction Drivers for Red Hat Enterprise Linux 9",
+      "version": "7.15.25-9"
+    },
+    "dcf87aae93de4d649fef4547bffe751a": {
+      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on Linux x86_64 platform",
+      "version": "1.0.20"
+    },
+    "23ed237c56c047b39f75b9977e930a45": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB012000JZYVN, MB014000JZYVP, MB016000JZYVQ and MB018000JYCLK Drives",
+      "version": "HPD6"
+    },
+    "f74d125372264713b4a9d8ebea70260d": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL365/DL385/DL385 v2 Gen10 Plus (A42) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "5e67b3914b754070a44558f816a7dbab": {
+      "name": "Intel icea Driver for Windows Server 2019",
+      "version": "1.20.45.0"
+    },
+    "f87c073a909044b99d96fdb0f46f7c69": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB010000GWZGT, MB012000GWZGU, MB014000GWZGV and MB016000GWZHD Drives",
+      "version": "HPG1"
+    },
+    "f8437d6127664644832d2cd688d58903": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL385 Gen10 (A40) Servers ",
+      "version": "3.80_05-28-2026"
+    },
+    "58dd146b67a34b2492cfd64a1feceec4": {
+      "name": "HPE Mellanox RoCE Driver [ConnectX-4 Lx and above] for SUSE LINUX Enterprise Server 15 SP6 (AMD64/EM64T)",
+      "version": "26.04"
+    },
+    "71e64c3d009643d19a9590b92132604d": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB014000JXUCC Drive",
+      "version": "HPD4"
+    },
+    "f6fccbc5aefd411688310b509bfaeaec": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64)  - MB018000GXMTK and MB020000GXMTQ Drives",
+      "version": "HPG3"
+    },
+    "6e2efe0e417448ccaa6cfbf61d773824": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64)  - EO000400JWDKP, EO000800JWDKQ, EO001600JWDKR, MO000400JWDKU, MO000800JWDKV, MO001600JWDLA and MO003200JWDLB Drives",
+      "version": "HPD3"
+    },
+    "72b6bd7095ec40a7947f8f947956c698": {
+      "name": "HPE MegaRAID Storage Administrator StorCLI for VMware9.1 (For Gen10P and Gen11  Controllers)",
+      "version": "2026.03.01"
+    },
+    "8d0bd1ce26004a9e8191551757cba42d": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MO000800JXBEV, MO001600JXBFP, MO003200JXBFQ, MO006400JXBFR, MO000960JXBFA, MO001920JXBFT, MO003840JXBFU, MO007680JXBGA, MO015360JXBFV, EO000400JXBEU, EO000800JXBFL and EO001600JXBFN Drives",
+      "version": "HPD2"
+    },
+    "a6447acbde7f4368991a3df1503f91e8": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB008000GWRTC Drive",
+      "version": "HPG1"
+    },
+    "fdd1b58860474c42b7f3b1b7524af387": {
+      "name": "Online NVMe SSD Flash Component for Linux (x64) - VO000960KXAVL, VO001920KXAVP, VO003840KXAVQ, VO007680KXAVR, MO000800KXAVN, MO001600KXAVT, MO003200KXAVU and MO006400KXAVV Drives",
+      "version": "HPK5"
+    },
+    "f5aa8733027b4498a80cd2e690d91986": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant DL160 Gen10/DL180 Gen10 (U31) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "bdb6e242313a47b89b69823cf9ad3729": {
+      "name": "Identifiers for AMD EPYC Processors (Third Generation) for Microsoft Windows Server 2022 and 2025",
+      "version": "8.3.14.329"
+    },
+    "f66d2f40fe3b49a2ae22ce155e429f5c": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB008000JWWQP and MB006000JWWQN Drives",
+      "version": "HPD8"
+    },
+    "a07f8ac11b4a440d99aa61ea5fb0b63f": {
+      "name": "HPE Broadcom NetXtreme-E Drivers for VMware vSphere 8.0",
+      "version": "2026.05.00"
+    },
+    "7db6f792355b49a58fc4f82d6bbbdd99": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant DL360 Gen10 (U32) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "6adb26c5fc564f219877ab6a448e709b": {
+      "name": "Intel Firmware Package For E810-XXVDA4 Ethernet 10/25Gb 4-port SFP28 OCP3 Adapter",
+      "version": "4.91"
+    },
+    "8ebc8805a4344ec4a24a5c7109c6e07f": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MK000480GWXFF, MK000960GWXFH, MK001920GWXFK and MK003840GWXFL Drives",
+      "version": "HPG3"
+    },
+    "8f4fd902230c4076905c23b7ab80bfdf": {
+      "name": "HPE Intel i40ea Driver for Windows Server 2022",
+      "version": "1.24.41.0"
+    },
+    "73ec3bde4c824e4abd7a12e09eb4bcb4": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64)  - EG000600JWJNP, EG001200JWJNQ, EG000600JXLVV, EG001200JXLWA and EG001200MXJQU Drives",
+      "version": "HPD9"
+    },
+    "dd83343964ed4806840a86595ee2254d": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VO000960RWUEV, VO001920RWUFA, VO003840RWUFB, VO007680RWUFC, VO000960RWUFD, VO001920RWUFE and VO003840RWUFF Drives",
+      "version": "HPD8"
+    },
+    "3c5ca1f7884d46278989b90e474b83e1": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB006000JWKGN Drive",
+      "version": "HPD2"
+    },
+    "86420e4b9b414e61bd5c2f06d883ac98": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - MB002000JYDNE and MB004000JYDPB Drives",
+      "version": "HPD6"
+    },
+    "6f38004b166d42068a292e455179565f": {
+      "name": "Universal Firmware Package for Drives - MK000480GYCNT ,MK000960GYCNP ,MK001920GYCNF ,MK003840GYCNQ ,VK000240GYCNU ,VK000480GYCNH ,VK000960GYCNK ,VK001920GYCNL ,VK003840GYCNN ,VK007680GYCNE ,VR000240GXPQT and VR000480GXPQU",
+      "version": "HPG4"
+    },
+    "4a7391c65f0b46d485ea7105b1cfb339": {
+      "name": "Online ROM Flash Component for Linux - HPE Apollo 6500 Gen10 Plus/HPE ProLiant XL675d Gen10 Plus (A47) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "a2bc84f793fd4972b6196baf3df85eb6": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB014000JWUDB Drive",
+      "version": "HPD4"
+    },
+    "ae807ea8d44943a3b60bbbbd54cd062d": {
+      "name": "HPE Intel igbn Driver for VMware vSphere 9.0",
+      "version": "2025.11.00"
+    },
+    "854591aa471148a8b13f9c435ab181af": {
+      "name": "HPE Broadcom tg3 Ethernet Drivers for SUSE Linux Enterprise Server 16",
+      "version": "3.139y-2"
+    },
+    "1e88e3b27b814bcdbc8dcf6390d324d1": {
+      "name": "Firmware Package - UBM4 Backplane PIC PLDM Firmware for Gen10P/Gen11/Gen12 servers usage",
+      "version": "1.24"
+    },
+    "0300daf553df4e699178bc1f12267a1f": {
+      "name": "HPE MegaRAID Storage Administrator StorCLI for VMware9.0 (For Gen10P and Gen11  Controllers)",
+      "version": "2026.03.01"
+    },
+    "5f5babdc8edb43cda68a851809a46823": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB014000JXUCC Drive",
+      "version": "HPD4"
+    },
+    "7dc47244be094f2084e0e71968443832": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VO000960RWUEV, VO001920RWUFA, VO003840RWUFB, VO007680RWUFC, VO000960RWUFD, VO001920RWUFE and VO003840RWUFF Drives",
+      "version": "HPD8"
+    },
+    "6522bf51105244bfa55540a1e824854d": {
+      "name": "Online ROM Flash for Windows x64 -  HPE Gen10 Plus Innovation Engine Firmware  for HPE Gen10 Plus Servers",
+      "version": "1.0.0.22"
+    },
+    "251bfe38793342929fa427f7b456f043": {
+      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
+      "version": "2.74"
+    },
+    "fefae5f129c9429dbe5f506829e99ac7": {
+      "name": "HPE Intel ixgbevf Drivers for SUSE Linux Enterprise Server 16",
+      "version": "5.2.2-1"
+    },
+    "667c48761fdd439199126de11a3666a8": {
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE MicroServer Gen10 Plus",
+      "version": "05.01.05.103"
+    },
+    "4f319faf890642fc80a3d8719760c121": {
+      "name": "Online ROM Flash Component for VMware ESXi - HPE Smart Array P408i-p, P408e-p, P408i-a, E208i-p, E208e-p, E208i-a, P816i-a SR Gen10 Controllers",
+      "version": "8.23"
+    },
+    "bca5397d7ba147ddbb0eb4fee4d4d567": {
+      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters - Linux (x86_64)",
+      "version": "2026.06.02"
+    },
+    "e760dc1509734b53830053c8a8b00097": {
+      "name": "Red Hat Enterprise Linux 9 Server Update 7 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapter",
+      "version": "14.4.731.20"
+    },
+    "a2c850b33a31462c8693efedafbdd8b9": {
+      "name": "HPE QLogic FastLinQ Online Firmware Upgrade Utility for Linux x86_64",
+      "version": "1.25.0"
+    },
+    "d54c971d2c3047569ed2e37939cd2848": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - EO000400JWDKP, EO000800JWDKQ, EO001600JWDKR, MO000400JWDKU, MO000800JWDKV, MO001600JWDLA and MO003200JWDLB Drives",
+      "version": "HPD3"
+    },
+    "68526791858d42b69b174ffed2a35fa0": {
+      "name": "Agentless Management Service (iLO5, iLO6, iLO7) for SUSE Linux Enterprise Server 16",
+      "version": "4.8.0"
+    },
+    "39b3bcd8f8b243ad9879002d6ba846cc": {
+      "name": "HPE QLogic FastLinQ 10/25/50 GbE Drivers for SUSE Linux Enterprise Server 15",
+      "version": "8.76.3.0-1"
+    },
+    "83ce77cbc6db45d29c95de38716f222e": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB014000JWUDB Drive",
+      "version": "HPD4"
+    },
+    "fcbfe734454648628f4d8c3848d7db3e": {
+      "name": "Universal Firmware Package for Drives - MO001600PXVRU, VO003840PXVRR and VO007680PXVRT",
+      "version": "HPD3"
+    },
+    "22b29694299c4b27b67b3dde603d40b0": {
+      "name": "SuSE Linux Enterprise Server 16 Service Pack 0 Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
+    },
+    "9b11c8b2e5814a11b64b738755f0d8ce": {
+      "name": "Universal Firmware Package for Drives - MO001600KYLEC, MO003200KYLHL, MO006400KYLHN, VO001920KYLEB, VO003840KYLHF, VO007680KYLHH and VO015360KYLHK",
+      "version": "HPK1"
+    },
+    "672edcd2af9a4bd18876e5e3192cd831": {
+      "name": "Online ROM Flash Component for Linux - HPE Apollo 4510 Gen10/HPE ProLiant XL450 Gen10 (U40) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "6d1e58e8f89340958bf7818046e9b7c7": {
+      "name": "HPE Mellanox CX4LX and CX5 Driver for Microsoft Windows Server 2019",
+      "version": "26.4.27095.0"
+    },
+    "1bc921f76f2d48759522424a4aff4914": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE Apollo 6500 Gen10/HPE ProLiant XL270d Gen10 (U45) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "d9d151c798d94a31a9d263cef309ab70": {
+      "name": "Agentless Management Service for Ubuntu 24.04 LTS",
+      "version": "4.8.0"
+    },
+    "348f4fc22c0c4f64b2e050cebccb4347": {
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant MicroServer Gen10 Plus v2",
+      "version": "06.00.03.708"
+    },
+    "4ec88340a2ce4a0da239c4051a775bd6": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VK000240GWTSV, VK000480GWTTA, VK000960GWTTB, VK001920GWTTC, VK003840GWTTD, MK000480GWTTH, MK000960GWTTK, MK001920GWTTL and MK003840GWTTN Drives",
+      "version": "HPG7"
+    },
+    "e33bb1d2f7324af98ab1d5f7897ec4b5": {
+      "name": "HPE Mellanox CX4LX and CX5 Driver for Microsoft Windows Server 2022",
+      "version": "26.4.27095.0"
+    },
+    "fde13e5a19194ad9adab9161f8d35a15": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - EH000900JWHPK and EH000600JWHPH Drives",
+      "version": "HPD9"
+    },
+    "605b084308a74c74a0091e855e41c6f1": {
+      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on VMware ESXi 8.0",
+      "version": "1.0.7"
+    },
+    "1b2f6dbb532f4c6ca53c07209cbe6b16": {
+      "name": "HPE QLogic NX2 10/20 GbE Multifunction Driver for VMware vSphere 8.0",
+      "version": "2025.03.00"
+    },
+    "ba1b35ce71154e9e8335778f038c2885": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB014000JXUCC Drive",
+      "version": "HPD4"
+    },
+    "4471f2f60985460286b3d8db8c7a88af": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VK007680GWSXN Drive",
+      "version": "HPG4"
+    },
+    "7fe88b20c8c948e29d704473f3133fee": {
+      "name": "ROM Flash Firmware Package - HPE Apollo 4200 Gen10 Plus/HPE ProLiant XL420 Gen10 Plus (U50) Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "066920f0b4684f1da260602d0174d2e0": {
+      "name": "HPE QLogic FastLinQ Firmware Package for Arrowhead adapters",
+      "version": "8.65.23"
+    },
+    "cf7cb50c769b4b00ab89aa81d9fac797": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - VO000960RWUEV, VO001920RWUFA, VO003840RWUFB, VO007680RWUFC, VO000960RWUFD, VO001920RWUFE and VO003840RWUFF Drives",
+      "version": "HPD8"
+    },
+    "fbb53cf22a594dbb99b8c7f89e562124": {
+      "name": "Intel Firmware Package For E810-XXVDA2 Ethernet 10/25Gb 2-port SFP28 OCP3 Adapter",
+      "version": "4.91"
+    },
+    "a6fc6d419cd14563aeefb1d3f50c589e": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant ML30 Gen10 Plus Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "cfa8fbdb2f4a4c81b7b1ee3f89f284e0": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL380 Gen10 (U30) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "ec5ba4f75ae340e39f8e129f646a9647": {
+      "name": "Online Firmware Upgrade Utility (Linux x86_64) for Mellanox Open Ethernet cards",
+      "version": "1.0.15"
+    },
+    "2dc80c4ae4b943faadb938f8fc2b61d5": {
+      "name": "Online ROM Flash Firmware Package - HPE Integrated Lights-Out 5",
+      "version": "3.20"
+    },
+    "015fb436dd2948789e37f0213e4e8ee0": {
+      "name": "HPE MR416i-p, MR216i-p, MR416i-a, MR216i-a Gen10 plus Controllers and MR416i-p, MR416i-o, MR216i-o, MR408i-o, MR216i-p, MR408i-p Gen11 Controllers Driver for 64-bit Red Hat Enterprise Linux 10",
+      "version": "07.736.04.00"
+    },
+    "b2dec2e98a4f489c96311517a4bf5571": {
+      "name": "HPE Mellanox CX4LX and CX5 Driver for Microsoft Windows Server 2025",
+      "version": "26.4.27095.0"
+    },
+    "6973afa059034a93b5842e17d11d1b46": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB012000GWDFE Drive",
+      "version": "HPG6"
+    },
+    "4c108242693848129dadc44c03c82865": {
+      "name": "ROM Flash Firmware Package - HPE Gen10 Plus Innovation Engine Firmware for HPE Gen10 Plus Servers",
+      "version": "1.0.0.22"
+    },
+    "d6464fc039cd4a77b22febd8762dca03": {
+      "name": "Identifiers for Intel Xeon E-22xx Processor for Microsoft Windows",
+      "version": "10.1.19928.8615"
+    },
+    "1b34555075d144b0bde6e5495e920e7c": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB014000JWRTH, MB012000JWRTF and MB010000JWRTE Drives",
+      "version": "HPD2"
+    },
+    "b94490ecb4854ca6989ed2491e061c4b": {
+      "name": "Online ROM Flash Component for Linux (x64) \u2013 HPE Apollo 2000 Gen10 Plus Backplane Expander FW",
+      "version": "1.27"
+    },
+    "5e23a12643374784bca02e8442853ff7": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB010000JYDKK, MB012000JYCJF, MB014000JYCJV, MB016000JYDKL and MB018000JYDKN Drives",
+      "version": "HPD6"
+    },
+    "dd0182917bf14543bf436162a2a05331": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64)  - MB018000JXMTH and MB020000JXMTP Drives",
+      "version": "HPD3"
+    },
+    "871bd1fc79994166a0695e4fb3b5fd65": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant XL225n Gen10 Plus (A46) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "5ace706167bb418f8ac30077c43e3171": {
+      "name": "Online ROM Flash Component for Windows (x64) - HPE Smart Array P408i-p, P408e-p, P408i-a, E208i-p, E208e-p, E208i-a, P816i-a SR Gen10 controllers",
+      "version": "8.23"
+    },
+    "6e4df08455db4ce3a3b07b6eecea6280": {
+      "name": "Agentless Management Service (iLO 5, iLO 6 and iLO 7) for Red Hat Enterprise Linux 9 Server",
+      "version": "4.8.0"
+    },
+    "e6b0d97326414c5688fb57aa0f288b70": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB004000JWKGU Drive",
+      "version": "HPD2"
+    },
+    "3f4d9eceae63421389745abdf06f001a": {
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 2-port QSFP56 PCIe4 x16 OCP3 MCX653436A-HDAI Adapter : HPE part numbers  P31348-B21 and P31348-H21",
+      "version": "20.43.8004"
+    },
+    "be8e1065c14f4a6883e7804dae8c691e": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant DL325/DL325 v2/DL345 Gen10 Plus (A43) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "6d5cd83fc05f4da0a652797154f87a4c": {
+      "name": "Online NVMe SSD Flash Component for VMware ESXi - KCM6FRUL1T92, KCM6FRUL3T84, KCM6FVUL1T60 and KCM6FVUL3T20 Drives",
+      "version": "GPK6"
+    },
+    "C9113": {
+      "name": "HPE Lights-Out Online Configuration Utility for Windows x64 Editions",
+      "version": "6.0.0.0"
+    },
+    "957b79699cf847b3bc804b96d1108938": {
+      "name": "Identifiers for Intel Xeon Scalable Processors (Third Generation) for Microsoft Windows",
+      "version": "10.1.19879.8585"
+    },
+    "7fc78ba6f4174eae8b7e06638191844b": {
+      "name": "Universal Firmware Package for Drives -  MO001600KYFFF, MO003200KYFET, MO006400KYFEU, VO001920KYFFE, VO003840KYFEP, VO007680KYFEQ and VO015360KYFER",
+      "version": "HPK2"
+    },
+    "cf85e5cea71d4be281d746fc27728160": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB016000GWXKK Drive",
+      "version": "HPG5"
+    },
+    "be910528f863487899cf62f353be4a46": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - MB006000JYDNF, MB008000JYDPC and MB010000JYDNH Drives",
+      "version": "HPD5"
+    },
+    "ae7662457b594bb08733bceba6635c72": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB012000GWDFE Drive",
+      "version": "HPG6"
+    },
+    "4893b899f6404bf4b119e3e3a55be5b2": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB012000JWDFD Drive",
+      "version": "HPD5"
+    },
+    "31d52cb30bc744dd8031127d1e5b580a": {
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Microsoft Windows Server 2016/2019 x64",
+      "version": "2026.06.01"
+    },
+    "d93273aa12774694887dc3aab21ae996": {
+      "name": "HPE QLogic FastLinQ 10/25/50 GbE Multifunction Driver for VMware vSphere 8.0",
+      "version": "2026.03.00"
+    },
+    "74e8451e230741319455926a99f9eebc": {
+      "name": "HPE Intel igb Drivers for Red Hat Enterprise Linux 10",
+      "version": "5.19.10-1"
+    },
+    "b9dda486435f4c78a30de5b1c831c135": {
+      "name": "Online ROM Flash Component for Windows (x64) - HPE Apollo 4200 Gen10 Plus Backplane Expander Firmware",
+      "version": "0.39"
+    },
+    "43151427676f44dcaced68356cf6359c": {
+      "name": "HPE Intel igbn Driver for VMware vSphere 8.0",
+      "version": "2025.05.00"
+    },
+    "e9a45a84fc5a4ae9bee13ee0419530ca": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant XL220n/XL290n Gen10 Plus 1U Node and 2U Node Configure-to-order Server (U47) ",
+      "version": "2.64_04-01-2026"
+    },
+    "7e0050d7cc724a879a45bb605213e3c8": {
+      "name": "Universal Firmware Package for Drives -  VR000960YYXPR",
+      "version": "HPK2"
+    },
+    "731d832691df4216b8c0e073e857b8b7": {
+      "name": "ROM Flash Firmware Package - HPE Edgeline e920, e920d and e920t CTO Blade Server (H10)",
+      "version": "2.64_04-01-2026"
+    },
+    "fc90f99dec3d4432a73ac738a336cdc1": {
+      "name": "Agentless Management Service (iLO 5, iLO 6 and iLO 7) for Red Hat Enterprise Linux 10 Server",
+      "version": "4.8.0"
+    },
+    "b3a8e7e2c4ea466a9b404955f474449e": {
+      "name": "Integrated Smart Update Tools for Linux x64",
+      "version": "6.8.0.0"
+    },
+    "5c045315a07d45779f552f6cb831a2b4": {
+      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE Mellanox Ethernet only adapters",
+      "version": "1.0.25"
+    },
+    "8e9f61780275418686c8b0a671e012c9": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - VK000480GZCNE, VK000960GZCNF, VK001920GZCNH and VK003840GZCNK Drives",
+      "version": "HPG3"
+    },
+    "1a121f2eb5274f1cbf1d67964da2e171": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB006000JWKGN Drive",
+      "version": "HPD2"
+    },
+    "3771cd39413d469099d505f7db47003a": {
+      "name": "HPE Edgeline 661SFP28 NIC Firmware Pack for Microsoft Windows",
+      "version": "9.20"
+    },
+    "f14326f2e6af456689e2c8b0aa9341c7": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant e910/e910t Server Blade (H08)",
+      "version": "3.66_04-01-2026"
+    },
+    "fa3afb08b69b4eb3ac32d9088c68d3a9": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB010000JWZHA, MB012000JWZHB, MB014000JWZHC and MB016000JWZHE Drives",
+      "version": "HPD4"
+    },
+    "f7d7f54393d44f66845199e26d4e5900": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - EH000900JWHPK and EH000600JWHPH   Drives",
+      "version": "HPD9"
+    },
+    "580943ac4a1c45d88b3e24b6ae5ef825": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MK000480GWXFF, MK000960GWXFH, MK001920GWXFK and MK003840GWXFL Drives",
+      "version": "HPG3"
+    },
+    "e0019db6f6e24588a441b6cb4e743087": {
+      "name": "Switchtec PCIe Switch Management Driver for Microsoft Windows Server 2016 and Server 2019",
+      "version": "1.0.0.0"
+    },
+    "da9ff49af6c74b6d969bca700eb095c0": {
+      "name": "HPE Intel ixgbe Drivers for Red Hat Enterprise Linux 10",
+      "version": "6.3.4-1"
+    },
+    "001e7fbaf67f420ebcb746aae6b4aee2": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - VO000800JWZJP, VO001600JWZJQ, VO003200JWZJR and VO006400JWZJT  Drives",
+      "version": "HPD5"
+    },
+    "4cc24985bf9c485084dcadb54a29cb28": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VK000480GWSXF, VK000960GWSXH, VK001920GWSXK, MK000480GWUGF, MK000960GWUGH and MK001920GWUGK Drives",
+      "version": "HPG4"
+    },
+    "4899e6b54e3941a4b9c3090a539cf6db": {
+      "name": "HPE MegaRAID Storage Administrator StorCLI for VMware8.0 (For Gen10P and Gen11 Controllers)",
+      "version": "2026.03.01"
+    },
+    "630e644160fa42ef980745ef1697fa39": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB012000JZYVN, MB014000JZYVP, MB016000JZYVQ and MB018000JYCLK Drives",
+      "version": "HPD6"
+    },
+    "fae7c963a551489594d913b81c29f2a4": {
+      "name": "ROM Flash Firmware Package - Advanced Power Capping Microcontroller Firmware for HPE Gen10, Gen10 Plus, and ML30 Gen11 Servers",
+      "version": "1.1.4"
+    },
+    "11f86ddaaa3742028089d7f3e7f71098": {
+      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on VMware ESXi 9.x",
+      "version": "1.0.4"
+    },
+    "2079058db213445cb2b49d341b2df92d": {
+      "name": "HPE Intel iavf Drivers for Red Hat Enterprise Linux 10",
+      "version": "4.13.20-1"
+    },
+    "5588a72e9c0d4878a499b54f0c18241c": {
+      "name": "HPE Agentless Management Bundle Smart Component on ESXi for Gen10 and Gen10 Plus Servers",
+      "version": "2026.03.01"
+    },
+    "a730c4df025740309831b257ee5cb3dd": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB008000GWWQU and MB006000GWWQT Drives",
+      "version": "HPG8"
+    },
+    "a4f0dfe941d948a58ccb69f19428a85d": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB012000GWDFE Drive",
+      "version": "HPG6"
+    },
+    "c09de62648424d62a24c56f856946da6": {
+      "name": "Online NVMe SSD Flash Component for Microsoft Windows - MZ1LB960HAJQ-00007, MZ1LB1T9HALS-00007 and MZ1LB3T8HMLA-00007 Drives",
+      "version": "EDA7602Q"
+    },
+    "b5e0206ca4e94cf29c84aaeea6edefa1": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VO003840XZCLT, VO007680XZCMB, MO000800XZCLQ and MO001600XZCLV Drives",
+      "version": "HPD4"
+    },
+    "0fb6a42a8b224caba8a145e0ac696d52": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant DL560 Gen10/DL580 Gen10 (U34) Servers ",
+      "version": "3.66_04-01-2026"
+    },
+    "e1ccea24a14a427dabc2aadd846feea9": {
+      "name": "iLO 5 Channel Interface Driver for Microsoft Windows Server 2019",
+      "version": "4.7.1.0"
+    },
+    "07a5f3ddb9bd4168818fb38406e49473": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64)  - MO000400JWUFT, MO000800JWUFU, MO001600JWUFV, MO003200JWUGA, MO006400JWUGB, EO000400JWUGC, EO000800JWUGD and EO001600JWUGE Drives",
+      "version": "HPD4"
+    },
+    "0a50ffd5675c4918bbc84041f4e69741": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MK000480GZXRA, MK000960GZXRB, MK001920GZXRC and MK003840GZXRV Drives",
+      "version": "HPG1"
+    },
+    "3ac61ed209fd49fb908341fa7b77c3ea": {
+      "name": "Smart Storage Administrator Diagnostic Utility (SSADU) CLI for Windows 64-bit for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "6.65.9.0"
+    },
+    "570234d74f264fc1985961d91a29c03a": {
+      "name": "HPE Edgeline X722 NIC Firmware Component for Microsoft Windows",
+      "version": "4.30"
+    },
+    "8796bf21e8204a0da4179cfbcd105e85": {
+      "name": "HPE MR416i-p, MR216i-p, MR416i-a, MR216i-a Gen10 plus Controllers and MR416i-p, MR416i-o, MR216i-o, MR408i-o, MR216i-p, MR408i-p Gen11 Controllers Driver for 64-bit Red Hat Enterprise Linux 9",
+      "version": "07.736.04.00"
+    },
+    "cf9a5479d0b3462eb307d2e0e0608dfc": {
+      "name": "Online NVMe SSD Flash Component for Ubuntu Linux (x64) - KCM6FRUL1T92, KCM6FRUL3T84, KCM6FVUL1T60 and KCM6FVUL3T20  Drives",
+      "version": "GPK6"
+    },
+    "b57ffa2f7fe942a89e589fe3043c5ffa": {
+      "name": "Online ROM Flash Component for Windows (x64) - HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
+      "version": "5.15"
+    },
+    "d09d3bc174174ab69b229c1370a5ce48": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - EG000300JWSJP, EG000600JWJNH and EG001200JWJNK Drives",
+      "version": "HPD6"
+    },
+    "106244d003374fa49cfd57be5dd5767c": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB008000JWWQP and MB006000JWWQN Drives",
+      "version": "HPD8"
+    },
+    "1188e33080924486b998a030d43acf6f": {
+      "name": "HPE Intel i40eb Driver for Windows Server 2022",
+      "version": "1.24.41.0"
+    },
+    "1174220fe8354722a040071980d1eb37": {
+      "name": "Mellanox WinOF2 Driver for Microsoft Windows Server 2025",
+      "version": "26.4.27095.0"
+    },
+    "9117053fed1245019c94aab3982b0102": {
+      "name": "HPE ProLiant Gen10, Gen10Plus and Gen11 Smart Array Controller (64-bit) Driver for SUSE LINUX Enterprise Server 16 (64-bit)",
+      "version": "2.1.40-020"
+    },
+    "b0150fa8c3c74fa8a3415a136a3cc117": {
+      "name": "Broadcom NX1 Online Firmware Upgrade Utility for Windows Server x64 Editions",
+      "version": "5.4.7.0"
+    },
+    "4c8bf8c7de4d42f19de7d71c6056b4ba": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VO000800JWZJP, VO001600JWZJQ, VO003200JWZJR and VO006400JWZJT Drives",
+      "version": "HPD5"
+    },
+    "a00e6ed1db904ebf80004d7820172e46": {
+      "name": "Intel ice Drivers for Red Hat Enterprise Linux 10",
+      "version": "2.4.5-1"
+    },
+    "9ea83d5d4cdf449690664479d7c8538a": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB006000JWKGN Drive",
+      "version": "HPD2"
+    },
+    "738515ca087c45c4b01b62883007bfb8": {
+      "name": "Online NVMe SSD Flash Component for VMware ESXi - MZXLR800HBHQ-000H3, MZXLR1T6HBJR-000H3, MZXLR3T2HBLS-000H3, MZXLR6T4HALA-000H3, MZXLR12THALA-000H3, MZXLR960HBHQ-000H3, MZXLR1T9HBJR-000H3, MZXLR3T8HBLS-000H3, MZXLR7T6HALA-000H3 and MZXLR15THALA-000H Drive",
+      "version": "MPK7825Q"
+    },
+    "14d9773880e140e2bf92c4c4e7a389e3": {
+      "name": "Online NVMe SSD Flash Component for Ubuntu Linux (x64) - VO001920KYDMT, VO003840KYDMV, MO001600KYDMU, MO003200KYDNC, MO006400KYDND, VO007680KYDNA and VO015360KYDNB Drives",
+      "version": "HPK6"
+    },
+    "e485f42530b84989a3373bff82088143": {
+      "name": "AMD PSHED Plug-in service for Microsoft Windows Server 2019",
+      "version": "1.0.0.51"
+    },
+    "787f189347ac420fbe52f5e6292d569d": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB004000JWKGU Drive",
+      "version": "HPD2"
+    },
+    "78667359eec84fc9af9066672db940e0": {
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE Gen10 Plus Servers",
+      "version": "04.04.04.925"
+    },
+    "8ae644bee0c14cc0b7aad5521f061ad1": {
+      "name": "HPE Broadcom NX1 Online Firmware Upgrade Utility Windows Server x64 Editions for HPE ProLiant Gen10 server series Only",
+      "version": "5.4.7.0"
+    },
+    "c94eb717d55e4213952a8c5723962404": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE Apollo 4200 Gen10/HPE ProLiant XL420 Gen10 (U39) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "44ae296c36cb4decaa8bbd5cfce5396e": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB016000JXLBA and MB018000JXLAU Drives",
+      "version": "HPD3"
+    },
+    "ad3fba5acbb54355b6ab78730e8d2635": {
+      "name": "Intel iavf Driver for Windows Server 2025",
+      "version": "1.18.158.0"
+    },
+    "96d916494e7148b08fda3030539ce372": {
+      "name": "HPE Broadcom NX1 Online Firmware Upgrade Utility VMware for HPE ProLiant Gen10 server series Only.",
+      "version": "1.44.0"
+    },
+    "f56420e1793d48958fc061b802e973db": {
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand NDR200/Ethernet 200Gb 1-port OSFP PCIe5 x16 MCX75310AAS-HEAT Adapter : HPE part numbers  P45642-B22 and P45642-H22",
+      "version": "28.49.1014"
+    },
+    "d00882018d64492aa4a5bc81f394c4dc": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant XL225n Gen10 Plus (A46) Server",
+      "version": "4.04_04-02-2026"
+    },
+    "a08198f75ae64d5f81f313aee3e10a81": {
+      "name": "Intel Online Firmware Upgrade Utility for VMware ",
+      "version": "3.29.0"
+    },
+    "3fa689b1e0c54064af40f5128fac0e5b": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB014000GWRTN, MB012000GWRTL and MB010000GWRTK Drives",
+      "version": "HPG2"
+    },
+    "3d1400a6e0204fb498134f7e6e3f374a": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB001000GWJAN, MB002000GWFWA and MB004000GWFWB  Drives",
+      "version": "HPG1"
+    },
+    "01dd36b9ad8145f48edf876566d56fdb": {
+      "name": "Mellanox Firmware Package(FWPKG) for NVIDIA Ethernet 10/25Gb 2-port SFP28 NVMe-oF Crypto Adapter for HPE",
+      "version": "26.45.1020"
+    },
+    "c31f4b9416db481caaf570f911d5ccd1": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VK000240GWTSV, VK000480GWTTA, VK000960GWTTB, VK001920GWTTC, VK003840GWTTD, MK000480GWTTH, MK000960GWTTK, MK001920GWTTL and MK003840GWTTN Drives",
+      "version": "HPG7"
+    },
+    "7ebf7b3b32234babb113c6746f09f68e": {
+      "name": "Online ROM Flash Component for Linux - HPE Apollo 2000 Gen10/HPE ProLiant XL170r/XL190r Gen10 (U38) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "28a7be894d024552967d8ce99ed30ca6": {
+      "name": "Online NVMe SSD Flash Component for Ubuntu Linux (x64) - KCM6XVUL800G, KCM6XVUL1T60, KCM6XVUL3T20, KCM6XVUL6T40, KCM6XRUL960G, KCM6XRUL1T92, KCM6XRUL3T84 and KCM6XRUL7T68 Drives",
+      "version": "GPK8"
+    },
+    "ddc8bdca3abc4ab8823e820be1ed4dfd": {
+      "name": "HPE ProLiant Gen10, Gen10Plus and Gen11 Smart Array Controller (64-bit) Driver for SUSE LINUX Enterprise Server 15 (64-bit)",
+      "version": "2.1.40-020"
+    },
+    "8484f11834644aea8a2a14d1d0d58403": {
+      "name": "Marvell FastLinQ 10/25/50 GbE Drivers for Windows Server x64 Editions",
+      "version": "8.72.21.0"
+    },
+    "f12cb892007944f694736d03ec00543c": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VO000800JWZJP, VO001600JWZJQ, VO003200JWZJR and VO006400JWZJT Drives",
+      "version": "HPD5"
+    },
+    "2ef4b1fccb0b4e4aa4c8281327ada522": {
+      "name": "SuSE Linux Enterprise Server 15 Service Pack 6 Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
+    },
+    "c02bbf9a9f6640aeab2edb3ce124d6c6": {
+      "name": "HPE Edgeline X722 NIC Firmware Component for Linux",
+      "version": "4.30"
+    },
+    "6f77f9ef4381482fb9f00a79ce325ab3": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant DL385 Gen10 (A40) Servers",
+      "version": "3.80_05-28-2026"
+    },
+    "7f5cc2735e814d67a516e6e72cb03eec": {
+      "name": "HPE Smart Array Gen10, Gen10Plus and Gen11 Controller Driver for Windows Server 2022 and Windows Server 2025",
+      "version": "1016.38.0.1003"
+    },
+    "c6a4f7a1c0f14173802a4263b3ee7551": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VK000240GWTSV, VK000480GWTTA, VK000960GWTTB, VK001920GWTTC, VK003840GWTTD, MK000480GWTTH, MK000960GWTTK, MK001920GWTTL and MK003840GWTTN Drives",
+      "version": "HPG7"
+    },
+    "adefe97a484140f28ccdb1e9dfb3903c": {
+      "name": "Intel icen Driver for VMware vSphere 9.0",
+      "version": "2026.03.00"
+    },
+    "a25f1000baab4c289a20555c0f1143b1": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB010000JWZHA, MB012000JWZHB, MB014000JWZHC and MB016000JWZHE Drives",
+      "version": "HPD4"
+    },
+    "87793aff72a54849a327ce026784372d": {
+      "name": "HPE Intel E1R Driver for Windows Server 2019",
+      "version": "14.0.7.0"
+    },
+    "849be1890758471abae8ed641e7b3fb4": {
+      "name": "Online Intel Optane SSD Flash Component for Linux - SSDPEL1K375GA Drive",
+      "version": "E2010603"
+    },
+    "6ca4dd262131408db10af90451555128": {
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR100/Ethernet 100Gb 2-port QSFP56 PCIe4 x16 MCX653106A-ECAT Adapter : HPE part numbers P23666-B21 and P23666-H21",
+      "version": "20.43.8004"
+    },
+    "a1b0fb5619dd4bf685499171488aaaa2": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - MB018000GXMTK and MB020000GXMTQ Drives",
+      "version": "HPG3"
+    },
+    "bc3fe657ed304b17aeeab14dfddb1656": {
+      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
+      "version": "6.00"
+    },
+    "07117e80b64248dab9811a2280fcc85e": {
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 QLogic Storport Driver for Microsoft Windows Server 2022",
+      "version": "9.4.11.20"
+    },
+    "5132cc00457040eca415ddc65a22d65e": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB012000JZYVN, MB014000JZYVP, MB016000JZYVQ and MB018000JYCLK Drives",
+      "version": "HPD6"
+    },
+    "19810cc433a442df903276a4b0c34598": {
+      "name": "Mellanox WinOF2 Driver for Microsoft Windows Server 2019",
+      "version": "26.4.27095.0"
+    },
+    "6c76dfc1e26441a48559e0f1bee2891e": {
+      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
+      "version": "2.74"
+    },
+    "1d81dab4bd3149b19db9381601c1abce": {
+      "name": "HPE Broadcom NX1 Online Firmware Upgrade Utility Linux x86_64 for HPE ProLiant Gen10 server series Only.",
+      "version": "2.43.0"
+    },
+    "84e7c2b1f88e4ba3ad8fe3ec63fe5a60": {
+      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE Mellanox Ethernet only adapters",
+      "version": "1.0.3"
+    },
+    "b271ca95088c47b0b57cf56bd9562a4c": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VO003840XZCLT, VO007680XZCMB, MO000800XZCLQ and MO001600XZCLV Drives",
+      "version": "HPD4"
+    },
+    "1d54c8dcf99741aabe78b8a4e54d84f8": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB014000JWRTH, MB012000JWRTF and MB010000JWRTE Drives",
+      "version": "HPD2"
+    },
+    "1012a84c719148b1b9e7357e885d2199": {
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 Emulex Storport Driver for Microsoft Windows Server 2025",
+      "version": "14.4.624.1"
+    },
+    "aa9211e645514db69ecc4a92d0863429": {
+      "name": "Firmware Package - Gen10 NVMe Backplane PIC Firmware",
+      "version": "1.24"
+    },
+    "29772c9b119b47c898dedcff775e1472": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB006000GWKGR Drive",
+      "version": "HPG1"
+    },
+    "a745e380a94147888b60792dcbb594a8": {
+      "name": "ROM Flash Universal Firmware Package - HPE ProLiant DL365/DL385/DL385 v2 Gen10 Plus (A42) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "18633ffffaeb4435bcda138419e66c7a": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL560 Gen10/DL580 Gen10 (U34) Servers ",
+      "version": "3.66_04-01-2026"
+    },
+    "118ba074c4b3495fbd26210e14a17511": {
+      "name": "ROM Flash Firmware Package - HPE Apollo 4510 Gen10/HPE ProLiant XL450 Gen10 (U40) Servers ",
+      "version": "3.66_04-01-2026"
+    },
+    "da6c398c130f48f9a5a32bd3c9213a90": {
+      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on Linux x86_64 platform",
+      "version": "1.0.20"
+    },
+    "83fed5e4a427414fb0792283dd57ec37": {
+      "name": "SuSE Linux Enterprise Server 15 Service Pack 7 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapter",
+      "version": "14.4.731.6"
+    },
+    "72ce2dc2a1214941a11d7ccaace19196": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - MB012000JWDFD Drive",
+      "version": "HPD5"
+    },
+    "261c2f9a8f584fd69c7ae5c1643322e4": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - VK000240GWJPD, VK000480GWJPE, VK000960GWJPF, VK001920GWJPH, VK003840GWJPK, MK000240GWKVK, MK000480GWJPN, MK000960GWJPP and MK001920GWJPQ Drives",
+      "version": "HPG5"
+    },
+    "968a9e036afd4092af43608fa1a5a87c": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB018000JXMTH and MB020000JXMTP Drives",
+      "version": "HPD3"
+    },
+    "710acbec2a70445381651a2e1f3c55ab": {
+      "name": "HPE Mellanox RoCE Driver [ConnectX-4 Lx and above] for SUSE LINUX Enterprise Server 15 SP7 (AMD64/EM64T)",
+      "version": "26.04"
+    },
+    "f68792033b364ab4b274dc849cf93dea": {
+      "name": "HPE QLogic FastLinQ Online Firmware Upgrade Utility for VMware",
+      "version": "4.20.0"
+    },
+    "75dd01ca72594b0686b5c281ad30ac2a": {
+      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on VMware ESXi 9.x",
+      "version": "1.0.3"
+    },
+    "d1014161143144dea5631e9b65f9f0d4": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - EG001800JWJNL and EG002400JWJNN Drives",
+      "version": "HPD6"
+    },
+    "5d636f95f482471a9bd020c928d3b4af": {
+      "name": "Firmware Package - HPE Gen12 Boot Controller NS204i-u, HPE Gen11 Boot Controller NS204i-u, NS204i-d and HPE Gen10 Plus Boot Controller NS204i-p, NS204i-d, NS204i-t, NS204i-r",
+      "version": "1.2.14.1031"
+    },
+    "7e6855eee4644488a7fc48bfab9c9f1e": {
+      "name": "HPE Broadcom NetXtreme-E RoCE Library for Red Hat Enterprise Linux 10 Update 1.",
+      "version": "237.1.137.0"
+    },
+    "cd5668ff531a493aafe51794773c6524": {
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Microsoft Windows Server 2022 x64",
+      "version": "2026.06.01"
+    },
+    "84f4d8cbba034646b75e0fce6c455870": {
+      "name": "Broadcom NX1 1Gb Driver for Windows Server x64 Editions",
+      "version": "221.0.10.0"
+    },
+    "2404b0d00c274e079beaf7b9c266615b": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VK000480GWSXF, VK000960GWSXH, VK001920GWSXK, MK000480GWUGF, MK000960GWUGH and MK001920GWUGK Drives",
+      "version": "HPG4"
+    },
+    "2e589cc6a48f40eaa0870785c3351832": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant XL230k Gen10 (U37) Server",
+      "version": "3.66_04-01-2026"
+    },
+    "3d8cb748df644cf3a26ed91efafffb67": {
+      "name": "HPE ProLiant Gen10, Gen10Plus and Gen11 Smart Array Controller (64-bit) Driver for Red Hat Enterprise Linux 9 (64-bit)",
+      "version": "2.1.40-020"
+    },
+    "6e47868a4c52411285405d34ddf4456a": {
+      "name": "HPE MR416i-p, MR216i-p, MR416i-a, MR216i-a Gen10 plus and MR416i-p, MR416i-o, MR216i-o, MR408i-o, MR216i-p, MR408i-p Gen11 controllers Driver for 64-bit SUSE LINUX Enterprise Server 16",
+      "version": "07.736.04.00"
+    },
+    "c9a4232d8cb349049f544bcc6d02e97f": {
+      "name": "Firmware Package - HPE MR416i-a Gen10 Plus Tri Mode Controller",
+      "version": "52.36.3-6584"
+    },
+    "63976963938d4f79be04f7b652abb966": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB014000JWRTH, MB012000JWRTF and MB010000JWRTE Drives",
+      "version": "HPD2"
+    },
+    "954c63f35d4743b2b629b5d17bfd860b": {
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 QLogic Storport Driver for Microsoft Windows Server 2025",
+      "version": "9.4.11.20"
+    },
+    "f4456005e9154f53969eae342b6e27c9": {
+      "name": "Online NVMe SSD Flash Component for Microsoft Windows - MZ1LB3T8HMLA-00007 Drive",
+      "version": "EDB7602Q"
+    },
+    "ed9a4b98eb61471ab66480b22d4e9c4f": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB014000GWRTN, MB012000GWRTL and MB010000GWRTK Drives",
+      "version": "HPG2"
+    },
+    "ed7a5d4d2f9c4a55ba7dea78369f1389": {
+      "name": "HPE Broadcom NetXtreme-E Driver for Windows Server 2022",
+      "version": "237.1.124.0"
+    },
+    "32232f7880984b91885a4743fd2f886d": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VK007680GWSXN  Drive",
+      "version": "HPG4"
+    },
+    "92d52e2161c24f8f9ff633da842f814c": {
+      "name": "Online NVMe SSD Flash Component for VMware ESXi - KCD6XVUL800G, KCD6XVUL1T60, KCD6XVUL3T20, KCD6XVUL6T40, KCD6XVUL12T8, KCD6XLUL960G, KCD6XLUL1T92, KCD6XLUL3T84, KCD6XLUL7T68 and KCD6XLUL15T3 Drives",
+      "version": "GPK8"
+    },
+    "ab1694a2c3b34d68b6e9d41c15960bf5": {
+      "name": "HPE Intel ixs Driver for Windows Server 2019",
+      "version": "4.1.254.0"
+    },
+    "7c61cb3283de42b790100730aaa7c9b2": {
+      "name": "SuSE Linux Enterprise Server 16 Service Pack 0 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapter",
+      "version": "14.4.731.20"
+    },
+    "189fb9052e994ac694bd5d6fb410f76a": {
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE ProLiant MicroServer Gen10 Plus v2 Servers",
+      "version": "06.00.03.708"
+    },
+    "a96fcafbb6d4411b8c5383684726a0e9": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant ML30 Gen10 Plus Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "84d998355c4f4bc6997437e9a6c61fba": {
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE Gen10 Servers",
+      "version": "04.01.05.201"
+    },
+    "b53b7ee55fb34198a842e8fa3306a80a": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB010000JWZHA, MB012000JWZHB, MB014000JWZHC and MB016000JWZHE Drives",
+      "version": "HPD4"
+    },
+    "d65fb45f0327449eb7763d2d9cb7bf3e": {
+      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
+      "version": "0130"
+    },
+    "c02f997871554705a1c6e597965673df": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant XL230k Gen10 (U37) Server",
+      "version": "3.66_04-01-2026"
+    },
+    "e6fc00ad6a3e4c539778e7419a9fafa6": {
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 1-port QSFP56 PCIe4 x16 OCP3 MCX653435A-HDAI Adapter : HPE part numbers  P31323-B21 and  P31323-H21",
+      "version": "20.43.8004"
+    },
+    "75d8486987f7480b8e2a0459e1d59d0e": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB010000GYDKP, MB012000GYCJL, MB014000GYCJT, MB016000GYDKQ and MB018000GYDKR Drives",
+      "version": "HPG3"
+    },
+    "e9b531c475a54ce6b287402b5c425933": {
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant DL20/ML30 Gen10",
+      "version": "05.01.05.103"
+    },
+    "dea19449209743ffa1d2262e07eafb25": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant ML110 Gen10 (U33) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "dcff0c4699e341cf85f18eb94d85147c": {
+      "name": "HPE Broadcom tg3 Ethernet Drivers for Red Hat Enterprise Linux 9",
+      "version": "3.139y-1"
+    },
+    "580a9fa720c34c1ab7b8556a4f1de833": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB004000JWWQB and MB002000JWWQA Drives",
+      "version": "HPD8"
+    },
+    "5aad4922b5f54198b1d9a8e400dcfdda": {
+      "name": "HPE MR416i-p, MR216i-p, MR416i-a, MR216i-a Gen10 plus and MR416i-p, MR416i-o, MR216i-o, MR408i-o, MR216i-p, MR408i-p Gen11 controllers Driver for 64-bit SUSE LINUX Enterprise Server 15",
+      "version": "07.736.04.00"
+    },
+    "260b73b77b824e60a7231a400ce24c25": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB004000GWWQH, MB002000GWWQF and MB001000GWWQE Drives",
+      "version": "HPG6"
+    },
+    "ea54045e376e4b2ba3a50ebd9d55a9a5": {
+      "name": "HPE Mellanox RoCE Driver [ConnectX-4 Lx and above] for SUSE LINUX Enterprise Server 16 SP0(AMD64/EM64T)",
+      "version": "26.04"
+    },
+    "1cadb74f384743de9dfa8d9d6bc9f7b5": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB006000GWJRR and MB008000GWJRT Drives",
+      "version": "HPG6"
+    },
+    "4db87ca40d434c63b4434f84d8ebdf71": {
+      "name": "HPE QLogic FastLinQ 10/25/50 GbE Drivers for SUSE Linux Enterprise Server 16",
+      "version": "8.76.3.0-2"
+    },
+    "4e3802b484324394ada6924af481323b": {
+      "name": "Intel icea Driver for Microsoft Windows Server 2025",
+      "version": "1.20.43.0"
+    },
+    "eab35afbdd7e439ba338f8fae23de885": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VK000480GZCNE, VK000960GZCNF, VK001920GZCNH and VK003840GZCNK Drives",
+      "version": "HPG3"
+    },
+    "9fd1abd8973f4c09aa450e541dc4ee41": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VO000960RWUEV, VO001920RWUFA, VO003840RWUFB, VO007680RWUFC, VO000960RWUFD, VO001920RWUFE and VO003840RWUFF Drives",
+      "version": "HPD8"
+    },
+    "794cbcecc16344ce8539a9b80f70c157": {
+      "name": "HPE Intel E1R Driver for Windows Server 2025",
+      "version": "14.1.24.0"
+    },
+    "5f7dae044b3b4d97823b1cfc69305837": {
+      "name": "HPE QLogic NX2 Online Firmware Upgrade Utility for Linux x86_64",
+      "version": "2.37.0"
+    },
+    "a4dfe483f7df4c3993a498bb13f08613": {
+      "name": "Broadcom Firmware Package for BCM57414 OCP3 adapter",
+      "version": "237.1.148.0"
+    },
+    "660aa31b4e5e4c7fa47517faf21f93a1": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB016000GWXKK Drive",
+      "version": "HPG5"
+    },
+    "05a81ac262384916b1fa6e922a6cada6": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB014000GWRTN, MB012000GWRTL and MB010000GWRTK Drives",
+      "version": "HPG2"
+    },
+    "35452d3049b54455b15816bf1978a61f": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB014000JXUCC Drive",
+      "version": "HPD4"
+    },
+    "74ae203907f144b792d71fd805a36304": {
+      "name": "ROM Flash Universal Firmware Package - HPE Edgeline Chassis Controller Firmware",
+      "version": "2.1.0"
+    },
+    "683278c3722a411eb75e30e9eb4f543d": {
+      "name": "Intel iavf Driver for Windows Server 2019",
+      "version": "1.18.162.0"
+    },
+    "00184010ed0a41829836f7c60269273f": {
+      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE Mellanox Ethernet only adapters",
+      "version": "1.0.0.25"
+    },
+    "884d4de7b5b3447098d2f7fe88975145": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB010000GYDKP, MB012000GYCJL, MB014000GYCJT, MB016000GYDKQ and MB018000GYDKR Drives",
+      "version": "HPG3"
+    },
+    "25afa565c5cd4e359629eee44baf7e64": {
+      "name": "Online ROM Flash Component for Linux - HPE Apollo 4200 Gen10/HPE ProLiant XL420 Gen10 (U39) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "0b3bbfed90454334ba3331c2f9efa2ea": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - VO000960JWZJF, VO001920JWZJH, VO003840JWZJK, VO007680JWZJL and VO015360JWZJN Drives",
+      "version": "HPD5"
+    },
+    "f5b93810cc2347bb802707c26e414376": {
+      "name": "NVIDIA Firmware Package (FWPKG) for Mellanox MCX623105AS-VDAT Ethernet 200Gb 1-port QSFP56 Adapter for HPE",
+      "version": "22.49.1014"
+    },
+    "15c5494e659e4865b78e60077bae7860": {
+      "name": "Online NVMe SSD Flash Component for Windows (x64) - VS000480KXALB, VS003840KWXFQ, VS001920KWXFP and VS000960KWXFN drives",
+      "version": "85032G00"
+    },
+    "6cc89934ad1740b582b096e05315f04a": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB014000JWUDB Drive",
+      "version": "HPD4"
+    },
+    "a9e8e46bd6de460ea736a9be4499f26a": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB008000JWRTD Drive",
+      "version": "HPD2"
+    },
+    "d6810024a18142b0a4b8ec4db68a4e55": {
+      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
+      "version": "5.04"
+    },
+    "fade5b11c713406a8e9c5f691c073fe5": {
+      "name": "HPE Intel ixgben Driver for VMware vSphere 9.0",
+      "version": "2026.03.00"
+    },
+    "ff5a3639b5c744a8ac2e4611ce9482ea": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant DL360 Gen10 (U32) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "fde211973c7e4009ac1207f980953529": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VK000480GWTHA, VK000960GWTHB, VK001920GWTHC and VK003840GWTHD Drives",
+      "version": "HPG5"
+    },
+    "24bbe0adc4dc4c7385b6f5ad6aecf867": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MK000480GWXFF, MK000960GWXFH, MK001920GWXFK and MK003840GWXFL Drives",
+      "version": "HPG3"
+    },
+    "c797fcf50c574d47a553575e505c1d9d": {
+      "name": "Online NVMe SSD Flash Component for Ubuntu Linux (x64) - MZXL5800HBHQ-000H3, MZXL51T6HBJR-000H3, MZXL53T2HBLS-000H3, MZXL56T4HALA-000H3, MZXL512THALA-000H3, MZXL5960HBHQ-000H3, MZXL51T9HBJR-000H3, MZXL53T8HBLS-000H3 and MZXL57T6HALA-000H3 Drives",
+      "version": "MPK78H5Q"
+    },
+    "139d2679780d42b2a020c2a6176ac11b": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - EO000400PXDBQ, EO000800PXDCK, EO001600PXDCH, MO000800PXDBP, MO001600PXDCC, MO003200PXDCD, MO006400PXDCE, VO000960PXDBN, VO001920PXDBR, VO003840PXDBT, VO007680PXDBU and VO015300PXDBV  Drives",
+      "version": "HPD5"
+    },
+    "7ff6f17e72894f4e8c910355a9fb9992": {
+      "name": "HPE QLogic FastLinQ 10/25/50 GbE Multifunction Driver for VMware vSphere 9.0",
+      "version": "2026.03.00"
+    },
+    "5ac3ee90b2184fa9828f960cd9d17840": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - EG000600JWJNP, EG001200JWJNQ, EG000600JXLVV, EG001200JXLWA and EG001200MXJQU Drives",
+      "version": "HPD9"
+    },
+    "3c3b18c087cf4abfa2c47b59042d0c23": {
+      "name": "Intel icen Driver for VMware vSphere 9.1",
+      "version": "2026.03.00"
+    },
+    "3eab1bf1c35b40e5b35b9f8cbcf441cd": {
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant ML30 Gen10 Plus",
+      "version": "06.00.03.708"
+    },
+    "c165fa12d9644f82b813c7e585ce9181": {
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant DL20 Gen10 Plus",
+      "version": "06.00.03.708"
+    },
+    "6847395ba4ef4b018475096e40729a70": {
+      "name": "net-mst kernel module driver component for VMware ESXi 9uX",
+      "version": "2026.02.23"
+    },
+    "d7cf155e76584b1f8fb8e3c7c222c90d": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB008000GWRTC Drive",
+      "version": "HPG1"
+    },
+    "5f659aa091e040538f3e83b28f048f1f": {
+      "name": "Online NVMe SSD Flash Component for Ubuntu Linux (x64) -MZXLR800HBHQ-000H3, MZXLR1T6HBJR-000H3, MZXLR3T2HBLS-000H3, MZXLR6T4HALA-000H3, MZXLR12THALA-000H3, MZXLR960HBHQ-000H3, MZXLR1T9HBJR-000H3, MZXLR3T8HBLS-000H3 and MZXLR7T6HALA-000H3  Drive",
+      "version": "MPK7825Q"
+    },
+    "11da5efc39044b5bb1d1491457b48fdd": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB004000GWWQH, MB002000GWWQF and MB001000GWWQE Drives",
+      "version": "HPG6"
+    },
+    "2180429b88ed4e24883a75dbd70724b0": {
+      "name": "HPE Intel i40e Drivers for Red Hat Enterprise Linux 9",
+      "version": "2.28.16-1"
+    },
+    "130da7feaa1d444b8b70a759892883b1": {
+      "name": "NVMe Drive Eject NMI Fix for Intel Xeon Processor Scalable Family for Microsoft Windows 64-bit",
+      "version": "1.1.0.0"
+    },
+    "75b226eeea7c4059b46a8ebaf1741729": {
+      "name": "Smart Storage Administrator (SSA) CLI Smart Component for ESXi 9.1 for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "2026.07.01"
+    },
+    "509f54411aaa488d8ade3254836debf4": {
+      "name": "Universal Firmware Package for Drives - MO001600KXVYH, MO003200KXVZD, MO006400KXVZE, VO001920KXVYF, VO003840KXVZA, VO007680KXVZB and VO015360KXVZC",
+      "version": "HPK4"
+    },
+    "92d9bf17d9ef471e842a80e42a41ec72": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB008000GWRTC Drive",
+      "version": "HPG1"
+    },
+    "f18fb22c5eab4952b3cc28771ba83857": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB010000GYDKP, MB012000GYCJL, MB014000GYCJT, MB016000GYDKQ and MB018000GYDKR Drives",
+      "version": "HPG3"
+    },
+    "f7ead10dcb9d4e3b81c19da679b23ce2": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - VK000480GWSXF, VK000960GWSXH, VK001920GWSXK, MK000480GWUGF, MK000960GWUGH and MK001920GWUGK Drives",
+      "version": "HPG4"
+    },
+    "a4fb8dc02faf478a85519ccf77530c6a": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - VK000480GWTHA, VK000960GWTHB, VK001920GWTHC and VK003840GWTHD  Drives",
+      "version": "HPG5"
+    },
+    "c046b36cf8a0464e9240313acab20b06": {
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant MicroServer Gen10 Plus v2",
+      "version": "06.00.03.708"
+    },
+    "8384f9a8878649da8d668b07fb30c48e": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE Integrated Lights-Out 5",
+      "version": "3.20"
+    },
+    "e528a2af212b4bb09bfd3cb54b985653": {
+      "name": "Online ROM Flash Component for Linux (x64) \u2013 HPE Apollo 4200 Gen10 Plus Backplane Expander Firmware",
+      "version": "0.39"
+    },
+    "83f19a40734047f1a91d25f9cd465999": {
+      "name": "Broadcom NX1 Online Firmware Upgrade Utility for VMware",
+      "version": "1.44.0"
+    },
+    "169b01f1c4c245bc854a8424af9a5f85": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL160 Gen10/DL180 Gen10 (U31) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "486d4489346f4ec8a160ad4ef3c94f99": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - EH000900JWHPP, EH000600JWHPN and EH000300JWHPL  Drives",
+      "version": "HPD9"
+    },
+    "188764648e874fd98523f669c6e5a042": {
+      "name": "Intel icea Driver for Microsoft Windows Server 2022",
+      "version": "1.20.39.0"
+    },
+    "009bd5d739814a67a018565d835c45f1": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant ML350 Gen10 (U41) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "840d26617d5744de973393a116bf720d": {
+      "name": "Online NVMe SSD Flash Component for Windows (x64) - VO002000KWVVC, VO004000KWVUR, MO001600KWVUU, MO003200KWVUV and MO006400KWVVA Drives",
+      "version": "4ICRHPK3"
+    },
+    "2f9cefc3934e4e93835fb42cb71a4161": {
+      "name": "Smart Storage Administrator Diagnostic Utility (SSADU) CLI for Ubuntu for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "6.65.9.0"
+    },
+    "ec5fd859b967489ab6f67ad677712984": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - EH000600JWCPF and EH000900JWCPH Drives",
+      "version": "HPDD"
+    },
+    "aa62b707fef04bb99492053e558daffb": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB016000JWXKH Drive",
+      "version": "HPDC"
+    },
+    "953566d3c1ab4efe9b762b361100a259": {
+      "name": "Universal Firmware Package for Drives -  MO001600KZYWU, MO003200KZYXB, MO006400KZYXC, VO001920KZYWT, VO003840KZYWV and VO007680KZYXA",
+      "version": "HPK5"
+    },
+    "f3f8a4081d78499e9a2dd9c8d9fb4059": {
+      "name": "Intel Firmware Package For E810-CQDA2 Ethernet 100Gb 2-port QSFP28 Adapter",
+      "version": "4.91"
+    },
+    "7a38c76de8ff4383970907d2998b1740": {
+      "name": "HPE Intel ixn Driver for Windows Server 2019",
+      "version": "4.1.254.0"
+    },
+    "ae6b2b73e1ee45bc9e25c451f9dd6d2f": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB012000GZYVT, MB014000GZYVU, MB016000GZYVV and MB018000GYCLL Drives",
+      "version": "HPG6"
+    },
+    "a271f679286141d98830336f93a8205f": {
+      "name": "Online ROM Flash Component for VMware ESXi - HPE Apollo 4200 Gen10 Plus Backplane Expander Firmware",
+      "version": "0.39"
+    },
+    "b9b10cbec6a7489cae77c802c13728a1": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB002000JYDNE and MB004000JYDPB Drives",
+      "version": "HPD6"
+    },
+    "2b1131d5128b46ff8528f19d5b030560": {
+      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for Mellanox Open Ethernet cards",
+      "version": "1.0.3"
+    },
+    "ce7e63b5ed004965a0bc6af06ca584ef": {
+      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
+      "version": "2.74"
+    },
+    "01713b1febed4cc9a463023eeb2cf6ee": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VK000240GWJPD, VK000480GWJPE, VK000960GWJPF, VK001920GWJPH, VK003840GWJPK, MK000240GWKVK, MK000480GWJPN, MK000960GWJPP and MK001920GWJPQ Drives",
+      "version": "HPG5"
+    },
+    "b88ebb63a68747808884160b11c000eb": {
+      "name": "HPE Intel vxs Driver for Windows Server 2019",
+      "version": "2.1.252.0"
+    },
+    "ec9be2d62b6d4bb78b41f4e500d70240": {
+      "name": "HPE ProLiant Gen10 Smart Array and Gen10 Plus and Gen11 Smart RAID Controller Driver for VMware vSphere 9.0 (Driver Component).",
+      "version": "2026.07.01"
+    },
+    "8bcfdc333663490ba14bb0a7e2286062": {
+      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
+      "version": "2.74"
+    },
+    "96fe9c5a9b9741d5bcf4ae73623359e0": {
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE Ethernet 100Gb 1-port QSFP28 PCIe3 x16 MCX515A-CCAT Adapter : HPE part numbers P31246-B21 and P31246-H21",
+      "version": "16.35.8008"
+    },
+    "0883e4abd7344c9b834b5e5585107933": {
+      "name": "HPE MegaRAID Storage Administrator StorCLI for Linux 64-bit (for Gen10P and Gen11 Controllers)",
+      "version": "007.3604.0000.0000"
+    },
+    "39040fa72ee34e15b8d90d8ca174f1ed": {
+      "name": "HPE MR416i-p, MR216i-p, MR416i-a, MR216i-a Gen10 plus Controllers and MR416i-p, MR416i-o, MR216i-o, MR408i-o, MR216i-p, MR408i-p Gen11 Controllers Driver (64-bit) for vSphere 9.0",
+      "version": "2026.03.01"
+    },
+    "da435657efe64ff1a664870254b46a1c": {
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 1-port QSFP56 PCIe4 x16 MCX653105A-HDAT Adapter : HPE part numbers P23664-B21 and P23664-H21",
+      "version": "20.43.8004"
+    },
+    "35cb34a457a347fd86df4f560cf6cf57": {
+      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
+      "version": "1.0.10"
+    },
+    "d313ecbde1f54151bf42ad357e6b94ad": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant DL385 Gen10 (A40) Servers ",
+      "version": "3.80_05-28-2026"
+    },
+    "7dd14e7585784238bb6caec32dcf1d80": {
+      "name": "HPE MR416i-p, MR416i-a, MR216i-p, MR216i-a Gen10p Controllers and MR416i-o, MR416i-p, MR216i-o, MR216i-p, MR408i-o , MR408i-p Gen11 Controllers Driver for Microsoft Windows 2019 edition",
+      "version": "7.732.3.0"
+    },
+    "308794285e444711a0eb3833d54eb10e": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - EH000600JWCPF and EH000900JWCPH Drives",
+      "version": "HPDD"
+    },
+    "635ad6621b8d4c52b8b9de3325345e84": {
+      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters - Microsoft Windows Server 2025 (x86_64)",
+      "version": "2026.04.01"
+    },
+    "74b3fe77108f45dc915915f121f04357": {
+      "name": "Red Hat Enterprise Linux 10 Server Update 2 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
+      "version": "14.4.731.20"
+    },
+    "c65e02b4990e43eea4fa2402b45960eb": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB008000GWWQU and MB006000GWWQT Drives",
+      "version": "HPG8"
+    },
+    "b27e4086749b43a09022b1ccf9b6e0c0": {
+      "name": "HPE Intel ixgbe Drivers for Red Hat Enterprise Linux 9",
+      "version": "6.3.4-1"
+    },
+    "0a1bd2e7b61541c2bab363dfb955ff0b": {
+      "name": "HPE Broadcom NetXtreme-E Drivers for VMware vSphere 9.1",
+      "version": "2026.05.00"
+    },
+    "f22e031456d1410688940c3efe38cf1d": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant MicroServer Gen10 Plus (U48) Servers",
+      "version": "3.76_05-28-2026"
+    },
+    "66a1346762c14adc98a81649c4277c93": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - MB010000GYDKP, MB012000GYCJL, MB014000GYCJT, MB016000GYDKQ and MB018000GYDKR Drives",
+      "version": "HPG3"
+    },
+    "6d5b098230e341e9881e9381bf19ba96": {
+      "name": "HPE Intel iavf Drivers for Red Hat Enterprise Linux 9",
+      "version": "4.13.20-1"
+    },
+    "56422dc0cdb64171addc0c9909a7019a": {
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware  for HPE Gen10 Plus Servers",
+      "version": "04.04.04.925"
+    },
+    "e94dfd89626f4fc992d59a1c00e08f54": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB006000GWJRR and MB008000GWJRT Drives",
+      "version": "HPG6"
+    },
+    "000bfbde35e84381b78976b2c1748662": {
+      "name": "Intel iavf Driver for Windows Server 2022",
+      "version": "1.18.161.0"
+    },
+    "c20869f6e72044ccb4d2b142b029a1ef": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB001000GWJAN, MB002000GWFWA and MB004000GWFWB Drives",
+      "version": "HPG1"
+    },
+    "21c71338fdf2430b8b41f3737620822c": {
+      "name": "Identifiers for Intel Xeon Scalable Processors (First and Second Generation) for Microsoft Windows",
+      "version": "10.1.19006.8299"
+    },
+    "6b091dcf4ee1419ba5b96976da014a69": {
+      "name": "HPE Intel iavf Drivers for SUSE Linux Enterprise Server 16",
+      "version": "4.13.20-1"
+    },
+    "4de9a363a422456faca983d193ca352a": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant DL160 Gen10/DL180 Gen10 (U31) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "594618f566cc4fbca055e8866278e53d": {
+      "name": "Smart Storage Administrator (SSA) for Windows 64-bit for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "6.65.9.0"
+    },
+    "376766abc4f1493fa567046abeb8b7d6": {
+      "name": "Red Hat Enterprise Linux 10 Update 2 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
+    },
+    "8adcf62d3b4a41379b595de71bd60c8d": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB010000JYDKK, MB012000JYCJF, MB014000JYCJV, MB016000JYDKL and MB018000JYDKN Drives",
+      "version": "HPD6"
+    },
+    "1e4f77062f4d48c8906f4212d8016a76": {
+      "name": "Online ROM Flash Component for Linux - HPE Apollo 6500 Gen10 Plus/HPE ProLiant XL645d Gen10 Plus (A48) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "057a33153b064c9280dd7da9d3d5a47a": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - EG001800JWJNL and EG002400JWJNN Drives",
+      "version": "HPD6"
+    },
+    "acccc3a79b934a56bc23c6e1a1b8169b": {
+      "name": "Universal Firmware Package for Drives - VO000960RZWUP, VO000960RZWUQ, VO001920RZWUR, VO001920RZWUV, VO003840RZWUT, VO003840RZWVA and VO007680RZWUU",
+      "version": "HPD1"
+    },
+    "00459d4dc4844a0c9aaf3dd87b1a7fe8": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant e910/e910t Server Blade (H08)",
+      "version": "3.66_04-01-2026"
+    },
+    "a77901ff235c43f18df58616eefb654e": {
+      "name": "Mellanox Firmware Package(FWPKG) for HPE NVIDIA Ethernet 100Gb 2-port NVMe-oF Offload Adapter for HPE",
+      "version": "22.45.1020"
+    },
+    "62fc8de385854321919207903df8d568": {
+      "name": "Red Hat Enterprise Linux 9 Update 8 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
+    },
+    "8aa4f1e30dfc4417885cea85b551314e": {
+      "name": "Online ROM Flash Component for Linux - HPE Integrated Lights-Out 5",
+      "version": "3.20"
+    },
+    "b8b6b31789ce4119a48876ba4b89c81f": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant MicroServer Gen10 Plus (U48) Servers",
+      "version": "3.76_05-28-2026"
+    },
+    "ef1bc7c351c4439cbfa57f557a362e59": {
+      "name": "Universal Firmware Package for Drives -  VR000480KYXPQ, VR000960KYXQA and VR001920KYXQB",
+      "version": "HPK2"
+    },
+    "58058fc7c39a49caa2844dbe139ab3f9": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - EG001800JWJNR, EG002400JWJNT, EG001800JXLWB, EG002400JXLWC and EG002400MXJQT Drives",
+      "version": "HPDB"
+    },
+    "8a08f6182dea4f4eb893d0fcf7833007": {
+      "name": "Online NVMe SSD Flash Component for Microsoft Windows - KXG50ZNV256G, KXG50ZNV512G and KXG50ZNV1T Drives",
+      "version": "AAGA4103"
+    },
+    "d36b5614c00b4d00b66a58209cc5bffb": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant ML350 Gen10 (U41) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "ccbfcdbdc47644e7ab18a371d4af9d7a": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE Apollo 2000 Gen10/HPE ProLiant XL170r/XL190r Gen10 (U38) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "3b175f364fc14c6da598ff868e4cfb48": {
+      "name": "Firmware Package - UBM2 Backplane PIC PLDM Firmware for Gen10/Gen10P/Gen11 Servers",
+      "version": "1.20"
+    },
+    "79ad7928ccff4a3d85ad68c2ac701141": {
+      "name": "HPE Intel i40e Drivers for SUSE Linux Enterprise Server 16",
+      "version": "2.28.16-1"
+    },
+    "8927cfd49bdd4662a4005f15b8eb6847": {
+      "name": "Agentless Management Service for Ubuntu 26.04 LTS",
+      "version": "4.8.0"
+    },
+    "9dea06267ae9459899ac2a4c5391b558": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64)  - VO000960JWTBK, VO001920JWTBL, VO003840JWTBN, VO007680JWTBP, MO000400JWTBQ, MO000800JWTBR, MO001600JWTBT, MO003200JWTBU, MO006400JWTCD, EO000400JWTBV, EO000800JWTCA and EO001600JWTCB Drives",
+      "version": "HPDB"
+    },
+    "6ac4c1fb52734dc69d27fd9966ff92b4": {
+      "name": "HPE Intel ixgben Driver for VMware vSphere 8.0",
+      "version": "2026.03.00"
+    },
+    "95e1a7b8a2664cd8b8d67128eff9bb87": {
+      "name": "iLO 5 Automatic Server Recovery Driver for Microsoft Windows Server 2019",
+      "version": "4.7.1.0"
+    },
+    "df6ba3c2e569412ab3999b9575ddb1d8": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB004000GWWQH, MB002000GWWQF and MB001000GWWQE Drives",
+      "version": "HPG6"
+    },
+    "3d51e7d6b8674f16bd8f67bee278e11a": {
+      "name": "Firmware Package  - HPE Smart Array P408i-p, P408e-p, P408i-a, P408i-c, E208i-p, E208e-p, E208i-c, E208i-a, P204i-c, P416ie-m and P816i-a SR Gen10 and SR308i-o,SR308i-p Gen11 controllers",
+      "version": "8.23"
+    },
+    "14db461db87a4c46b9be1a6560ae1f85": {
+      "name": "HPE Intel i40en Driver for VMware vSphere 9.0",
+      "version": "2025.11.00"
+    },
+    "22b7710ad6de471aa3aeacbb94b82c36": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - EG000300JWSJP, EG000600JWJNH and EG001200JWJNK Drives",
+      "version": "HPD6"
+    },
+    "e5d8389759aa4832a8475a2ff763f16b": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VO000960JWZJF, VO001920JWZJH, VO003840JWZJK, VO007680JWZJL and VO015360JWZJN Drives",
+      "version": "HPD5"
+    },
+    "87a7eb56c25b4c4c98ceb5ea24664524": {
+      "name": "Firmware Package - HPE MR216i-p Gen10 Plus Tri Mode Controller ",
+      "version": "52.36.3-6584"
+    },
+    "614a0c688deb4def90dafbe34fab64bb": {
+      "name": "HPE ProLiant Gen10 Smart Array and Gen10 Plus and Gen11 Smart RAID Controller Driver for VMware vSphere 8.0 (Driver Component).",
+      "version": "2026.07.01"
+    },
+    "4fd1e8e4a27347cd8d83d1e63d9eb38e": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB006000GWKGR Drive",
+      "version": "HPG1"
+    },
+    "e9a54d5b255e4c18936eebffaaff1ccf": {
+      "name": "Agentless Management Service for Microsoft Windows x64",
+      "version": "2.80.0.0"
+    },
+    "1ba6abb4e9ff40ab8c8d2a6c0f1a1860": {
+      "name": "HPE MegaRAID Storage Administrator StorCLI for Ubuntu (for Gen10P and Gen11 Controllers)",
+      "version": "007.3604.0000.0000"
+    },
+    "67fb0d734fd248cca1eff5e7b321a8b6": {
+      "name": "Matrox G200eH3 Video Controller Driver for Microsoft Windows 64-bit",
+      "version": "9.15.1.268"
+    },
+    "d8cf5e47a4564ba6bcb2ea1177a33ff1": {
+      "name": "ROM Flash Universal Firmware Package - HPE ProLiant DL360/DL380 Gen10 Plus (U46) Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "ab42380273374a988dbcb1a25432ed96": {
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 2-port QSFP56 PCIe4 x16 MCX653106A-HDAT Adapter :  HPE part numbers P31324-B21 and P31324-H21",
+      "version": "20.43.8004"
+    },
+    "ad60a281882240318ac9ec3091a5f1c9": {
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 QLogic Storport Driver for Microsoft Windows Server 2019",
+      "version": "9.4.11.20"
+    },
+    "0a4a4367dcbd457bbb50b971046257dd": {
+      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
+      "version": "6.00"
+    },
+    "effc199f67764de3b570f964be1aa0ce": {
+      "name": "Online ROM Flash for Windows x64 -  HPE Gen10 Innovation Engine Firmware  for HPE Gen10 Servers",
+      "version": "0.2.3.0"
+    },
+    "2ea9059fa42b417a890b2c9927375976": {
+      "name": "iLO 5 Automatic Server Recovery Driver for Microsoft Windows Server 2025",
+      "version": "4.7.2.0"
+    },
+    "33474bdb31ec42199bc00637b81a4d15": {
+      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
+      "version": "0130"
+    },
+    "29a000381a7c4ec8a72063a155821a0a": {
+      "name": "Intel ice Drivers for SUSE Linux Enterprise Server 15",
+      "version": "2.4.5-1"
+    },
+    "17203fd912204cbc96571639dbe02ea0": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB010000GWZGT, MB012000GWZGU, MB014000GWZGV and MB016000GWZHD Drives",
+      "version": "HPG1"
+    },
+    "4ecda510f4cf4aef9ac80ad782d1c36e": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL325 Gen10 (A41) Servers",
+      "version": "3.80_05-28-2026"
+    },
+    "435031f572ea43b79bd116d63a99a58a": {
+      "name": "Broadcom Firmware Package for BCM57414 adapter",
+      "version": "237.1.148.0"
+    },
+    "b902adf94cea4a0abb9a86aae94c9318": {
+      "name": "Universal Firmware Package for Drives - MO000800KXPRV, MO001600KXPTR, MO003200KXPTT, MO006400KXPTU, VO000960KXPRU, VO001920KXPTN, VO003840KXPTP and VO007680KXPTQ",
+      "version": "HPK2"
+    },
+    "2b809ef2147547e7a120732d4ca4da93": {
+      "name": "HPE QLogic NX2 10/20 GbE Multifunction Driver for VMware vSphere 9.1",
+      "version": "2026.03.00"
+    },
+    "a905a1ce40514e0aba7f765d4f2557ae": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB012000GZYVT, MB014000GZYVU, MB016000GZYVV and MB018000GYCLL Drives",
+      "version": "HPG6"
+    },
+    "31f49e59526b43cb994f293d4205e9e6": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB012000GZYVT, MB014000GZYVU, MB016000GZYVV and MB018000GYCLL Drives",
+      "version": "HPG6"
+    },
+    "3178a35014a54eb187ac32bf0e1852e0": {
+      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for SUSE Linux Enterprise Server 15 SP7 (AMD64/EM64T)",
+      "version": "4.36"
+    },
+    "7a0e2103ab3d449ea173c873ce94c871": {
+      "name": "Smart Storage Administrator Diagnostic Utility (SSADU) CLI for Linux 64-bit for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "6.65.9.0"
+    },
+    "9955e8989d3a49ccb377a1c01a7b8a6c": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64)  - EG001800JWJNR, EG002400JWJNT, EG001800JXLWB, EG002400JXLWC and EG002400MXJQT Drives",
+      "version": "HPDB"
+    },
+    "64242f6035c24947925dbb84f5af8b24": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant MicroServer Gen10 Plus v2 (U64) Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "64511cd7ad8d42fea109336ca7a083a0": {
+      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on VMware ESXi 8.0",
+      "version": "1.0.10"
+    },
+    "3ba9b83f17144198845124cbe477505f": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64)  - MB018000JXMTH and MB020000JXMTP Drives",
+      "version": "HPD3"
+    },
+    "8bfd6c84c6a049339ae439f038925df1": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL20 Gen10 Plus Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "8bd617958fd64494b0066602dc57ff65": {
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant DL20/ML30 Gen10",
+      "version": "05.01.05.103"
+    },
+    "17ae190412f049ff80b7f941eb9e3732": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant XL225n Gen10 Plus (A46) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "3ba76aeb89f84af9bfe377b634628ab1": {
+      "name": "HPE Intel igbn Driver for VMware vSphere 9.1",
+      "version": "2026.03.00"
+    },
+    "ab6756bde612475998d62d4bbb8717ff": {
+      "name": "Online NVMe SSD Flash Component for Windows (x64) - VO001920KYDMT, VO003840KYDMV, MO001600KYDMU, MO003200KYDNC, MO006400KYDND, VO007680KYDNA and VO015360KYDNB Drives",
+      "version": "HPK6"
+    },
+    "dc0fcbf999ba4988aa8b4eae8e8c9889": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - VK000240GZXRU, VK000480GZXRF, VK000960GZXQU, VK001920GZXQV, VK003840GZXRH and VK007680GZXRT Drives.",
+      "version": "HPG1"
+    },
+    "25bee0f636714c0e8bface2301234fec": {
+      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on Windows x86_64 platform",
+      "version": "1.0.0.16"
+    },
+    "d9b51eadf7e440fc88f26963aec59690": {
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE MicroServer Gen10 Plus",
+      "version": "05.01.05.103"
+    },
+    "423cc31f15944616b9452d63683a53fd": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - VO003840XZCLT, VO007680XZCMB, MO000800XZCLQ and MO001600XZCLV  Drives",
+      "version": "HPD4"
+    },
+    "ec20938f2dbe43099ae9347f73dc19f7": {
+      "name": "HPE Mellanox RoCE Driver [ConnectX-4 Lx and above] for Red Hat Enterprise Linux 10 Update 1 (x86_64)",
+      "version": "26.04"
+    },
+    "29b23e8f7b0d4dbf97ddc41ea0425103": {
+      "name": "Universal Firmware Package for Drives - MB020000JXMVU",
+      "version": "HPD1"
+    },
+    "01e0939311154208bbd5b8d9e5157a9c": {
+      "name": "Smart Storage Administrator (SSA) CLI for Windows 64-bit for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "6.65.9.0"
+    },
+    "30c69f83193c4f679a84938a219df0d6": {
+      "name": "HPE Intel iavf Driver for Windows Server 2022",
+      "version": "1.18.161.0"
+    },
+    "a6a815c1e19641d7b77e2e862e63ca3a": {
+      "name": "NVIDIA Firmware Package (FWPKG) for Mellanox MCX562A-ACAI Ethernet 10/25Gb 2-port SFP28 OCP3 Adapter for HPE",
+      "version": "16.35.8008"
+    },
+    "a94c7d3500c34676be3fda4cef325374": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - EH000600JWCPF and EH000900JWCPH Drives",
+      "version": "HPDD"
+    },
+    "2b44e5307a9948769c51d6ac1f276915": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant ML350 Gen10 (U41) Servers ",
+      "version": "3.66_04-01-2026"
+    },
+    "eb308b8c4ae741aa983a2b26d428e1e8": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - EO000400PXDBQ, EO000800PXDCK, EO001600PXDCH, MO000800PXDBP, MO001600PXDCC, MO003200PXDCD, MO006400PXDCE, VO000960PXDBN, VO001920PXDBR, VO003840PXDBT, VO007680PXDBU and VO015300PXDBV Drives",
+      "version": "HPD5"
+    },
+    "24db3c54a571487f8640586ecf4c8ce6": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB006000GWJRR and MB008000GWJRT Drives",
+      "version": "HPG6"
+    },
+    "241df8b8f5b848a28b8dbce3c7c923e4": {
+      "name": "HPE QLogic Fibre Channel driver component for VMware vSphere 9.1",
+      "version": "2026.04.01"
+    },
+    "58f3059c65eb403984076353b9f058af": {
+      "name": "Universal Firmware Package for Drives - MO000960RXRQK, MO001920RXRRH, MO003840RXRRK, VO000960RXRQL, VO001920RXRRL, VO003840RXRRN and VO007680RYEWD",
+      "version": "HPD4"
+    },
+    "270849c2dba647ceb1f5f641d466f681": {
+      "name": "HPE Broadcom NetXtreme-E Drivers for VMware vSphere 9.0",
+      "version": "2026.05.00"
+    },
+    "0e486c09859842e29ba327f60bd15f9a": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB006000JYDNF, MB008000JYDPC and MB010000JYDNH Drives",
+      "version": "HPD5"
+    },
+    "ae86717eaef841a7919ea42f85ca3fe7": {
+      "name": "HPE MR416i-p, MR416i-a, MR216i-p, MR216i-a Gen10p Controllers and MR416i-o, MR416i-p, MR216i-o, MR216i-p, MR408i-o , MR408i-p Gen11 Controllers driver for Microsoft Windows 2025 edition",
+      "version": "7.736.3.0"
+    },
+    "f3c8e04f69244d2193f6f4cd088bef7f": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB006000JYDNF, MB008000JYDPC and MB010000JYDNH Drives",
+      "version": "HPD5"
+    },
+    "972a94402aa14188aa7633893c7137b6": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant ML110 Gen10 (U33) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "d4e991bf139c45c8a6f5a9b30e1a9d04": {
+      "name": "Online ROM Flash Component for Linux - HPE Apollo 4200 Gen10 Plus/HPE ProLiant XL420 Gen10 Plus (U50) Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "0bb28a52c60e4e09a0da1e6ee82945ae": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64)  - EG000600JWJNP, EG001200JWJNQ, EG000600JXLVV, EG001200JXLWA and EG001200MXJQU Drives",
+      "version": "HPD9"
+    },
+    "de51682518bb48a2bb985003f8a8df4e": {
+      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
+      "version": "6.00"
+    },
+    "8085229a62d8443d85751340431d38d5": {
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 Emulex Storport Driver for Microsoft Windows Server 2022",
+      "version": "14.4.624.1"
+    },
+    "39676e9bd8d74e11b8837e3f6ebabd5c": {
+      "name": "Smart Storage Administrator (SSA) for Linux 64-bit for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "6.65.9.0"
+    },
+    "fe217a349ea5432eb992dea833e5cc7b": {
+      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
+      "version": "1.0.4"
+    },
+    "930ec7c21c864080921bd1f4201e5153": {
+      "name": "Smart Storage Administrator (SSA) for Ubuntu for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "6.65.9.0"
+    },
+    "644b370c36714c6490fce699ffce22e9": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant XL230k Gen10 (U37) Server",
+      "version": "3.66_04-01-2026"
+    },
+    "4bdcb7d3fc5c4d14af793003b89e365b": {
+      "name": "ROM Flash Firmware Package - HPE Apollo 6500 Gen10/HPE ProLiant XL270d Gen10 (U45) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "4e5f478436f1475182a0e382836296e1": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant e910/e910t Server Blade (H08)",
+      "version": "3.66_04-01-2026"
+    },
+    "01cbc1be755b4243b92be8c9339313eb": {
+      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for SUSE Linux Enterprise Server 15 SP6 (AMD64/EM64T)",
+      "version": "4.36"
+    },
+    "2e5a37814cc1401a951db2b5be91b6b3": {
+      "name": "Online NVMe SSD Flash Component for Linux (x64) - KCD6XVUL800G, KCD6XVUL1T60, KCD6XVUL3T20, KCD6XVUL6T40, KCD6XVUL12T8, KCD6XLUL960G, KCD6XLUL1T92, KCD6XLUL3T84, KCD6XLUL7T68 and KCD6XLUL15T3 Drives",
+      "version": "GPK8"
+    },
+    "d287970503c042a480f1860ec2c054c7": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB016000JXLBA and MB018000JXLAU Drives",
+      "version": "HPD3"
+    },
+    "58259b45dec7469580dfbddb76171768": {
+      "name": "HPE Intel ixgbevf Drivers for SUSE Linux Enterprise Server 15",
+      "version": "5.2.2-1"
+    },
+    "151904788c644c28a2c281d63b7a3b35": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VO000960JWZJF, VO001920JWZJH, VO003840JWZJK, VO007680JWZJL and VO015360JWZJN Drives",
+      "version": "HPD5"
+    },
+    "ad11e7e4956147cc81b160d5c8d519df": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB008000JWJRQ and MB006000JWJRP Drives",
+      "version": "HPD9"
+    },
+    "cd4b5a9c9ed9405abbc5be7a9f037870": {
+      "name": "Agentless Management Service (iLO5, iLO6, iLO7) for SUSE Linux Enterprise Server 15",
+      "version": "4.8.0"
+    },
+    "52c884546e0a44fb8cddfd654ad71e81": {
+      "name": "Online ROM Flash Component for Linux - HPE Proliant DL20 Gen10 Plus Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "d5dd0878f5bc46a1b2bda19d450bbffe": {
+      "name": "Universal Firmware Package for Drives - MO001600PXMTN, MO003200PXMTV, MO006400PXMUA, VO001920PXMTL, VO003840PXMTR, VO007680PXMTT and VO015360PXMTU",
+      "version": "HPD4"
+    },
+    "8f93dddcb15744aab6bb426d5e84dee8": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VK000480GZCNE, VK000960GZCNF, VK001920GZCNH and VK003840GZCNK Drives",
+      "version": "HPG3"
+    },
+    "ce8ca413963e4458ade3268c0f9831f6": {
+      "name": "HPE QLogic Fibre Channel driver component for VMware vSphere 8.0",
+      "version": "2026.04.01"
+    },
+    "809cff8704ac44759685c033bb7b76d3": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi -MB014000JWRTH, MB012000JWRTF and MB010000JWRTE Drives",
+      "version": "HPD2"
+    },
+    "cd88d2d5ae93425da04ae55f31cb9b19": {
+      "name": "HPE Intel i40en Driver for VMware vSphere 9.1",
+      "version": "2026.03.00"
+    },
+    "9eeb0ff245dd43c78ad42320aad05c3a": {
+      "name": "HPE Intel ixgbe Drivers for SUSE Linux Enterprise Server 16",
+      "version": "6.3.4-1"
+    },
+    "110c3bd2bca349b2ba7b9fec9e58ee8d": {
+      "name": "Broadcom NX1 Online Firmware Upgrade Utility for Linux x86_64",
+      "version": "2.43.0"
+    },
+    "a2d50341a55d404a82473ce007636a93": {
+      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
+      "version": "0130"
+    },
+    "070f2ccb66ec4478ba85a2e3d9712434": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - EH000300JWCPK, EH000600JWCPL, EH000900JWCPN, EH000300JXLVR, EH000600JXLVT and EH000900JXLVU Drives",
+      "version": "HPDB"
+    },
+    "17666522baed46e695f28d4315d6fdb8": {
+      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
+      "version": "1.0.0.10"
+    },
+    "a6c377914cad4568810f0a24fc0faa52": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MK000480GWXFF, MK000960GWXFH, MK001920GWXFK and MK003840GWXFL Drives",
+      "version": "HPG3"
+    },
+    "cc96bd351eff4426bf37f3da741a7623": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB004000GWKGV Drive",
+      "version": "HPG1"
+    },
+    "d0bba068f7ca4e978bcc6d2bf9e8abf7": {
+      "name": "Universal Firmware Package for Drives - MB12000JYESN, MB16000JYEVC, MB20000JYEVD",
+      "version": "HPD3"
+    },
+    "824707fd6d4844feaef370452b0a3a3e": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant ML30 Gen10 (U44) Servers",
+      "version": "3.76_05-28-2026"
+    },
+    "a83500e26a4d4bb89a4eb5821b7b2ca6": {
+      "name": "AMD PSHED Plug-in service for Microsoft Windows Server 2022 and 2025",
+      "version": "1.0.0.54"
+    },
+    "2e4ac8b988164dc087668639a95037d3": {
+      "name": "HPE Broadcom tg3 Ethernet Drivers for Red Hat Enterprise Linux 10",
+      "version": "3.139y-1"
+    },
+    "6a4f9209b5474891beaf50886f41470e": {
+      "name": "Intel Firmware Package For E810-XXVDA4 Ethernet 10/25Gb 4-port SFP28 MCLK Adapter ",
+      "version": "4.91"
+    },
+    "6d4e51e8b4c040cc80275ae447831403": {
+      "name": "HPE MegaRAID Storage Administrator StorCLI for Windows 64-bit (for Gen10P and Gen11 Controllers)",
+      "version": "7.3604.0.0"
+    },
+    "e4dd84a160cc43f1b620391e92c1a737": {
+      "name": "Online NVMe SSD Flash Component for Linux (x64) - KCM6FRUL1T92, KCM6FRUL3T84, KCM6FVUL1T60 and KCM6FVUL3T20  Drives",
+      "version": "GPK6"
+    },
+    "ce9f91a90e53444d84d0e7a4367d6fd4": {
+      "name": "Intel icen Driver for VMware vSphere 8.0",
+      "version": "2026.03.00"
+    },
+    "d3e8a053234f49d9a3735931f34c77c7": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant DL20 Gen10 (U43) Servers",
+      "version": "3.76_05-28-2026"
+    },
+    "5b139cd72d0b4c89818f276c3a1dce8c": {
+      "name": "Online NVMe SSD Flash Component for Linux (x64) - MZXL5800HBHQ-000H3, MZXL51T6HBJR-000H3, MZXL53T2HBLS-000H3, MZXL56T4HALA-000H3, MZXL512THALA-000H3, MZXL5960HBHQ-000H3, MZXL51T9HBJR-000H3, MZXL53T8HBLS-000H3, MZXL57T6HALA-000H3 and MZXL515THALA-00H3 Drive",
+      "version": "MPK78H5Q"
+    },
+    "0a96bc740aee4364b774edfa452ca9a4": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - EH000900JWHPP, EH000600JWHPN and EH000300JWHPL Drives",
+      "version": "HPD9"
+    },
+    "3b6a8a58b8154bb1b3a7b5b4416448b8": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB016000JWXKH Drive",
+      "version": "HPDC"
+    },
+    "f1a885eabd844ec18e0dab540c21f1c8": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VO003840XZCLT, VO007680XZCMB, MO000800XZCLQ and MO001600XZCLV Drives",
+      "version": "HPD4"
+    },
+    "3d004333c656491289fdf09d5881fcdd": {
+      "name": "Online NVMe SSD Flash Component for Linux (x64) - MK000800KWWFE, MK001600KWWFF, MK003200KWWFH, MK006400KWWFK, VK000960KWWFL, VK001920KWWFN, VK003840KWWFP and VK007680KWWFQ Drives",
+      "version": "HPK4"
+    },
+    "d33174a587ab4b3ea4d5e4e22de786d1": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB006000GWKGR Drive",
+      "version": "HPG1"
+    },
+    "24ef5d7f7f9443c598148daa0f16246b": {
+      "name": "HPE Intel iavf Driver for Windows Server 2025",
+      "version": "1.18.158.0"
+    },
+    "fcf6b49416e1460393e2103c04483878": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB008000JWJRQ and MB006000JWJRP Drives",
+      "version": "HPD9"
+    },
+    "b929c06b33df46a182acd3e907e0dc53": {
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Microsoft Windows Server 2025 x64",
+      "version": "2026.04.01"
+    },
+    "f2f901fd357f4c6692fae66dcbbb15ed": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant ML30 Gen10 (U44) Servers",
+      "version": "3.76_05-28-2026"
+    },
+    "9681dd7da3ad4cfa8b9f5d2fa3efb5ac": {
+      "name": "Intel i350 Driver for Windows Server 2025",
+      "version": "14.1.24.0"
+    },
+    "9a74de9c33bb4afeafe66492b230f37e": {
+      "name": "iLO 5 Channel Interface Driver for Microsoft Windows Server 2025",
+      "version": "4.7.2.0"
+    },
+    "d05a1433339f497faa2734fb31c015eb": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB016000GWXKK Drive",
+      "version": "HPG5"
+    },
+    "eb650e36c9b84eb1b7c6c75d7ff3e9f2": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB004000JWWQB and MB002000JWWQA Drives",
+      "version": "HPD8"
+    },
+    "716670787e144aa5b4cf080bc78d2ef7": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant MicroServer Gen10 Plus v2 (U64) Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "e0d3905a13b74f06a63b96091e3a0b13": {
+      "name": "Universal Firmware Package for Drives - MB006000GYDNL, MB008000GYDPE and MB010000GYDNN",
+      "version": "HPG4"
+    },
+    "b4de54a776434c1baf230d968d3bb23f": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VK000240GZXRU, VK000480GZXRF, VK000960GZXQU, VK001920GZXQV, VK003840GZXRH and VK007680GZXRT Drives",
+      "version": "HPG1"
+    },
+    "5829ee37bc994558baa6a98dd52b6154": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - EG000600JWJNP, EG001200JWJNQ, EG000600JXLVV, EG001200JXLWA and EG001200MXJQU Drives",
+      "version": "HPD9"
+    },
+    "0740887082f84323b1025ff5aaaeefed": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VK000240GZXRU, VK000480GZXRF, VK000960GZXQU, VK001920GZXQV, VK003840GZXRH and VK007680GZXRT Drives",
+      "version": "HPG1"
+    },
+    "830142111c0e4cccaca01db3bc2edf65": {
+      "name": "Online NVMe SSD Flash Component for Ubuntu Linux (x64) - VS000480KXALB, VS003840KWXFQ, VS001920KWXFP and VS000960KWXFN  Drives",
+      "version": "85032G00"
+    },
+    "03d55b6f216746b88ddef311b0a8c1f9": {
+      "name": "HPE QLogic NX2 Online Firmware Upgrade Utility for VMware",
+      "version": "1.37.0"
+    },
+    "fdb3892daac8474c8262b342acf8f35f": {
+      "name": "HPE Broadcom NetXtreme-E Online Firmware Upgrade Utility for VMware",
+      "version": "5.28.0"
+    },
+    "a294766010e4496a9a5cf2711f22fa84": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant XL220n/XL290n Gen10 Plus 1U Node and 2U Node Configure-to-order Server (U47) ",
+      "version": "2.64_04-01-2026"
+    },
+    "6d1ce52e0d6c4c48a4cc6f903852d87d": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant XL220n/XL290n Gen10 Plus 1U Node and 2U Node Configure-to-order Server (U47) ",
+      "version": "2.64_04-01-2026"
+    },
+    "9adece559a5e4fcf8de67cd47aa7d7c7": {
+      "name": "Universal Firmware Package for Drives - VO000960PZWSL, VO001920PZWSN, VO003840PZWSP, VO007680PZXFB and VO015360PZXEU",
+      "version": "HPD4"
+    },
+    "cfe4c5a213fb4be397a8b588efd29cc1": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB006000GWKGR Drive",
+      "version": "HPG1"
+    },
+    "eca7d77c8ba84ffe9014dfb5c3b6ee15": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - EH000300JWCPK, EH000600JWCPL, EH000900JWCPN, EH000300JXLVR, EH000600JXLVT and EH000900JXLVU Drives",
+      "version": "HPDB"
+    },
+    "5156ee2ce74d4685bd9c2931c6170220": {
+      "name": "HPE Intel iavf Drivers for SUSE Linux Enterprise Server 15",
+      "version": "4.13.20-1"
+    },
+    "b4be4739aaa741bf83254d24ca921fd7": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - VK007680GWSXN Drive",
+      "version": "HPG4"
+    },
+    "d56d083f3286405bb8ddda0a530c6d29": {
+      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for Red Hat Enterprise Linux 10 Update 1 (x86_64)",
+      "version": "4.36"
+    },
+    "d026cab87ecf46f4a70676c4643d63f0": {
+      "name": "Online NVMe SSD Flash Component for Windows (x64) - MK000800KWWFE, MK001600KWWFF, MK003200KWWFH, MK006400KWWFK, VK000960KWWFL, VK001920KWWFN, VK003840KWWFP and VK007680KWWFQ Drives",
+      "version": "HPK4"
+    },
+    "7cf4f95fa6ce4ac0931671656d36ae56": {
+      "name": "HPE QLogic FastLinQ 10/25/50 GbE Multifunction Driver for VMware vSphere 9.1",
+      "version": "2026.03.00"
+    },
+    "b0d91a06dd9c4473a208b93b1c088e41": {
+      "name": "Online NVMe SSD Flash Component for Windows (x64) - KCD6XVUL800G, KCD6XVUL1T60, KCD6XVUL3T20, KCD6XVUL6T40, KCD6XVUL12T8, KCD6XLUL960G, KCD6XLUL1T92, KCD6XLUL3T84, KCD6XLUL7T68 and KCD6XLUL15T3 Drives",
+      "version": "GPK8"
+    },
+    "896ea0712e9c4853949ccb47860e6c63": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64)  - EO000400JWDKP, EO000800JWDKQ, EO001600JWDKR, MO000400JWDKU, MO000800JWDKV, MO001600JWDLA and MO003200JWDLB Drives",
+      "version": "HPD3"
+    },
+    "ab0976902eae4e0c8757219b825c91f8": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant DL380 Gen10 (U30) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "0c7b64360b5c406b8354ad889f429454": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB014000JWUDB Drive",
+      "version": "HPD4"
+    },
+    "8d934ba033f1419491e76cc92dd89795": {
+      "name": "HPE Intel i40e Drivers for Red Hat Enterprise Linux 10",
+      "version": "2.28.16-1"
+    },
+    "ff242e39c275472185612592300114ce": {
+      "name": "HPE QLogic FastLinQ 10/25/50 GbE Drivers for Windows Server x64 Editions",
+      "version": "8.72.21.0"
+    },
+    "ac4d46dcda694f51abe34e6378a53487": {
+      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE Mellanox Ethernet only adapters",
+      "version": "1.0.8"
+    },
+    "3fba85b34f854c9b9b5bb51030ba5e41": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB006000JWKGN Drive",
+      "version": "HPD2"
+    },
+    "3ab4de78da484144892d6ddcd8fd9b97": {
+      "name": "HPE Intel ixgbe Drivers for SUSE Linux Enterprise Server 15",
+      "version": "6.3.4-1"
+    },
+    "2b01702f6be343c09f8208f8aab17afb": {
+      "name": "Firmware Package - HPE MR216i-a Gen10 Plus Tri Mode Controller",
+      "version": "52.36.3-6584"
+    },
+    "74593c8509e24398998a42d78a910462": {
+      "name": "ROM Flash Universal Firmware Package - HPE Apollo 6500 Gen10 Plus/HPE ProLiant XL675d Gen10 Plus (A47) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "8e8fd25144334177930f2db95d492320": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VK000480GWTHA, VK000960GWTHB, VK001920GWTHC and VK003840GWTHD Drives",
+      "version": "HPG5"
+    },
+    "bba1d0334a5f4b5fbc1a282af5290868": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB006000JYDNF, MB008000JYDPC and MB010000JYDNH Drives",
+      "version": "HPD5"
+    },
+    "1e10e20d274448bb9d2d1625880b482d": {
+      "name": "HPE QLogic NX2 Online Firmware Upgrade Utility for Windows Server x64 Editions",
+      "version": "5.3.9.0"
+    },
+    "9c9f3096a89f4cc7b4a9b97b01822036": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MK000480GZXRA, MK000960GZXRB, MK001920GZXRC and MK003840GZXRV Drives",
+      "version": "HPG1"
+    },
+    "c5274a8d3e3e40d790c226da85bd84aa": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - VK000240GWTSV, VK000480GWTTA, VK000960GWTTB, VK001920GWTTC, VK003840GWTTD, MK000480GWTTH, MK000960GWTTK, MK001920GWTTL and MK003840GWTTN Drives",
+      "version": "HPG7"
+    },
+    "98e23edaa7ef4fdeb2cf62fce8396e6a": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB002000JYDNE and MB004000JYDPB Drives",
+      "version": "HPD6"
+    },
+    "a529a1b0d8b0405f80457239f0d32b29": {
+      "name": "HPE Broadcom NetXtreme-E Drivers for Red Hat Enterprise Linux 10",
+      "version": "1.10.3-237.1.137.0"
+    },
+    "d3fcc87b38304a8db3d98d71c7c32227": {
+      "name": "net-mst kernel module driver component for VMware ESXi 8.0 Update 3",
+      "version": "2025.03.17"
+    },
+    "e387ceb63f224ab6a638f85cac2fa1d9": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB008000GWRTC Drive",
+      "version": "HPG1"
+    },
+    "5f4b3c5f1985447a820cdfec1e7b0bb1": {
+      "name": "HPE Intel ixs Driver for Windows Server 2025",
+      "version": "4.2.7.0"
+    },
+    "f201f1f45a1041f9819da1901ffe255f": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant DL365/DL385/DL385 v2 Gen10 Plus (A42) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "ae4ca58542c143b088e01d17c537b7ac": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - MB010000JYDKK, MB012000JYCJF, MB014000JYCJV, MB016000JYDKL and MB018000JYDKN Drives",
+      "version": "HPD6"
+    },
+    "eea0fcde2dfe4c0ebeb9ed47ea130474": {
+      "name": "HPE Intel i40en Driver for VMware vSphere 8.0",
+      "version": "2025.11.00"
+    },
+    "9c8cb2fad4c14cc880a30a5cd84639ec": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MO000800JXBEV, MO001600JXBFP, MO003200JXBFQ, MO006400JXBFR, MO000960JXBFA, MO001920JXBFT, MO003840JXBFU, MO007680JXBGA, MO015360JXBFV, EO000400JXBEU, EO000800JXBFL and EO001600JXBFN Drives",
+      "version": "HPD2"
+    },
+    "0134d053d49b43b1add04e5a51f6ff18": {
+      "name": "Intel Firmware Package For E810-XXVDA2 Ethernet 10/25Gb 2-port SFP28 Adapter",
+      "version": "4.91"
+    },
+    "8adb99f8960b4849ba6664217211b8d2": {
+      "name": "Online NVMe SSD Flash Component for Linux (x64) - VO002000KWVVC, VO004000KWVUR, MO001600KWVUU, MO003200KWVUV and MO006400KWVVA Drives",
+      "version": "4ICRHPK3"
+    },
+    "25c9026167b24747b0b74c8f6d82b804": {
+      "name": "Online NVMe SSD Flash Component for Ubuntu Linux (x64) - MK000800KWWFE, MK001600KWWFF, MK003200KWWFH, MK006400KWWFK, VK000960KWWFL, VK001920KWWFN, VK003840KWWFP and VK007680KWWFQ Drives",
+      "version": "HPK4"
+    },
+    "ae57ff279aab4e628b9d7923b0985d81": {
+      "name": "Universal Firmware Package for Drives - MB24000JYEVE",
+      "version": "HPD3"
+    },
+    "33781bff76c64d7d8936b1b315554ab8": {
+      "name": "HPE Broadcom NetXtreme-E RoCE Library for Red Hat Enterprise Linux 9 Update 7.",
+      "version": "237.1.137.0"
+    },
+    "80ea6cb0c7d14159a1a37d37866e5b0c": {
+      "name": "Broadcom Firmware Package for BCM57412 OCP3 adapter",
+      "version": "237.1.148.0"
+    },
+    "8c2329b4625b415f9c19a0c86db985e1": {
+      "name": "iLO 5 Automatic Server Recovery Driver for Microsoft Windows Server 2022",
+      "version": "4.7.1.0"
+    },
+    "d1880357890d41959529b109e2a869e4": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB016000JXLBA and MB018000JXLAU Drives",
+      "version": "HPD3"
+    },
+    "ffbc55840f92498790e9569c6abb14d8": {
+      "name": "Online NVMe SSD Flash Component for Windows (x64) - KCM6XVUL800G, KCM6XVUL1T60, KCM6XVUL3T20, KCM6XVUL6T40, KCM6XRUL960G, KCM6XRUL1T92, KCM6XRUL3T84 and KCM6XRUL7T68 Drives",
+      "version": "GPK8"
+    },
+    "79949863b3a5452487d1035ae487743e": {
+      "name": "Universal Firmware Package for Drives -  MB12000GYESP, MB16000GYEVF and MB20000GYEVH",
+      "version": "HPG3"
+    },
+    "7a201554eb654a4fa5bf0b9e23666148": {
+      "name": "Broadcom Firmware Package for BCM57416 OCP3 adapter",
+      "version": "237.1.148.0"
+    },
+    "ffc5db5b28504df99cd08b4bf08ccc7d": {
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE Gen10 Servers",
+      "version": "04.01.05.201"
+    },
+    "5c10ef42611f4cada08e038ec64fbce6": {
+      "name": "Marvell FastLinQ Firmware Package for Arrowhead adapters",
+      "version": "8.65.21"
+    },
+    "5413adceb7d241de900274e399d9c777": {
+      "name": "Intel i350 Driver for Windows Server 2019",
+      "version": "14.0.7.0"
+    },
+    "bafc8d47aead420a9621e8d49861aa9b": {
+      "name": "ROM Flash Universal Firmware Package - HPE ProLiant DL325/DL325 v2/DL345 Gen10 Plus (A43) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "02754226ca24415fbdc877dfe47af242": {
+      "name": "Online ROM Flash Component for Linux (x64) - HPE Smart Array P408i-p, P408e-p, P408i-a, E208i-p, E208e-p, E208i-a, P816i-a SR Gen10  controllers",
+      "version": "8.23"
+    },
+    "0c95f7c054f047b69fbfe7c93264a982": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB008000JWJRQ and MB006000JWJRP Drives",
+      "version": "HPD9"
+    },
+    "d1422347af3f4f888596c242a7fdb7a6": {
+      "name": "HPE QLogic Fibre Channel Enablement Kit for Host Bus Adapter for Linux",
+      "version": "6.0.0.1-4"
+    },
+    "ccd2fccdbff94b0ab75d085d46522784": {
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Linux (x64)",
+      "version": "2026.06.01"
+    },
+    "b8bfd68496a643cdaece510776fb4ad2": {
+      "name": "Broadcom NetXtreme-E Driver for Microsoft Windows Server 2022",
+      "version": "237.1.124.0"
+    },
+    "990fcc25e986467fbdc6e3aae2e41a2c": {
+      "name": "Online NVMe SSD Flash Component for Linux (x64) - KCM6XVUL800G, KCM6XVUL1T60, KCM6XVUL3T20, KCM6XVUL6T40, KCM6XRUL960G, KCM6XRUL1T92, KCM6XRUL3T84 and KCM6XRUL7T68 Drives",
+      "version": "GPK8"
+    },
+    "e4d8aaf26a80450db4749aeac2c8ee06": {
+      "name": "HPE Broadcom NetXtreme-E Drivers for SUSE Linux Enterprise Server 16",
+      "version": "1.10.3-237.1.137.0"
+    },
+    "6792e601e784404b8b27e1297a68223e": {
+      "name": "Universal Firmware Package for Drives - MK000480GXNXB, MK000960GXNZK, MK001920GXNZL, MK003840GXNZN, VK000240GXNWU, VK000480GXNZA, VK000960GXNZB, VK001920GXNZC, VK003840GXNZD, VK007680GXNZE, VK000480SXNWV, VK001920SXNZF, MK000960SXNXC and MK001920SXNZP",
+      "version": "HPG1"
+    },
+    "0c319cd0bae843d891d1e9696a4b873b": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VK007680GWSXN Drive",
+      "version": "HPG4"
+    },
+    "8ec761f6af0748368439ffd510490ba3": {
+      "name": "Online ROM Flash Component for Windows x64 -  HPE Edgeline Chassis Controller Firmware",
+      "version": "2.1.0"
+    },
+    "c3e42591dc7346b48d6b9ae18a9810a3": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE Apollo 4200 Gen10 Plus/HPE ProLiant XL420 Gen10 Plus (U50) Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "6a847a9d6bca429f84558286ffec6636": {
+      "name": "Online ROM Flash Component for Ubuntu \u2013 HPE Apollo 2000 Gen10 Plus Backplane Expander FW",
+      "version": "1.27"
+    },
+    "8a01a8f2913f46979fa6206b3faeb0eb": {
+      "name": "Online NVMe SSD Flash Component for Windows (x64) - MZXLR800HBHQ-000H3, MZXLR1T6HBJR-000H3, MZXLR3T2HBLS-000H3, MZXLR6T4HALA-000H3, MZXLR12THALA-000H3, MZXLR960HBHQ-000H3, MZXLR1T9HBJR-000H3, MZXLR3T8HBLS-000H3, MZXLR7T6HALA-000H3 and MZXLR15THALA-0 Drives",
+      "version": "MPK7825Q"
+    },
+    "15698eb1529646ec8ffe029388a40fea": {
+      "name": "Intel ice Drivers for SUSE Linux Enterprise Server 16",
+      "version": "2.4.5-1"
+    },
+    "97b8f64d84c04c1a9c4048cae29b4037": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB016000JXLBA and MB018000JXLAU Drives",
+      "version": "HPD3"
+    },
+    "263869a9bde4406ca10c065a64fecfad": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64)  - MB018000GXMTK and MB020000GXMTQ Drives",
+      "version": "HPG3"
+    },
+    "bf6c1988a6474823969dd84808070288": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE Apollo 4510 Gen10/HPE ProLiant XL450 Gen10 (U40) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "8bf9eb4134cf48c2a7da72633124722f": {
+      "name": "HPE Intel i40eb Driver for Windows Server 2025",
+      "version": "1.24.41.0"
+    },
+    "cf3d0ea161014094b2ae4ebd26456a93": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MK000480GZXRA, MK000960GZXRB, MK001920GZXRC and MK003840GZXRV Drives",
+      "version": "HPG1"
+    },
+    "bce1dc60182942cc938b19de857de7fd": {
+      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
+      "version": "5.04"
+    },
+    "c549eb5726da4e0ab54cbcdd6abecebd": {
+      "name": "HPE Broadcom NetXtreme-E Drivers for Red Hat Enterprise Linux 9",
+      "version": "1.10.3-237.1.137.0"
+    },
+    "a162b7594d8d4a02bf2f3f7d9fe2609d": {
+      "name": "HPE Intel igb Drivers for SUSE Linux Enterprise Server 15",
+      "version": "6.19.10-1"
+    },
+    "213beba0c6a2454792ef817e13082a5c": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB004000GWKGV Drive",
+      "version": "HPG1"
+    },
+    "b0391b3a14de43ee99f90e7fe9de4040": {
+      "name": "ROM Flash Firmware Package - HPE DL110 Gen10 Plus Telco (U56) Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "eee95c8d7c02483cb27d5ddd5b263338": {
+      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for SUSE Linux Enterprise Server 16 SP0 (AMD64/EM64T)",
+      "version": "4.36"
+    },
+    "e1df01bf9927457096858061671e6c6b": {
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for VMware vSphere  9.0",
+      "version": "2026.06.01"
+    },
+    "d4a139dbc9ee4b60b96431e28f7daab7": {
+      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for Red Hat Enterprise Linux 9 Update 7 (x86_64)",
+      "version": "4.36"
+    },
+    "c101b138be5d4ee79271a6725d6813d4": {
+      "name": "Online NVMe SSD Flash Component for VMware ESXi - KCM6XVUL800G, KCM6XVUL1T60, KCM6XVUL3T20, KCM6XVUL6T40, KCM6XRUL960G, KCM6XRUL1T92, KCM6XRUL3T84 and KCM6XRUL7T68 Drives",
+      "version": "GPK8"
+    },
+    "41b320ad66f042c0996f23c6087a171e": {
+      "name": "Broadcom Firmware Package for BCM57412 adapter",
+      "version": "237.1.148.0"
+    },
+    "66cb80b1d5d040ff8edbcf313b0e2f9d": {
+      "name": "Universal Firmware Package for Drives - MB004000JWZVU",
+      "version": "HPD3"
+    },
+    "7dbb2b9a498c4df1a461e7b3079cc8f5": {
+      "name": "HPE Broadcom NetXtreme-E Online Firmware Upgrade Utility for Linux x86_64",
+      "version": "1.26.0"
+    },
+    "85a59acb7d634eb691745a6c9906ad03": {
+      "name": "Smart Storage Administrator (SSA) CLI Smart Component for ESXi 9.0 for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "2026.07.01"
+    },
+    "094c75ee866a4b1bb6f0e035ac316695": {
+      "name": "iLO 5 Channel Interface Driver for Microsoft Windows Server 2022",
+      "version": "4.7.1.0"
+    },
+    "5e76fbf672b8432aa6436d748dacb463": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB008000JWJRQ and MB006000JWJRP  Drives",
+      "version": "HPD9"
+    },
+    "14652a1a392747089da4a4254064ac9d": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant DL325 Gen10 (A41) Servers",
+      "version": "3.80_05-28-2026"
+    },
+    "c9a566daebdb4bd4a0f22d28877b9f3b": {
+      "name": "HPE QLogic NX2 10/20 GbE Multifunction Driver for VMware vSphere 9.0",
+      "version": "2025.03.00"
+    },
+    "703e98acf33d484a9d2825573e86e8c0": {
+      "name": "ROM Flash Firmware Package - HPE Apollo 2000 Gen10/HPE ProLiant XL170r/XL190r Gen10 (U38) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "95cd675c9c4947eda03bc921bfff84c3": {
+      "name": "Universal Firmware Package for Drives - MB006000GWZVL and MB008000GWZVN",
+      "version": "HPG3"
+    },
+    "7be91d25e6cd4a81ae4d61a4439a88bc": {
+      "name": "Online ROM Flash for Linux - HPE Edgeline Chassis Controller Firmware",
+      "version": "2.1.0"
+    },
+    "d0558c4ca40d4c1889688fd366d72022": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MO000800JXBEV, MO001600JXBFP, MO003200JXBFQ, MO006400JXBFR, MO000960JXBFA, MO001920JXBFT, MO003840JXBFU, MO007680JXBGA, MO015360JXBFV, EO000400JXBEU, EO000800JXBFL and EO001600JXBFN Drives",
+      "version": "HPD2"
+    },
+    "1aa231a863f54088aaed47c33f55bded": {
+      "name": "HPE QLogic FastLinQ 10/25/50 GbE Drivers for Red Hat Enterprise Linux 9",
+      "version": "8.76.3.0-5"
+    },
+    "e79fad26938d4b788f99ac1b9d5aa529": {
+      "name": "Online ROM Flash Component for Windows (x64) - HPE Apollo 2000 Gen10 Plus Backplane Expander FW",
+      "version": "1.27"
+    },
+    "3f71b29f23c14fcb8f1f4cc9ac53400c": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB008000JWRTD Drive",
+      "version": "HPD2"
+    },
+    "923bb6bba3254a6d80257c1bf056f39d": {
+      "name": "Firmware Package - UBM6 Backplane PIC PLDM Firmware for Gen10/Gen10P/Gen11/Gen12 servers usage",
+      "version": "1.06"
+    },
+    "eacabd6c758c41759c1c132130d3f614": {
+      "name": "Online NVMe SSD Flash Component for VMware ESXi - VO000960KXAVL, VO001920KXAVP, VO003840KXAVQ, VO007680KXAVR, MO000800KXAVN, MO001600KXAVT, MO003200KXAVU and MO006400KXAVV Drives",
+      "version": "HPK5"
+    },
+    "8783f0c30a1545f88feb3a27a7839584": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB008000JWRTD Drive",
+      "version": "HPD2"
+    },
+    "5371b499023847d7b4f19c6fa659705b": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VK000240GWJPD, VK000480GWJPE, VK000960GWJPF, VK001920GWJPH, VK003840GWJPK, MK000240GWKVK, MK000480GWJPN, MK000960GWJPP and MK001920GWJPQ Drives",
+      "version": "HPG5"
+    },
+    "43699ba116594728bcf30612b7c6f5f5": {
+      "name": "Broadcom Firmware Package for BCM57504 Ethernet 10/25Gb 4-port SFP28 Adapter",
+      "version": "237.1.148.0"
+    },
+    "5525dd3ac4024adeb1f8ec72b9fd1236": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - EG001800JWJNL and EG002400JWJNN Drives",
+      "version": "HPD6"
+    },
+    "0b5ea35199d249309413cdf1ab404c23": {
+      "name": "Intel Online Firmware Upgrade Utility for Windows Server x64 Editions",
+      "version": "5.4.7.0"
+    },
+    "28da662386ba44b29fd0f050194b057e": {
+      "name": "Online ROM Flash Component for Ubuntu \u2013 HPE Apollo 4200 Gen10 Plus Backplane Expander Firmware",
+      "version": "0.39"
+    },
+    "2ed4fb56e81f45b0b8ae601a61b78e6c": {
+      "name": "HPE Broadcom NetXtreme-E Drivers for SUSE Linux Enterprise Server 15",
+      "version": "1.10.3-237.1.137.0"
+    },
+    "5d8c4ca5e9ce4b8ab296e754f4544502": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB002000JYDNE and MB004000JYDPB Drives",
+      "version": "HPD6"
+    },
+    "b61013381e514e74835819b0f29c6165": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB012000JZYVN, MB014000JZYVP, MB016000JZYVQ and MB018000JYCLK Drives",
+      "version": "HPD6"
+    },
+    "a407dd0c97da4a93aefdbd107b2f75e2": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - EG001800JWJNL and EG002400JWJNN Drives",
+      "version": "HPD6"
+    },
+    "58e30c6460374d34ab64c2a8547dafe2": {
+      "name": "Intel Firmware Package For E810-2CQDA2 Ethernet 100Gb 2-port QSFP28 Adapter",
+      "version": "4.91"
+    },
+    "2232e2b621a84f55a544f2a4ed765213": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MK000480GZXRA, MK000960GZXRB, MK001920GZXRC and MK003840GZXRV Drives.",
+      "version": "HPG1"
+    },
+    "90a21d24fe854b07a035a8e7bf0e3602": {
+      "name": "Universal Firmware Package for Drives -  MO000800KYDZK, MO001600KYDZR, MO003200KYDZT, MO006400KYDZU, VO000960KYDZH, VO001920KYDZL, VO003840KYDZN, VO001536KYDZQ and VO007680KYDZP",
+      "version": "HPK6"
+    },
+    "1860b8cf54d04500a5555e0fcde5c087": {
+      "name": "HPE Broadcom NetXtreme-E Online Firmware Upgrade Utility for deb Linux x86_64",
+      "version": "1.26.0"
+    },
+    "b75caf763a204707bef1840fcde5be6a": {
+      "name": "Switchtec PCIe Switch Management Driver for Microsoft Windows Server 2022",
+      "version": "1.0.0.0"
+    },
+    "1655bc494b334729864d929c38544849": {
+      "name": "Online ROM Flash Component for VMware ESXi - HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
+      "version": "5.15"
+    },
+    "51c52bf006bd4c60b09797563ff886bf": {
+      "name": "Smart Storage Administrator (SSA) CLI for Linux 64-bit for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "6.65.9.0"
+    },
+    "4b83f1a7716845c5a3d89ea69bd8a6a7": {
+      "name": "Supplemental Update / Online ROM Flash Component for Ubuntu \u2013 HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
+      "version": "5.15"
+    },
+    "6510bb61b44e4df589649e5642d32bf1": {
+      "name": "Intel i40ea Driver for Windows Server 2019",
+      "version": "1.24.42.0"
+    },
+    "36877a0ed97d40a29cfe6cb469a6e72f": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL360 Gen10 (U32) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "865064fe88324b7ea65c940d300f10de": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - MB018000JXMTH and MB020000JXMTP Drives",
+      "version": "HPD3"
+    },
+    "eaadba373a2b4b7ab82c00e6e1f55628": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB014000GWUDA Drive",
+      "version": "HPG3"
+    },
+    "d73c44da5aed426592ada6ada4199d0d": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VK003840GWSXL Drive",
+      "version": "HPG4"
+    },
+    "2a95310f5de64c9fad6c33cfacf5d307": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VK000480GZCNE, VK000960GZCNF, VK001920GZCNH and VK003840GZCNK  Drives",
+      "version": "HPG3"
+    },
+    "79ba405b8c19425aa9a14902b672b652": {
+      "name": "HPE Intel Online Firmware Upgrade Utility VMware for HPE ProLiant Gen9 and Gen10 server series Only.",
+      "version": "3.30.0"
+    },
+    "7cb9f47fb1de402da9399ef94a8426a5": {
+      "name": "Universal Firmware Package for Drives -  MB006000JWZVQ and MB008000JWZVR",
+      "version": "HPD3"
+    },
+    "9141b4ee76c74b70a4eb2f021bfa217f": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VO000960JWTBK, VO001920JWTBL, VO003840JWTBN, VO007680JWTBP, MO000400JWTBQ, MO000800JWTBR, MO001600JWTBT, MO003200JWTBU, MO006400JWTCD, EO000400JWTBV, EO000800JWTCA and EO001600JWTCB Drives",
+      "version": "HPDB"
+    },
+    "134da74460bf4b5aa8511e630ba5a272": {
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware  for HPE MicroServer Gen10 Plus",
+      "version": "05.01.05.103"
+    },
+    "5f09aeda85cb45139823fad0b151d05f": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - EH000900JWHPP, EH000600JWHPN and EH000300JWHPL Drives",
+      "version": "HPD9"
+    },
+    "29921b6ba8e14e7cbeb3829f2308a0f5": {
+      "name": "Firmware Package - HPE SR932i-p Gen10 Plus /SR416i-a Gen10 Plus/SR932i-p Gen11/SR416ie-m Gen11 Controllers",
+      "version": "03.01.47.052"
+    },
+    "cf36f8009ed4464f93a208bf9c35b47b": {
+      "name": "SuSE Linux Enterprise Server 15 Service Pack 6 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
+      "version": "14.4.731.20"
+    },
+    "b00b4afad66b4dd386d098e91550601d": {
+      "name": "HPE Broadcom NetXtreme-E RoCE Library for SUSE Linux Enterprise Server 15 SP6",
+      "version": "237.1.137.0"
+    },
+    "5410a19b6b464f26bd8935266bc1120d": {
+      "name": "ROM Flash Firmware Package - HPE Apollo 4200 Gen10/HPE ProLiant XL420 Gen10 (U39) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "96853662d13b4def814a5c153a747271": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB004000JWKGU Drive",
+      "version": "HPD2"
+    },
+    "596340d3247946aaa109faeb065a7eab": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB008000JWRTD Drive",
+      "version": "HPD2"
+    },
+    "ed78d2df04834204b8977e0aaa96c64a": {
+      "name": "HPE Intel i40eb Driver for Windows Server 2019",
+      "version": "1.24.41.0"
+    },
+    "88920b6128524213bc79e665d9b3a53b": {
+      "name": "HPE QLogic NX2 10/20 GbE Multifunction Drivers for Windows Server x64 Editions",
+      "version": "7.13.221.0"
+    },
+    "10b8cebc40fb4b69b234ff81bd7e1d1f": {
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant DL20 Gen10 Plus",
+      "version": "06.00.03.708"
+    },
+    "36ccc302b9a748a8a9762bf721813e29": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB014000GWUDA Drive",
+      "version": "HPG3"
+    },
+    "eafab624995d485096ba1119b617b464": {
+      "name": "HPE QLogic NX2 10/20 GbE Multifunction Drivers for SUSE Linux Enterprise Server 15",
+      "version": "7.15.25-10"
+    },
+    "9f1ff08535434ba0ad3d9924079f9908": {
+      "name": "Universal Firmware Package for Drives - MO001600YXUJB, MO003200YXUJC, MO006400YXUJD, VO001920YXUHU, VO003840YXUHV and VO007680YXUJA",
+      "version": "HPK4"
+    },
+    "93312d51d8f7459ba48a2a8cbf6722a2": {
+      "name": "Smart Storage Administrator (SSA) CLI Smart Component for ESXi 8.0 for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "2026.07.01"
+    },
+    "f61d4171b71b4f16a99210ceeba911f6": {
+      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
+      "version": "6.00"
+    },
+    "3e44af8bcf3140b3bef280f7e913e5b4": {
+      "name": "Universal Firmware Package for Drives - MO000800KXUJT, MO001600KXUJU, MO003200KXUJV, MO006400KXUKA, VO000960KXUJN, VO001920KXUJP, VO003840KXUJQ, VO007680KXUJR and VO015360KYGZQ",
+      "version": "HPK3"
+    },
+    "19d0fae1d2d44133a57fe6d71c8af4b7": {
+      "name": "Online NVMe SSD Flash Component for Linux (x64) - VO001920KYDMT, VO003840KYDMV, MO001600KYDMU, MO003200KYDNC, MO006400KYDND, VO007680KYDNA and VO015360KYDNB Drives",
+      "version": "HPK6"
+    },
+    "fc28c0050f9d4a8a94e83f990b230b39": {
+      "name": "Online NVMe SSD Flash Component for VMware ESXi - VS000480KXALB, VS000960KWXFN, VS001920KWXFP and VS003840KWXFQ Drives",
+      "version": "85032G00"
+    },
+    "283d84a861d348648dca86da7b4218bd": {
+      "name": "Intel i40ea Driver for Windows Server 2022",
+      "version": "1.24.41.0"
+    },
+    "dc41774861a945f28d388059e656b2ca": {
+      "name": "Intel Firmware Package For E810-CQDA2 Ethernet 100Gb 2-port QSFP28 OCP3 Adapter",
+      "version": "4.91"
+    },
+    "ae8b95207bc948489c851dd62c16f373": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - EO000400JWDKP, EO000800JWDKQ, EO001600JWDKR, MO000400JWDKU, MO000800JWDKV, MO001600JWDLA and MO003200JWDLB Drives",
+      "version": "HPD3"
+    },
+    "b5747db463a34c8c8ef853b408ae6b5c": {
+      "name": "HPE Intel E1R Driver for Windows Server 2022",
+      "version": "14.0.13.0"
+    },
+    "862d36dd920c478ca6dcfdb5f392893a": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB008000GWWQU and MB006000GWWQT Drives",
+      "version": "HPG8"
+    },
+    "39cff1d9c55641a8a5495e9c755fc456": {
+      "name": "Universal Firmware Package for Drives - MO001600PZWSH, MO003200PZWSK, MO000800PZWSF and MO006400PZXFA",
+      "version": "HPD4"
+    },
+    "1fab72b09ffc46b88aa5f81c9be3d475": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - VK000480GWTHA, VK000960GWTHB, VK001920GWTHC and VK003840GWTHD Drives",
+      "version": "HPG5"
+    },
+    "896b673e61904db68a62db4c589536af": {
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE ProLiant ML30 Gen10 Plus Servers",
+      "version": "06.00.03.708"
+    },
+    "459b31cbafbe408eaf0a96421248c984": {
+      "name": "Online NVMe SSD Flash Component for Windows (x64) - MZXL5800HBHQ-000H3, MZXL51T6HBJR-000H3, MZXL53T2HBLS-000H3, MZXL56T4HALA-000H3, MZXL512THALA-000H3, MZXL5960HBHQ-000H3, MZXL51T9HBJR-000H3, MZXL53T8HBLS-000H3, MZXL57T6HALA-000H3 and MZXL515THALA-0 Drives",
+      "version": "MPK78H5Q"
+    },
+    "fcd35b42a2c44c87b93ab943ca8d2f70": {
+      "name": "HPE QLogic FastLinQ 10/25/50 GbE Drivers for Red Hat Enterprise Linux 10",
+      "version": "8.76.3.0-5"
+    },
+    "1d44852ea69b4bbc91ed4be4d1a7792a": {
+      "name": "Online NVMe SSD Flash Component for Ubuntu Linux (x64) - KCD6XVUL800G, KCD6XVUL1T60, KCD6XVUL3T20, KCD6XVUL6T40, KCD6XVUL12T8, KCD6XLUL960G, KCD6XLUL1T92, KCD6XLUL3T84, KCD6XLUL7T68 and KCD6XLUL15T3 Drives",
+      "version": "GPK8"
+    },
+    "36f6995b3d78461cb08bfc4c75a416f6": {
+      "name": "HPE Broadcom NetXtreme-E RoCE Library for SUSE Linux Enterprise Server 16 SP0",
+      "version": "237.1.137.0"
+    },
+    "cdfe3840d6074900a4d11b774d3e5307": {
+      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on Windows x86_64 platform",
+      "version": "1.0.0.19"
+    },
+    "17cb0fd9f2dc47bb8aba197c6f346c61": {
+      "name": "HPE Edgeline 661SFP28 NIC Firmware Pack for Linux",
+      "version": "9.20"
+    },
+    "dab6093d4d7545e892501476a1f6d448": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MO000400JWUFT, MO000800JWUFU, MO001600JWUFV, MO003200JWUGA, MO006400JWUGB, EO000400JWUGC, EO000800JWUGD and EO001600JWUGE Drives",
+      "version": "HPD4"
+    },
+    "7ead0459ae26493fa240dac6ad17d606": {
+      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for Mellanox Open Ethernet cards",
+      "version": "1.0.8"
+    },
+    "f2d480bbb5d747efac90df2828bbca07": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - VK003840GWSXL Drive",
+      "version": "HPG4"
+    },
+    "6559625804344daab70667e2f1b0b044": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB004000JWWQB and MB002000JWWQA Drives",
+      "version": "HPD8"
+    },
+    "41b0e237fef743bfa73e14fb19e3c9ff": {
+      "name": "HPE Broadcom NetXtreme-E Driver for Windows Server 2025",
+      "version": "237.1.124.0"
+    },
+    "87b9a1c22150406cbf61d6b300753282": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB006000GWJRR and MB008000GWJRT Drives",
+      "version": "HPG6"
+    },
+    "e774fea9b642407a9f2687df296d352e": {
+      "name": "HPE Intel iavf Driver for Windows Server 2019",
+      "version": "1.18.162.0"
+    },
+    "d6cef3e7c9484a989ca5a04fc11b29f2": {
+      "name": "Online ROM Flash for Linux - Advanced Power Capping Microcontroller Firmware for HPE Gen10, Gen10 Plus, and ML30 Gen11 Servers",
+      "version": "1.1.4"
+    },
+    "d04d5f721c2f4e7798db0b91a4b31687": {
+      "name": "Online ROM Flash Component for Linux - HPE DL110 Gen10 Plus Telco (U56) Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "3af72b6238454de589e484681033279c": {
+      "name": "Mellanox Firmware Package (FWPKG) for  HPE Edgeline e920 ConnectX-6Lx 10Gb 2-port Mezzanine Adapter :  HPE part number P40899-B21",
+      "version": "26.43.1014"
+    },
+    "b6cb1e645c374b3e92e6a0688121990e": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - EG000300JWSJP, EG000600JWJNH and EG001200JWJNK Drives",
+      "version": "HPD6"
+    },
+    "e90f7f429e824a139d97e1af559547fa": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE Edgeline e920, e920d and e920t CTO Blade Server (H10)",
+      "version": "2.64_04-01-2026"
+    },
+    "c91a34b258694c1696514c7b51041b33": {
+      "name": "ROM Flash Universal Firmware Package - HPE Apollo 6500 Gen10 Plus/HPE ProLiant XL645d Gen10 Plus (A48) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "641caff481b246c3bc5c2cd37f1fb425": {
+      "name": "HPE Intel igb Drivers for SUSE Linux Enterprise Server 16",
+      "version": "5.19.10-1"
+    },
+    "799e6d2dd6574724a67dc3ea392d2873": {
+      "name": "Supplemental Update / Online ROM Flash Component for Linux (x64) \u2013 HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
+      "version": "5.15"
+    },
+    "7726a9100f9d46aeb7672151b0d319ea": {
+      "name": "HPE Edgeline i210 NIC Firmware Component for Microsoft Windows",
+      "version": "1.2877"
+    },
+    "03c87662bb3a4a57a852807a8f77de3f": {
+      "name": "Online ROM Flash for Linux - HPE Gen10 Plus Innovation Engine Firmware for HPE Gen10 Plus Servers",
+      "version": "1.0.0.22"
+    },
+    "8a5f6b85a2a94dc58e5d42c516c7060a": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB016000JWXKH Drive",
+      "version": "HPDC"
+    },
+    "575b91de95af482eb3a08ed94402e2c3": {
+      "name": "Universal Firmware Package for Drives - MB24000GYEVK",
+      "version": "HPG3"
+    },
+    "f4d3c3f0b12d4c1da09c3d11188e06cf": {
+      "name": "Online NVMe SSD Flash Component for Linux (x64) - VS000480KXALB, VS003840KWXFQ, VS001920KWXFP and VS000960KWXFN  Drives",
+      "version": "85032G00"
+    },
+    "dac1034844fb4856950db71b5b2c959d": {
+      "name": "HPE Intel i40ea Driver for Windows Server 2019",
+      "version": "1.24.42.0"
+    },
+    "17b00802f88a41f591cee6102caaf9d2": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - EG001800JWJNR, EG002400JWJNT, EG001800JXLWB, EG002400JXLWC and EG002400MXJQT Drives",
+      "version": "HPDB"
+    },
+    "a5b53b4bfa36450dafe72d3912e27c73": {
+      "name": "Intel ice Drivers for Red Hat Enterprise Linux 9",
+      "version": "2.4.5-1"
+    },
+    "7e6f42aebfdb4390968da43b36518880": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - EH000900JWHPK and EH000600JWHPH  Drives",
+      "version": "HPD9"
+    },
+    "8f24173ef2e740d2b110bb710e861366": {
+      "name": "HPE MegaRAID Storage Administrator for RHEL9 ,SLES15 and SLES16 (HPE MRSA for MR Controllers)",
+      "version": "8.16.13.0"
+    },
+    "1f3d9896fbab4dc5aed295b2183323a0": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL360/DL380 Gen10 Plus (U46) Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "4efc4b5fce384054939496405bc41d6b": {
+      "name": "Online NVMe SSD Flash Component for Microsoft Windows - KXG50PNV2T04 Drives",
+      "version": "AFGA4103"
+    },
+    "e9e7d66071a042078eec11daa5bcf114": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - EH000300JWCPK, EH000600JWCPL, EH000900JWCPN, EH000300JXLVR, EH000600JXLVT and EH000900JXLVU Drives",
+      "version": "HPDB"
+    },
+    "421cc08cc7bc4143866089180c719d3f": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB012000JWDFD Drive",
+      "version": "HPD5"
+    },
+    "6f10e85c0a8e4d0f99dcb8584f535fd3": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - EH000900JWHPP, EH000600JWHPN and EH000300JWHPL Drives",
+      "version": "HPD9"
+    },
+    "7004592a3bf74fab99a6fe756662ebbc": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - VO000960JWTBK, VO001920JWTBL, VO003840JWTBN, VO007680JWTBP, MO000400JWTBQ, MO000800JWTBR, MO001600JWTBT, MO003200JWTBU, MO006400JWTCD, EO000400JWTBV, EO000800JWTCA, EO001600JWTCB  Drives",
+      "version": "HPDB"
+    },
+    "c1dd5be659f944a486917246089b40e7": {
+      "name": "HPE Edgeline i210 NIC Firmware Component for Linux",
+      "version": "1.2877"
+    },
+    "c4ff2ade728c42bfb931931df173daf9": {
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE Gen10 Servers",
+      "version": "04.01.05.201"
+    },
+    "5ccf2d3c6d81402baa3db964a93e8c96": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB014000GWRTN, MB012000GWRTL and MB010000GWRTK Drives",
+      "version": "HPG2"
+    },
+    "7a409aa1e5444a57b8b10f884c98ae5f": {
+      "name": "HPE Intel vxn Driver for Windows Server 2019",
+      "version": "2.1.252.0"
+    },
+    "3013cefa4fe14260a6f6811796f9b1c0": {
+      "name": "HPE MegaRAID Storage Administrator for RHEL10 (HPE MRSA for MR Controllers)",
+      "version": "8.16.13.0"
+    },
+    "6a808075e9fa4bc19e7d11fd17511784": {
+      "name": "Online NVMe SSD Flash Component for VMware ESXi - MZXL5800HBHQ-000H3, MZXL51T6HBJR-000H3, MZXL53T2HBLS-000H3, MZXL56T4HALA-000H3, MZXL512THALA-000H3, MZXL5960HBHQ-000H3, MZXL51T9HBJR-000H3, MZXL53T8HBLS-000H3, MZXL57T6HALA-000H3 and MZXL515THALA-00H3 Drive",
+      "version": "MPK78H5Q"
+    },
+    "d217387da75b452f91f63bc9a4605e37": {
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 Emulex Storport Driver for Microsoft Windows Server 2019",
+      "version": "14.4.624.0"
+    },
+    "02e2779ea258441c8ba6426a8772f536": {
+      "name": "Red Hat Enterprise Linux 9 Server Update 8 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
+      "version": "14.4.731.20"
+    },
+    "7a882d320d3b437c96a87679f2b6ee8f": {
+      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters for VMware vSphere 9.0 and vSphere 9.1",
+      "version": "2026.06.02"
+    },
+    "d780ef43938c40d3a6628583fe2200f7": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB016000GWXKK Drive",
+      "version": "HPG5"
+    },
+    "4eb73551b4784537817e4ada8a1d49b5": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant DL360/DL380 Gen10 Plus (U46) Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "e01aaedc1c6c4e4090054a22e89562d4": {
+      "name": "HPE iLO Driver Bundle Smart Component for ESXi 8.0 and ESXi 9.0",
+      "version": "2026.03.00"
+    },
+    "365d207e25654d61b3829f731965d204": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - EH000600JWCPF and EH000900JWCPH Drives",
+      "version": "HPDD"
+    },
+    "ff59337dd3ff4f44928eba3219e493a5": {
+      "name": "Universal Firmware Package for Drives -  VK000960KYDPT, VK001920KYDPU, VK003840KYDPV and VK007680KYDQA",
+      "version": "HPK6"
+    },
+    "33179a0f0a644a26bd07818fb3f2db4e": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VK000240GZXRU, VK000480GZXRF, VK000960GZXQU, VK001920GZXQV, VK003840GZXRH and VK007680GZXRT Drives",
+      "version": "HPG1"
+    },
+    "12c818024cd141bdb20ae5471187f1ac": {
+      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
+      "version": "5.04"
+    },
+    "1065be4a2b444fe1b0060c3a91fcbde2": {
+      "name": "HPE Intel ixgbevf Drivers for Red Hat Enterprise Linux 9",
+      "version": "5.2.2-1"
+    },
+    "3d28404b009047cd9c6ade47efd24ca6": {
+      "name": "Broadcom Firmware Package for BCM57504 Ethernet 10/25Gb 4-port SFP28 OCP3 Adapter",
+      "version": "237.1.148.0"
+    },
+    "27053985f2354572a6633cc6a63bb7ef": {
+      "name": "NVIDIA Firmware Package (FWPKG) - Mellanox MCX631432AS-ADAI Ethernet 10/25Gb 2-port SFP28 OCP3 Adapter for HPE",
+      "version": "26.49.1014"
+    },
+    "e951bbca527f4f9f8a089c23c99574fe": {
+      "name": "HPE Intel vxs Driver for Windows Server 2022",
+      "version": "2.3.7.0"
+    },
+    "cd81ec29d7e54f55ab77712a180c1fe2": {
+      "name": "Online NVMe SSD Flash Component for Windows (x64) - KCM6FRUL1T92, KCM6FRUL3T84, KCM6FVUL1T60 and KCM6FVUL3T20 Drives",
+      "version": "GPK6"
+    },
+    "6e357a862ebf4f379b5f531a7eb46680": {
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware  for HPE Gen10 Plus Servers",
+      "version": "04.04.04.925"
+    },
+    "23c569ea92fb47f091a7a0c891acff72": {
+      "name": "NVIDIA Firmware Package (FWPKG) for Mellanox MCX623106AS-CDAT Ethernet 100Gb 2-port QSFP56 Adapter for HPE",
+      "version": "22.49.1014"
+    },
+    "121ced484e6647bf98b3a4bca60530c2": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - VK003840GWSXL  Drive",
+      "version": "HPG4"
+    },
+    "61738b9f52854162bc00b831995dd260": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64)  - EG001800JWJNR, EG002400JWJNT, EG001800JXLWB, EG002400JXLWC and EG002400MXJQT Drives",
+      "version": "HPDB"
+    },
+    "a3ac88993616476a8dcf9b3fac5ea67c": {
+      "name": "HPE Broadcom NetXtreme-E Online Firmware Upgrade Utility for Windows Server x64 Editions",
+      "version": "5.4.7.0"
+    },
+    "f0e80dda550e422981f666fd854cb6f6": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MO000800JXBEV, MO001600JXBFP, MO003200JXBFQ, MO006400JXBFR, MO000960JXBFA, MO001920JXBFT, MO003840JXBFU, MO007680JXBGA, MO015360JXBFV, EO000400JXBEU, EO000800JXBFL and EO001600JXBFN Drives",
+      "version": "HPD2"
+    },
+    "d8c86b5c3ce7444dbebf7bd215bf1a32": {
+      "name": "HPE Intel Online Firmware Upgrade Utility Linux x86_64 for HPE ProLiant Gen9 and Gen10 server series Only.",
+      "version": "1.37.0"
+    },
+    "230d4b31fe374aebb4d538e99b933aee": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB012000GWDFE Drive",
+      "version": "HPG6"
+    },
+    "6b2dbf58581246349103e902007d06c0": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB018000GXMTK and MB020000GXMTQ Drives",
+      "version": "HPG3"
+    },
+    "7af1785af4fd43e38986cbbadda39482": {
+      "name": "Online NVMe SSD Flash Component for Linux (x64) -MZXLR800HBHQ-000H3, MZXLR1T6HBJR-000H3, MZXLR3T2HBLS-000H3, MZXLR6T4HALA-000H3, MZXLR12THALA-000H3, MZXLR960HBHQ-000H3, MZXLR1T9HBJR-000H3, MZXLR3T8HBLS-000H3, MZXLR7T6HALA-000H3 and MZXLR15THALA-000H3 Drive",
+      "version": "MPK7825Q"
+    },
+    "b1381f6ec67b40269898593ac27aca95": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB004000JWWQB and MB002000JWWQA Drives",
+      "version": "HPD8"
+    },
+    "65980a419afd45d6b2067bb6166a4282": {
+      "name": "Online NVMe SSD Flash Component for VMware ESXi  -  VO001920KYDMT, VO003840KYDMV, MO001600KYDMU, MO003200KYDNC, MO006400KYDND, VO007680KYDNA and VO015360KYDNB Drives",
+      "version": "HPK6"
+    },
+    "628a576c95694de3aab72daab877bb47": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - MB010000JWZHA, MB012000JWZHB, MB014000JWZHC and MB016000JWZHE Drives",
+      "version": "HPD4"
+    },
+    "d32e3e2cf68a47998f06cb81ab591bd1": {
+      "name": "Integrated Smart Update Tools for Ubuntu Linux x64",
+      "version": "6.8.0.0"
+    },
+    "3702e2a6624243b4a85fa9ca1f4c0ce2": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE Apollo 6500 Gen10 Plus/HPE ProLiant XL645d Gen10 Plus (A48) Servers",
+      "version": "4.04_04-02-2026"
+    },
+    "d152e4f9638d4a6a962a3424ad625ef5": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant DL325 Gen10 (A41) Servers",
+      "version": "3.80_05-28-2026"
+    },
+    "8cf1ad038d0041138bca0e81fbfc4764": {
+      "name": "HPE Mellanox RoCE Driver [ConnectX-4 Lx and above] for Red Hat Enterprise Linux 9 Update 7 (x86_64)",
+      "version": "26.04"
+    },
+    "eeaaff922a754e178b46a3315fd0a64a": {
+      "name": "Intel Online Firmware Upgrade Utility for Linux x86_64",
+      "version": "1.36.0"
+    },
+    "624ecf606d7d4d2c94cae219a5491b9e": {
+      "name": "HPE Intel vxs Driver for Windows Server 2025",
+      "version": "2.3.7.0"
+    },
+    "912bdc2895264227ab4d6d2895102ac1": {
+      "name": "Online NVMe SSD Flash Component for Windows (x64) - VO000960KXAVL, VO001920KXAVP, VO003840KXAVQ, VO007680KXAVR, MO000800KXAVN, MO001600KXAVT, MO003200KXAVU and MO006400KXAVV Drives",
+      "version": "HPK5"
+    },
+    "8e4da865e5b44ea38e4b650ce9a93715": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB008000JWWQP and MB006000JWWQN Drives",
+      "version": "HPD8"
+    },
+    "8fe22752c5324386870794853904b4ba": {
+      "name": "Integrated Smart Update Tools for Windows x64",
+      "version": "6.8.0.0"
+    },
+    "b64e2e4187274c5798b3aa127c50ba6a": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant DL20 Gen10 (U43) Servers",
+      "version": "3.76_05-28-2026"
+    },
+    "98a183458fbc454a86f635797ce90db5": {
+      "name": "HPE QLogic Fibre Channel driver component for VMware vSphere 9.0",
+      "version": "2026.04.01"
+    },
+    "6ee949809c8346d9b5134787ab827a8a": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB010000JYDKK, MB012000JYCJF, MB014000JYCJV, MB016000JYDKL and MB018000JYDKN Drives",
+      "version": "HPD6"
+    },
+    "ccde97956825448f97ee8427bc2eccdb": {
+      "name": "HPE Smart Array SR Event Notification Service for Windows Server 64-bit Editions",
+      "version": "1.2.1.69"
+    },
+    "77057f17d85c42018e33e3454cf6ece5": {
+      "name": "HPE Mellanox OFED Storage Driver for Microsoft Windows Server x64- 2019/2022/2025",
+      "version": "25.4.50020.0"
+    },
+    "1607ed48320345de80b2a91bfe782685": {
+      "name": "HPE Intel ixs Driver for Windows Server 2022",
+      "version": "4.1.254.0"
+    },
+    "0f2b8614c6ab40aea6c15cd633ff1402": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB001000GWJAN, MB002000GWFWA and MB004000GWFWB  Drives",
+      "version": "HPG1"
+    },
+    "3126d8d47de5417a878b30ed83f0673f": {
+      "name": "MR416i-p, MR416i-a, MR216i-p, MR216i-a Gen10p Controllers and MR416i-o, MR416i-p, MR216i-o, MR216i-p, MR408i-o , MR408i-p Gen11 Controllers driver for Microsoft Windows 2022 edition",
+      "version": "7.736.3.0"
+    },
+    "f85aacf9018c4fbdadcdb2b9bbf03fed": {
+      "name": " Universal Firmware Package for Drives - VR000480KXNXE,VR000960KXNZU and VS001920KXNXF",
+      "version": "HPK6"
+    },
+    "321dd379dd1a436ab919b4529b332ece": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL20 Gen10 (U43) Servers",
+      "version": "3.76_05-28-2026"
+    },
+    "26ad6199e9ca4196942c2e37e82e08a2": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VK003840GWSXL Drive",
+      "version": "HPG4"
+    },
+    "c5181c3bc0654e9db312aa6200639426": {
+      "name": "Online ROM Flash Component for Windows x64 - HPE ProLiant ML30 Gen10 (U44) Servers",
+      "version": "3.76_05-28-2026"
+    },
+    "9797527c9a7541debadf0b96aae4c9b3": {
+      "name": "Universal Firmware Package for Drives -  MB004000GWZVT",
+      "version": "HPG3"
+    },
+    "f148b53c7b96447699a0d01706827644": {
+      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE Mellanox IB only ConnectX4 and ConnectX5 devices on Linux x86_64 platform",
+      "version": "1.0.18"
+    },
+    "c4ef0470aa934a20948f1a88d8eff26d": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VO000960JWZJF, VO001920JWZJH, VO003840JWZJK, VO007680JWZJL and VO015360JWZJN Drives",
+      "version": "HPD5"
+    },
+    "91adee7c0766499184ce8d25a925669e": {
+      "name": "ROM Flash Firmware Package - HPE Gen10 Innovation Engine Firmware for HPE Gen10 Servers",
+      "version": "0.2.3.0"
+    },
+    "b94d0b4280eb4ea0ae41d5fd3c38b589": {
+      "name": "HPE Intel ixgben Driver for VMware vSphere 9.1",
+      "version": "2026.03.00"
+    },
+    "779f4f17fec64b6b9acf9ede668fc68a": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - EG000300JWSJP, EG000600JWJNH and EG001200JWJNK Drives",
+      "version": "HPD6"
+    },
+    "02a1f5d0f0e244c0b4c2ace636d0f60b": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB004000GWKGV Drive",
+      "version": "HPG1"
+    },
+    "fbe68804b30c4fe28e13ea472cae5392": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB008000GWWQU and MB006000GWWQT Drives",
+      "version": "HPG8"
+    },
+    "c47b4b11bb744418a62b9ae668fd0ea6": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64)  - VO000960JWTBK, VO001920JWTBL, VO003840JWTBN, VO007680JWTBP, MO000400JWTBQ, MO000800JWTBR, MO001600JWTBT, MO003200JWTBU, MO006400JWTCD, EO000400JWTBV, EO000800JWTCA and EO001600JWTCB Drives",
+      "version": "HPDB"
+    },
+    "f643d6c27d8f4b5d8eb0ee9c718b2a48": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64) - MB012000GZYVT, MB014000GZYVU, MB016000GZYVV and MB018000GYCLL Drives",
+      "version": "HPG6"
+    },
+    "942c49f5fada4f3f9198caca6f81e506": {
+      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
+      "version": "0130"
+    },
+    "eb66fafd28ff4c39a42b91395104bd05": {
+      "name": "SuSE Linux Enterprise Server 15 Service Pack 7 Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.15.00-k1"
+    },
+    "aedcdb1596004cf4a73ef573a3625e08": {
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for VMware vSphere  8.0",
+      "version": "2026.06.01"
+    },
+    "074cd65cf284444dbd64a63e5f809ff6": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB014000GWUDA Drive",
+      "version": "HPG3"
+    },
+    "f9dbbe8b7e1e4b98989ec92420b12775": {
+      "name": "Online HDD/SSD Flash Component for Ubuntu Linux (x64)  - MO000400JWUFT, MO000800JWUFU, MO001600JWUFV, MO003200JWUGA, MO006400JWUGB, EO000400JWUGC, EO000800JWUGD and EO001600JWUGE Drives",
+      "version": "HPD4"
+    },
+    "fb9faa50a5034cfe8c3861f763b25770": {
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant ML30 Gen10 Plus",
+      "version": "06.00.03.708"
+    },
+    "d473378e1f2847f48383c6be4c105511": {
+      "name": "Integrated Smart Update Tools 6.8.0 for ESXi 8.0, ESXi 9.0 and ESXi 9.1",
+      "version": "2026.07.00"
+    },
+    "05f0508175404d989c50e4f9a4e09a23": {
+      "name": "Online ROM Flash for Linux - HPE Gen10 Innovation Engine Firmware for HPE Gen10 Servers ",
+      "version": "0.2.3.0"
+    },
+    "7998b80f937f47828d4693eb2d620eec": {
+      "name": "Intel i40ea Driver for Windows Server 2025",
+      "version": "1.24.44.0"
+    },
+    "9d355b002f0f45528687c05a8ded7241": {
+      "name": "Red Hat Enterprise Linux 9 update 7 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
+    },
+    "31e3c0de86a045739aadd70ea35e114f": {
+      "name": "ROM Flash Firmware Package - HPE Proliant DL20 Gen10 Plus Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "6b0653271f3e4e3a8e730542d61ffed8": {
+      "name": "HPE MR416i-p, MR216i-p, MR416i-a, MR216i-a Gen10 plus Controllers and MR416i-p, MR416i-o, MR216i-o, MR408i-o, MR216i-p, MR408i-p Gen11 Controllers Driver (64-bit) for vSphere 8.0",
+      "version": "2026.03.01"
+    },
+    "386eb9df6414454ca63bfe17b21ac760": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi - MB008000JWWQP and MB006000JWWQN Drives",
+      "version": "HPD8"
+    },
+    "205e86b4ae1e4a28ae1e3cf39faf17ba": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB004000GWWQH, MB002000GWWQF and MB001000GWWQE Drives",
+      "version": "HPG6"
+    },
+    "188f54d508794fafbb14f21866a0ffb5": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB004000JWKGU Drive",
+      "version": "HPD2"
+    },
+    "1f91b74faf084255b33a9e102dcf221d": {
+      "name": "Online ROM Flash Component for Linux - HPE Apollo 6500 Gen10/HPE ProLiant XL270d Gen10 (U45) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "12aedd0e69a442908a699d2cefb38320": {
+      "name": "Red Hat Enterprise Linux 10 Server Update 1 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
+      "version": "14.4.731.20"
+    },
+    "4b7bb75be74941e8987c342978cb18f9": {
+      "name": "Broadcom Firmware Package for BCM57416 adapter",
+      "version": "237.1.148.0"
+    },
+    "d7a820130b1346d2a8d4377d479232cf": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - MO000400JWUFT, MO000800JWUFU, MO001600JWUFV, MO003200JWUGA, MO006400JWUGB, EO000400JWUGC, EO000800JWUGD and EO001600JWUGE  Drives",
+      "version": "HPD4"
+    },
+    "32e70edc717a4f199fb4d966f5a2ab73": {
+      "name": "Smart Storage Administrator (SSA) CLI for Ubuntu for Gen10/Gen10 Plus/Gen11 Controllers",
+      "version": "6.65.9.0"
+    },
+    "a88170da558d4ca79c0a5aa7982152c5": {
+      "name": "Online HDD/SSD Flash Component for VMware ESXi  - MB010000GWZGT, MB012000GWZGU, MB014000GWZGV and MB016000GWZHD Drives",
+      "version": "HPG1"
+    },
+    "df57af7543b34ffbb722ca05255bf445": {
+      "name": "Firmware Package - UBM3 Backplane PIC PLDM Firmware for Gen10 and Gen10 Plus and Gen11 servers usage",
+      "version": "1.24"
+    },
+    "a4ccd8709d044858ab5bf64233046176": {
+      "name": "Firmware Package - UBM1 Backplane PIC PLDM Firmware",
+      "version": "1.50"
+    },
+    "29456540dcc74eaf9f223e63cf50eff7": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - VK000240GWJPD, VK000480GWJPE, VK000960GWJPF, VK001920GWJPH, VK003840GWJPK, MK000240GWKVK, MK000480GWJPN, MK000960GWJPP and MK001920GWJPQ Drives",
+      "version": "HPG5"
+    },
+    "2fa1597649f243c092f040a8ecf90232": {
+      "name": "Online NVMe SSD Flash Component for VMware ESXi - MK000800KWWFE, MK001600KWWFF, MK003200KWWFH, MK006400KWWFK, VK000960KWWFL, VK001920KWWFN, VK003840KWWFP and VK007680KWWFQ Drives",
+      "version": "HPK4"
+    },
+    "fc2945bc3e5744fea9d120a012546560": {
+      "name": "Online HDD/SSD Flash Component for Linux (x64) - MB014000GWUDA Drive",
+      "version": "HPG3"
+    },
+    "dcd60b858b6c4ac298dc49b61299aeb5": {
+      "name": "HPE QLogic FastLinQ Online Firmware Upgrade Utility for Windows Server x64 Editions",
+      "version": "5.3.7.0"
+    },
+    "22f47c40d1bf4a1ab067b32f5bab759a": {
+      "name": "Online NVMe SSD Flash Component for Ubuntu Linux (x64) - VO002000KWVVC, VO004000KWVUR, MO001600KWVUU, MO003200KWVUV and MO006400KWVVA Drives",
+      "version": "4ICRHPK3"
+    },
+    "170e9646d84b43c984c43d017aedc665": {
+      "name": "ROM Flash Firmware Package - HPE ProLiant DL560 Gen10/DL580 Gen10 (U34) Servers",
+      "version": "3.66_04-01-2026"
+    },
+    "8c4f7b25cd054f74b804a271ef25619f": {
+      "name": "HPE ProLiant Gen10, Gen10Plus and Gen11 Smart Array Controller (64-bit) Driver for Red Hat Enterprise Linux 10 (64-bit)",
+      "version": "2.1.40-020"
+    },
+    "6aac2d7fdad54ca7910ee0bb1e81d6f3": {
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand NDR200 1-port OSFP PCIe5 x16 MCX75310AAS-HEAT Adapter : HPE part numbers  P45642-B21 and P45642-H21",
+      "version": "28.49.1014"
+    },
+    "5b36200ffa3640839369c39ca58c8134": {
+      "name": "Universal Firmware Package for Drives - VO000960KXNXD, VO001920KXNZQ, VO003840KXNZR, VO007680KXNZT, MO000800KXNXH, MO001600KXNZV, MO003200KXPAA and MO006400KXPAB",
+      "version": "HPS7"
+    },
+    "9a8025d60954436ba6fa5cef6da3dd18": {
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE ProLiant DL20 Gen10 Plus Servers",
+      "version": "06.00.03.708"
+    },
+    "fd79732b69c747a4ba4278e32ef12a49": {
+      "name": "Broadcom NetXtreme-E Driver for Microsoft Windows Server 2025",
+      "version": "237.1.124.0"
+    },
+    "799a5476ba934d049a4150e04e75c398": {
+      "name": "Universal Firmware Package for Drives - MB002000GYDNK and MB004000GYDPD",
+      "version": "HPG4"
+    },
+    "3f2f70c223354bc6b59b77123faa8545": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - EH000300JWCPK, EH000600JWCPL, EH000900JWCPN, EH000300JXLVR, EH000600JXLVT and EH000900JXLVU Drives",
+      "version": "HPDB"
+    },
+    "eaf211f134ef40ba8eea9bd4163e6e57": {
+      "name": "HPE Intel igb Drivers for Red Hat Enterprise Linux 9",
+      "version": "5.19.10-1"
+    },
+    "b9a8e50fea15459f9f236f2538fb4a07": {
+      "name": "HPE Broadcom NX1 1Gb Driver for Windows Server x64 Editions",
+      "version": "221.0.10.0"
+    },
+    "e99fcbdfe7054c0191086c267b0b5462": {
+      "name": "Online ROM Flash Component for Linux - HPE ProLiant ML30 Gen10 Plus Servers",
+      "version": "2.64_04-01-2026"
+    },
+    "4549aae264234c4c8ee7e64a5c9b1222": {
+      "name": "Online ROM Flash Component for Linux - HPE Edgeline e920, e920d and e920t CTO Blade Server (H10)",
+      "version": "2.64_04-01-2026"
+    },
+    "5521a7a96ce64d8a92b5aab1a6147b6e": {
+      "name": "Universal Firmware Package for Drives - MO000960RXKRC, MO001920RXKRH, MO003840RXKRK, VO000960RXKRB, VO001920RXKRD and VO003840RXKRE",
+      "version": "HPD5"
+    },
+    "be56d38accd045cca89d446f2db8440b": {
+      "name": "HPE Intel Online Firmware Upgrade Utility for Windows Server x64 Editions for HPE ProLiant Gen9 and Gen10 server series Only.",
+      "version": "5.4.8.0"
+    },
+    "0d61334622ba44aeb0c163514d9f57b9": {
+      "name": "Online HDD/SSD Flash Component for Windows (x64) - MB004000GWKGV Drive",
+      "version": "HPG1"
+    },
+    "cd60e68416444c61a56b3c63cb2d1ca3": {
+      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
+      "version": "5.04"
+    },
+    "955cffa0d4fe4b76923c0ea7afeca0bf": {
+      "name": "Intel Firmware Package For E810-XXVDA4 Ethernet 10/25Gb 4-port SFP28 Adapter",
+      "version": "4.91"
+    },
+    "332a1cff050e45b999d3c0f17ade482b": {
+      "name": "HPE Broadcom NetXtreme-E RoCE Library for SUSE Linux Enterprise Server 15 SP7",
+      "version": "237.1.137.0"
+    }
+  }
+}
