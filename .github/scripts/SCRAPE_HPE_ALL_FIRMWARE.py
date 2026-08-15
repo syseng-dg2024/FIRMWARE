@@ -1,68 +1,73 @@
 import json
+import xml.etree.ElementTree as ET
 import urllib.request
-import urllib.error
 import os
 from datetime import datetime
 
-os.makedirs('HPE/iLO', exist_ok=True)
+os.makedirs('HPE/SPP', exist_ok=True)
 
-def scrape_hpe_ilo_versions():
-    """Scrape HPE iLO firmware versions from HPE support API"""
+def scrape_hpe_spp_manifest():
+    """Scrape HPE Service Pack for ProLiant (SPP) Gen10 firmware manifest XML"""
     
-    # Collection IDs for each iLO version
-    collections = {
-        "iLO4": "MTX-b5848d0ffeab4506",
-        "iLO5": "MTX-2dc80c4ae4b943fa",
-        "iLO6": "MTX-994a0b6ce04a44b9"
-    }
+    url = "https://downloads.linux.hpe.com/SDR/repo/spp-gen10/2026.07.00.00/manifest/meta.xml"
     
-    lookups = {}
-    
-    for ilo_version, collection_id in collections.items():
-        try:
-            # API endpoint discovered from DevTools
-            url = f"https://support.hpe.com/hpesc/public/api/software/detail?swColId={collection_id}&loadProdEnvList=true"
-            
-            headers = {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-                "Accept": "application/json",
-            }
-            
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=15) as response:
-                data = json.loads(response.read().decode('utf-8'))
-            
-            # Extract version from the response - it's a single object with swItem key
-            if 'swItem' in data and 'versionId' in data['swItem']:
-                version = data['swItem']['versionId']
-                title = data['swItem'].get('localizedTitle', 'Unknown')
-                status = data['swItem'].get('status', 'Unknown')
-                release_date = data['swItem'].get('customerAvailableDate', 'Unknown')
-                
-                lookups[ilo_version] = {
-                    "version": version,
-                    "title": title,
-                    "status": status,
-                    "releaseDate": release_date
-                }
-                print(f"{ilo_version}: v{version}")
-            else:
-                print(f"{ilo_version}: No swItem data found")
+    try:
+        print(f"Fetching SPP manifest from: {url}")
         
-        except Exception as e:
-            print(f"Error scraping {ilo_version}: {e}")
+        # Download the XML
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        }
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=30) as response:
+            xml_content = response.read()
+        
+        # Parse XML
+        root = ET.fromstring(xml_content)
+        meta = root.find('meta')
+        products = meta.findall('product')
+        
+        print(f"Found {len(products)} firmware components")
+        
+        lookups = {}
+        
+        for product in products:
+            try:
+                # Get the firmware name
+                name_elem = product.find('.//name_xlate')
+                name = name_elem.text if name_elem is not None else None
+                
+                # Get the version
+                version_elem = product.find('.//version')
+                version = version_elem.attrib.get('value', 'N/A') if version_elem is not None else None
+                
+                if name and version:
+                    # Use product ID as key
+                    product_id = product.attrib.get('id', '')
+                    lookups[product_id] = {
+                        "name": name,
+                        "version": version
+                    }
+            except Exception as e:
+                continue
+        
+        output = {
+            "description": "HPE Service Pack for ProLiant (SPP) Gen10 Firmware Manifest",
+            "url": url,
+            "lastUpdated": datetime.now().strftime("%-m-%-d-%Y"),
+            "totalComponents": len(lookups),
+            "lookups": lookups
+        }
+        
+        with open('HPE/SPP/SPP_Gen10_Firmware_Manifest.json', 'w') as f:
+            json.dump(output, f, indent=2)
+        
+        print(f"Extracted {len(lookups)} firmware components to SPP_Gen10_Firmware_Manifest.json")
+        return len(lookups)
     
-    output = {
-        "description": "HPE iLO Firmware Lookup Table - Latest versions for iLO4, iLO5, iLO6",
-        "lastUpdated": datetime.now().strftime("%-m-%-d-%Y"),
-        "lookups": lookups
-    }
-    
-    with open('HPE/iLO/iLO_Firmware_Lookup.json', 'w') as f:
-        json.dump(output, f, indent=2)
-    
-    print(f"\nScraped {len(lookups)} iLO firmware versions")
-    return len(lookups)
+    except Exception as e:
+        print(f"Error: {e}")
+        return 0
 
 if __name__ == "__main__":
-    scrape_hpe_ilo_versions()
+    scrape_hpe_spp_manifest()
