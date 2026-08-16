@@ -90,7 +90,7 @@ def scrape_hpe_spp_firmware(version):
         
         print(f"Found {len(products)} total firmware components")
         
-        lookups = []
+        components_dict = {}
         
         for product in products:
             try:
@@ -107,33 +107,29 @@ def scrape_hpe_spp_firmware(version):
                         product_id = product.attrib.get('id', '')
                         category = get_component_category(name)
                         
-                        lookups.append({
-                            "id": product_id,
+                        components_dict[product_id] = {
                             "category": category,
                             "name": name,
                             "version": fw_version
-                        })
+                        }
             
             except Exception as e:
                 continue
-        
-        # Sort by category, then name
-        lookups.sort(key=lambda x: (x["category"], x["name"]))
         
         output = {
             "description": "HPE Service Pack for ProLiant (SPP) Gen10 Critical Firmware Components",
             "sppVersion": version,
             "url": url,
             "lastUpdated": datetime.now().strftime("%-m-%-d-%Y"),
-            "totalComponents": len(lookups),
-            "components": lookups
+            "totalComponents": len(components_dict),
+            "components": components_dict
         }
         
         with open('HPE/SPP/SPP_Gen10_Firmware_Manifest.json', 'w') as f:
             json.dump(output, f, indent=2)
         
-        print(f"Extracted {len(lookups)} critical firmware components")
-        return len(lookups)
+        print(f"Extracted {len(components_dict)} critical firmware components")
+        return len(components_dict)
     
     except Exception as e:
         print(f"Error: {e}")
