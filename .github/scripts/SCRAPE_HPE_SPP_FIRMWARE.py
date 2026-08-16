@@ -56,17 +56,8 @@ def is_critical_device(device_name):
             return True
     return False
 
-def compare_versions(v1, v2):
-    """Compare two version strings - returns True if v1 > v2"""
-    try:
-        v1_parts = tuple(map(int, v1.replace('.', '').split()))
-        v2_parts = tuple(map(int, v2.replace('.', '').split()))
-        return v1_parts > v2_parts
-    except:
-        return v1 > v2
-
 def scrape_hpe_spp_firmware(version):
-    """Scrape HPE SPP Gen10 firmware with DeviceClass - keep latest per device"""
+    """Scrape HPE SPP Gen10 firmware with DeviceClass as key"""
     url = f"https://downloads.linux.hpe.com/SDR/repo/spp-gen10/{version}/manifest/meta.xml"
     
     try:
@@ -84,8 +75,8 @@ def scrape_hpe_spp_firmware(version):
         
         print(f"Found {len(payloads)} payload blocks")
         
-        # Dictionary to track device name -> latest version info
-        device_latest = {}
+        # Dictionary to track (name, device_class, version) for deduplication
+        device_dedup = {}
         
         for payload in payloads:
             try:
@@ -110,34 +101,29 @@ def scrape_hpe_spp_firmware(version):
                                 target_id = target_elem.text
                                 fw_version = version_elem.text
                                 
-                                # Check if this device name already exists and if this is a newer version
-                                if device_name not in device_latest:
-                                    device_latest[device_name] = {
-                                        "target_id": target_id,
-                                        "version": fw_version,
-                                        "device_class": device_class
+                                # Create dedup key: (name, device_class, version)
+                                dedup_key = (device_name, device_class, fw_version)
+                                
+                                # Only keep first target_id per dedup key
+                                if dedup_key not in device_dedup:
+                                    device_dedup[dedup_key] = {
+                                        "Target": target_id,
+                                        "Name": device_name,
+                                        "Version": fw_version
                                     }
-                                else:
-                                    # Compare versions - keep the newer one
-                                    existing_version = device_latest[device_name]["version"]
-                                    if compare_versions(fw_version, existing_version):
-                                        device_latest[device_name] = {
-                                            "target_id": target_id,
-                                            "version": fw_version,
-                                            "device_class": device_class
-                                        }
                     except Exception as e:
                         continue
             except Exception as e:
                 continue
         
-        # Convert to output format keyed by target_id
+        # Convert to output format keyed by DeviceClass
         components = {}
-        for device_name, info in device_latest.items():
-            components[info["target_id"]] = {
-                "name": device_name,
-                "version": info["version"],
-                "device_class": info["device_class"]
+        for dedup_key, info in device_dedup.items():
+            device_class = dedup_key[1]  # device_class is the second element in dedup_key
+            components[device_class] = {
+                "Target": info["Target"],
+                "Name": info["Name"],
+                "Version": info["Version"]
             }
         
         output = {
@@ -152,7 +138,7 @@ def scrape_hpe_spp_firmware(version):
         with open('HPE/SPP/SPP_Gen10_Firmware_Manifest.json', 'w') as f:
             json.dump(output, f, indent=2)
         
-        print(f"Extracted {len(components)} critical firmware components with DeviceClass")
+        print(f"Extracted {len(components)} unique critical firmware components")
         return len(components)
     
     except Exception as e:
