@@ -3,72 +3,37 @@
   "sppVersion": "2026.07.00.00",
   "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen10/2026.07.00.00/manifest/meta.xml",
   "lastUpdated": "8-16-2026",
-  "totalComponents": 13,
+  "totalComponents": 6,
   "components": {
-    "a6b1a447-382a-5a4f-8086-a3601590028d": {
-      "name": "Server Platform Services (SPS) Firmware for Intel C242 and C...",
-      "version": "05.01.05.103",
-      "device_class": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
+    "8e59d79d-ae28-4e35-8d63-3c0d75bee62e": {
+      "Target": "a6b1a447-382a-5a4f-8086-43e080867270",
+      "Name": "Server Platform Services Firmware for DL20 Gen10 Plus",
+      "Version": "06.00.03.708"
     },
-    "00000000-0000-0000-0000-000000504d05": {
-      "name": "Gen10 Plus Power Management Controller Firmware",
-      "version": "1.1.4",
-      "device_class": "9e48a28a-586c-4519-8405-a04f84e27f0f"
+    "9e48a28a-586c-4519-8405-a04f84e27f0f": {
+      "Target": "00000000-0000-0000-0000-000000504d05",
+      "Name": "Gen10 Plus Power Management Controller Firmware",
+      "Version": "1.1.4"
     },
-    "a6b1a447-382a-5a4f-3c10-87800a000303": {
-      "name": "Innovation Engine (IE) Universal Image",
-      "version": "1.0.0.22",
-      "device_class": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d"
+    "c734e171-8721-48c9-9ed6-d5bc7da5ef8d": {
+      "Target": "a6b1a447-382a-5a4f-3c10-3c100a000303",
+      "Name": "Innovation Engine (IE) Universal Image.",
+      "Version": "0.2.3.0"
     },
-    "a6b1a447-382a-5a4f-9005-028f103c1100": {
-      "name": "HPE Smart Array P816i-a SR Gen10 Controller",
-      "version": "8.23",
-      "device_class": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
+    "79F0C163-0C13-4662-9DEA-09235FEF90CB": {
+      "Target": "a6b1a447-382a-5a4f-9005-028f103c0650",
+      "Name": "HPE Smart Array E208i-p SR Gen10 Controller",
+      "Version": "8.23"
     },
-    "a6b1a447-382a-5a4f-9005-028f103c0651": {
-      "name": "HPE Smart Array E208e-p SR Gen10 Controller",
-      "version": "8.23",
-      "device_class": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
+    "2f317b9d-c9e3-4d76-bff6-b9d0d085a952": {
+      "Target": "9c057a7a-0d48-4260-b033-558f22ef7c6a",
+      "Name": "iLO 5",
+      "Version": "3.20"
     },
-    "a6b1a447-382a-5a4f-9005-028f103c0601": {
-      "name": "HPE Smart Array P408e-p SR Gen10 Controller",
-      "version": "8.23",
-      "device_class": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
-    },
-    "a6b1a447-382a-5a4f-9005-028f103c0600": {
-      "name": "HPE Smart Array P408i-p SR Gen10 Controller",
-      "version": "8.23",
-      "device_class": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
-    },
-    "a6b1a447-382a-5a4f-9005-028f103c0602": {
-      "name": "HPE Smart Array P408i-a SR Gen10 Controller",
-      "version": "8.23",
-      "device_class": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
-    },
-    "a6b1a447-382a-5a4f-9005-028f103c0654": {
-      "name": "HPE Smart Array E208i-a SR Gen10 Controller",
-      "version": "8.23",
-      "device_class": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
-    },
-    "a6b1a447-382a-5a4f-9005-028f103c0650": {
-      "name": "HPE Smart Array E208i-p SR Gen10 Controller",
-      "version": "8.23",
-      "device_class": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
-    },
-    "a6b1a447-382a-5a4f-8086-43e080867270": {
-      "name": "Server Platform Services Firmware for DL20 Gen10 Plus",
-      "version": "06.00.03.708",
-      "device_class": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
-    },
-    "9c057a7a-0d48-4260-b033-558f22ef7c6a": {
-      "name": "iLO 5",
-      "version": "3.20",
-      "device_class": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
-    },
-    "a6b1a447-382a-5a4f-3c10-3c100a000303": {
-      "name": "Innovation Engine (IE) Universal Image.",
-      "version": "0.2.3.0",
-      "device_class": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d"
+    "b34e5677-21dc-45d3-872b-42f76fee9053": {
+      "Target": "a6b1a447-382a-5a4f-3c10-86800a000101",
+      "Name": "Server Platform Services (SPS) Firmware",
+      "Version": "04.01.05.201"
     }
   }
 }
