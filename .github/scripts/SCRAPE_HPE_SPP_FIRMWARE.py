@@ -16,6 +16,8 @@ CRITICAL_DEVICES = [
     "Power Supply",
     "Innovation Engine",
     "Server Platform Services",
+    "HP Ethernet",
+    "HPE Ethernet",
 ]
 
 def get_latest_spp_version():
