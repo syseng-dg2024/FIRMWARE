@@ -26,7 +26,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add HPE/SPP/SPP_Gen10_Firmware_Manifest.json
-          git commit -m "Update HPE SPP Gen10 firmware manifest" || true
+          git add HPE/SPP/SPP_Firmware_Lookup.json
+          git commit -m "Update HPE SPP Firmware Lookup" || true
           git pull origin main --rebase
           git push origin main
