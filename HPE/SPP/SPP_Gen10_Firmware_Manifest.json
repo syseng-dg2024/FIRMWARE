@@ -2,1082 +2,903 @@
   "description": "HPE Service Pack for ProLiant (SPP) Gen10 Critical Firmware Components",
   "sppVersion": "2026.07.00.00",
   "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen10/2026.07.00.00/manifest/meta.xml",
-  "lastUpdated": "8-15-2026",
+  "lastUpdated": "8-16-2026",
   "totalComponents": 179,
-  "components": [
-    {
-      "id": "ccd2fccdbff94b0ab75d085d46522784",
-      "category": "BIOS",
-      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Linux (x64)",
-      "version": "2026.06.01"
-    },
-    {
-      "id": "31d52cb30bc744dd8031127d1e5b580a",
-      "category": "BIOS",
-      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Microsoft Windows Server 2016/2019 x64",
-      "version": "2026.06.01"
-    },
-    {
-      "id": "cd5668ff531a493aafe51794773c6524",
-      "category": "BIOS",
-      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Microsoft Windows Server 2022 x64",
-      "version": "2026.06.01"
-    },
-    {
-      "id": "b929c06b33df46a182acd3e907e0dc53",
-      "category": "BIOS",
-      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Microsoft Windows Server 2025 x64",
-      "version": "2026.04.01"
-    },
-    {
-      "id": "aedcdb1596004cf4a73ef573a3625e08",
-      "category": "BIOS",
-      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for VMware vSphere  8.0",
-      "version": "2026.06.01"
-    },
-    {
-      "id": "e1df01bf9927457096858061671e6c6b",
-      "category": "BIOS",
-      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for VMware vSphere  9.0",
-      "version": "2026.06.01"
-    },
-    {
-      "id": "bca5397d7ba147ddbb0eb4fee4d4d567",
-      "category": "BIOS",
-      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters - Linux (x86_64)",
-      "version": "2026.06.02"
-    },
-    {
-      "id": "4f553e0eca5b43ffbef2ba98a24ef5c1",
-      "category": "BIOS",
-      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters - Microsoft Windows Server 2022 (x86_64)",
-      "version": "2026.06.02"
-    },
-    {
-      "id": "635ad6621b8d4c52b8b9de3325345e84",
-      "category": "BIOS",
-      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters - Microsoft Windows Server 2025 (x86_64)",
-      "version": "2026.04.01"
-    },
-    {
-      "id": "bd2780f798b64cefbb3916c847ffd755",
-      "category": "BIOS",
-      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters for VMware vSphere 8.0",
-      "version": "2026.06.02"
-    },
-    {
-      "id": "7a882d320d3b437c96a87679f2b6ee8f",
-      "category": "BIOS",
-      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters for VMware vSphere 9.0 and vSphere 9.1",
-      "version": "2026.06.02"
-    },
-    {
-      "id": "05f0508175404d989c50e4f9a4e09a23",
-      "category": "Innovation Engine",
-      "name": "Online ROM Flash for Linux - HPE Gen10 Innovation Engine Firmware for HPE Gen10 Servers ",
-      "version": "0.2.3.0"
-    },
-    {
-      "id": "03c87662bb3a4a57a852807a8f77de3f",
-      "category": "Innovation Engine",
-      "name": "Online ROM Flash for Linux - HPE Gen10 Plus Innovation Engine Firmware for HPE Gen10 Plus Servers",
-      "version": "1.0.0.22"
-    },
-    {
-      "id": "effc199f67764de3b570f964be1aa0ce",
-      "category": "Innovation Engine",
-      "name": "Online ROM Flash for Windows x64 -  HPE Gen10 Innovation Engine Firmware  for HPE Gen10 Servers",
-      "version": "0.2.3.0"
-    },
-    {
-      "id": "6522bf51105244bfa55540a1e824854d",
-      "category": "Innovation Engine",
-      "name": "Online ROM Flash for Windows x64 -  HPE Gen10 Plus Innovation Engine Firmware  for HPE Gen10 Plus Servers",
-      "version": "1.0.0.22"
-    },
-    {
-      "id": "91adee7c0766499184ce8d25a925669e",
-      "category": "Innovation Engine",
-      "name": "ROM Flash Firmware Package - HPE Gen10 Innovation Engine Firmware for HPE Gen10 Servers",
-      "version": "0.2.3.0"
-    },
-    {
-      "id": "4c108242693848129dadc44c03c82865",
-      "category": "Innovation Engine",
-      "name": "ROM Flash Firmware Package - HPE Gen10 Plus Innovation Engine Firmware for HPE Gen10 Plus Servers",
-      "version": "1.0.0.22"
-    },
-    {
-      "id": "80ea6cb0c7d14159a1a37d37866e5b0c",
-      "category": "Network Adapters",
-      "name": "Broadcom Firmware Package for BCM57412 OCP3 adapter",
-      "version": "237.1.148.0"
-    },
-    {
-      "id": "41b320ad66f042c0996f23c6087a171e",
-      "category": "Network Adapters",
-      "name": "Broadcom Firmware Package for BCM57412 adapter",
-      "version": "237.1.148.0"
-    },
-    {
-      "id": "a4dfe483f7df4c3993a498bb13f08613",
-      "category": "Network Adapters",
-      "name": "Broadcom Firmware Package for BCM57414 OCP3 adapter",
-      "version": "237.1.148.0"
-    },
-    {
-      "id": "435031f572ea43b79bd116d63a99a58a",
-      "category": "Network Adapters",
-      "name": "Broadcom Firmware Package for BCM57414 adapter",
-      "version": "237.1.148.0"
-    },
-    {
-      "id": "7a201554eb654a4fa5bf0b9e23666148",
-      "category": "Network Adapters",
-      "name": "Broadcom Firmware Package for BCM57416 OCP3 adapter",
-      "version": "237.1.148.0"
-    },
-    {
-      "id": "4b7bb75be74941e8987c342978cb18f9",
-      "category": "Network Adapters",
-      "name": "Broadcom Firmware Package for BCM57416 adapter",
-      "version": "237.1.148.0"
-    },
-    {
-      "id": "43699ba116594728bcf30612b7c6f5f5",
-      "category": "Network Adapters",
-      "name": "Broadcom Firmware Package for BCM57504 Ethernet 10/25Gb 4-port SFP28 Adapter",
-      "version": "237.1.148.0"
-    },
-    {
-      "id": "3d28404b009047cd9c6ade47efd24ca6",
-      "category": "Network Adapters",
-      "name": "Broadcom Firmware Package for BCM57504 Ethernet 10/25Gb 4-port SFP28 OCP3 Adapter",
-      "version": "237.1.148.0"
-    },
-    {
-      "id": "8d2bd99747b540d2a364efef8e58a91c",
+  "components": {
+    "8d2bd99747b540d2a364efef8e58a91c": {
       "category": "Network Adapters",
       "name": "HPE Broadcom NetXtreme-E Firmware Package for BCM5741x adapters",
       "version": "237.1.148000"
     },
-    {
-      "id": "2e4ac8b988164dc087668639a95037d3",
-      "category": "Network Adapters",
-      "name": "HPE Broadcom tg3 Ethernet Drivers for Red Hat Enterprise Linux 10",
-      "version": "3.139y-1"
-    },
-    {
-      "id": "dcff0c4699e341cf85f18eb94d85147c",
-      "category": "Network Adapters",
-      "name": "HPE Broadcom tg3 Ethernet Drivers for Red Hat Enterprise Linux 9",
-      "version": "3.139y-1"
-    },
-    {
-      "id": "8e8482d9e6e6494a8e54ec40143d190a",
-      "category": "Network Adapters",
-      "name": "HPE Broadcom tg3 Ethernet Drivers for SUSE Linux Enterprise Server 15",
-      "version": "3.139y-2"
-    },
-    {
-      "id": "854591aa471148a8b13f9c435ab181af",
-      "category": "Network Adapters",
-      "name": "HPE Broadcom tg3 Ethernet Drivers for SUSE Linux Enterprise Server 16",
-      "version": "3.139y-2"
-    },
-    {
-      "id": "17cb0fd9f2dc47bb8aba197c6f346c61",
-      "category": "Network Adapters",
-      "name": "HPE Edgeline 661SFP28 NIC Firmware Pack for Linux",
-      "version": "9.20"
-    },
-    {
-      "id": "3771cd39413d469099d505f7db47003a",
-      "category": "Network Adapters",
-      "name": "HPE Edgeline 661SFP28 NIC Firmware Pack for Microsoft Windows",
-      "version": "9.20"
-    },
-    {
-      "id": "c02bbf9a9f6640aeab2edb3ce124d6c6",
-      "category": "Network Adapters",
-      "name": "HPE Edgeline X722 NIC Firmware Component for Linux",
-      "version": "4.30"
-    },
-    {
-      "id": "570234d74f264fc1985961d91a29c03a",
-      "category": "Network Adapters",
-      "name": "HPE Edgeline X722 NIC Firmware Component for Microsoft Windows",
-      "version": "4.30"
-    },
-    {
-      "id": "c1dd5be659f944a486917246089b40e7",
-      "category": "Network Adapters",
-      "name": "HPE Edgeline i210 NIC Firmware Component for Linux",
-      "version": "1.2877"
-    },
-    {
-      "id": "7726a9100f9d46aeb7672151b0d319ea",
-      "category": "Network Adapters",
-      "name": "HPE Edgeline i210 NIC Firmware Component for Microsoft Windows",
-      "version": "1.2877"
-    },
-    {
-      "id": "d56d083f3286405bb8ddda0a530c6d29",
-      "category": "Network Adapters",
-      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for Red Hat Enterprise Linux 10 Update 1 (x86_64)",
-      "version": "4.36"
-    },
-    {
-      "id": "d4a139dbc9ee4b60b96431e28f7daab7",
-      "category": "Network Adapters",
-      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for Red Hat Enterprise Linux 9 Update 7 (x86_64)",
-      "version": "4.36"
-    },
-    {
-      "id": "01cbc1be755b4243b92be8c9339313eb",
-      "category": "Network Adapters",
-      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for SUSE Linux Enterprise Server 15 SP6 (AMD64/EM64T)",
-      "version": "4.36"
-    },
-    {
-      "id": "3178a35014a54eb187ac32bf0e1852e0",
-      "category": "Network Adapters",
-      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for SUSE Linux Enterprise Server 15 SP7 (AMD64/EM64T)",
-      "version": "4.36"
-    },
-    {
-      "id": "eee95c8d7c02483cb27d5ddd5b263338",
-      "category": "Network Adapters",
-      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for SUSE Linux Enterprise Server 16 SP0 (AMD64/EM64T)",
-      "version": "4.36"
-    },
-    {
-      "id": "066920f0b4684f1da260602d0174d2e0",
-      "category": "Network Adapters",
-      "name": "HPE QLogic FastLinQ Firmware Package for Arrowhead adapters",
-      "version": "8.65.23"
-    },
-    {
-      "id": "d1422347af3f4f888596c242a7fdb7a6",
-      "category": "Network Adapters",
-      "name": "HPE QLogic Fibre Channel Enablement Kit for Host Bus Adapter for Linux",
-      "version": "6.0.0.1-4"
-    },
-    {
-      "id": "d217387da75b452f91f63bc9a4605e37",
-      "category": "Network Adapters",
-      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 Emulex Storport Driver for Microsoft Windows Server 2019",
-      "version": "14.4.624.0"
-    },
-    {
-      "id": "8085229a62d8443d85751340431d38d5",
-      "category": "Network Adapters",
-      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 Emulex Storport Driver for Microsoft Windows Server 2022",
-      "version": "14.4.624.1"
-    },
-    {
-      "id": "1012a84c719148b1b9e7357e885d2199",
-      "category": "Network Adapters",
-      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 Emulex Storport Driver for Microsoft Windows Server 2025",
-      "version": "14.4.624.1"
-    },
-    {
-      "id": "ad60a281882240318ac9ec3091a5f1c9",
-      "category": "Network Adapters",
-      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 QLogic Storport Driver for Microsoft Windows Server 2019",
-      "version": "9.4.11.20"
-    },
-    {
-      "id": "07117e80b64248dab9811a2280fcc85e",
-      "category": "Network Adapters",
-      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 QLogic Storport Driver for Microsoft Windows Server 2022",
-      "version": "9.4.11.20"
-    },
-    {
-      "id": "954c63f35d4743b2b629b5d17bfd860b",
-      "category": "Network Adapters",
-      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 QLogic Storport Driver for Microsoft Windows Server 2025",
-      "version": "9.4.11.20"
-    },
-    {
-      "id": "58e30c6460374d34ab64c2a8547dafe2",
-      "category": "Network Adapters",
-      "name": "Intel Firmware Package For E810-2CQDA2 Ethernet 100Gb 2-port QSFP28 Adapter",
-      "version": "4.91"
-    },
-    {
-      "id": "f3f8a4081d78499e9a2dd9c8d9fb4059",
-      "category": "Network Adapters",
-      "name": "Intel Firmware Package For E810-CQDA2 Ethernet 100Gb 2-port QSFP28 Adapter",
-      "version": "4.91"
-    },
-    {
-      "id": "dc41774861a945f28d388059e656b2ca",
-      "category": "Network Adapters",
-      "name": "Intel Firmware Package For E810-CQDA2 Ethernet 100Gb 2-port QSFP28 OCP3 Adapter",
-      "version": "4.91"
-    },
-    {
-      "id": "0134d053d49b43b1add04e5a51f6ff18",
-      "category": "Network Adapters",
-      "name": "Intel Firmware Package For E810-XXVDA2 Ethernet 10/25Gb 2-port SFP28 Adapter",
-      "version": "4.91"
-    },
-    {
-      "id": "fbb53cf22a594dbb99b8c7f89e562124",
-      "category": "Network Adapters",
-      "name": "Intel Firmware Package For E810-XXVDA2 Ethernet 10/25Gb 2-port SFP28 OCP3 Adapter",
-      "version": "4.91"
-    },
-    {
-      "id": "955cffa0d4fe4b76923c0ea7afeca0bf",
-      "category": "Network Adapters",
-      "name": "Intel Firmware Package For E810-XXVDA4 Ethernet 10/25Gb 4-port SFP28 Adapter",
-      "version": "4.91"
-    },
-    {
-      "id": "6a4f9209b5474891beaf50886f41470e",
-      "category": "Network Adapters",
-      "name": "Intel Firmware Package For E810-XXVDA4 Ethernet 10/25Gb 4-port SFP28 MCLK Adapter ",
-      "version": "4.91"
-    },
-    {
-      "id": "6adb26c5fc564f219877ab6a448e709b",
-      "category": "Network Adapters",
-      "name": "Intel Firmware Package For E810-XXVDA4 Ethernet 10/25Gb 4-port SFP28 OCP3 Adapter",
-      "version": "4.91"
-    },
-    {
-      "id": "5c10ef42611f4cada08e038ec64fbce6",
-      "category": "Network Adapters",
-      "name": "Marvell FastLinQ Firmware Package for Arrowhead adapters",
-      "version": "8.65.21"
-    },
-    {
-      "id": "3af72b6238454de589e484681033279c",
-      "category": "Network Adapters",
-      "name": "Mellanox Firmware Package (FWPKG) for  HPE Edgeline e920 ConnectX-6Lx 10Gb 2-port Mezzanine Adapter :  HPE part number P40899-B21",
-      "version": "26.43.1014"
-    },
-    {
-      "id": "a77901ff235c43f18df58616eefb654e",
-      "category": "Network Adapters",
-      "name": "Mellanox Firmware Package(FWPKG) for HPE NVIDIA Ethernet 100Gb 2-port NVMe-oF Offload Adapter for HPE",
-      "version": "22.45.1020"
-    },
-    {
-      "id": "01dd36b9ad8145f48edf876566d56fdb",
-      "category": "Network Adapters",
-      "name": "Mellanox Firmware Package(FWPKG) for NVIDIA Ethernet 10/25Gb 2-port SFP28 NVMe-oF Crypto Adapter for HPE",
-      "version": "26.45.1020"
-    },
-    {
-      "id": "b50552ebf09d445294b0b81e162643cf",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) - Mellanox MCX631102AS-ADAT Ethernet 10/25Gb 2-port SFP28 Adapter for HPE",
-      "version": "26.49.1014"
-    },
-    {
-      "id": "27053985f2354572a6633cc6a63bb7ef",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) - Mellanox MCX631432AS-ADAI Ethernet 10/25Gb 2-port SFP28 OCP3 Adapter for HPE",
-      "version": "26.49.1014"
-    },
-    {
-      "id": "96fe9c5a9b9741d5bcf4ae73623359e0",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for HPE Ethernet 100Gb 1-port QSFP28 PCIe3 x16 MCX515A-CCAT Adapter : HPE part numbers P31246-B21 and P31246-H21",
-      "version": "16.35.8008"
-    },
-    {
-      "id": "da435657efe64ff1a664870254b46a1c",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 1-port QSFP56 PCIe4 x16 MCX653105A-HDAT Adapter : HPE part numbers P23664-B21 and P23664-H21",
-      "version": "20.43.8004"
-    },
-    {
-      "id": "e6fc00ad6a3e4c539778e7419a9fafa6",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 1-port QSFP56 PCIe4 x16 OCP3 MCX653435A-HDAI Adapter : HPE part numbers  P31323-B21 and  P31323-H21",
-      "version": "20.43.8004"
-    },
-    {
-      "id": "ab42380273374a988dbcb1a25432ed96",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 2-port QSFP56 PCIe4 x16 MCX653106A-HDAT Adapter :  HPE part numbers P31324-B21 and P31324-H21",
-      "version": "20.43.8004"
-    },
-    {
-      "id": "3f4d9eceae63421389745abdf06f001a",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 2-port QSFP56 PCIe4 x16 OCP3 MCX653436A-HDAI Adapter : HPE part numbers  P31348-B21 and P31348-H21",
-      "version": "20.43.8004"
-    },
-    {
-      "id": "cca7377cd12644cab41f5bd7e94cc2bd",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR100/Ethernet 100Gb 1-port QSFP56 PCIe4 x16 MCX653105A-ECAT Adapter : HPE part numbers P23665-B21 and P23665-H21",
-      "version": "20.43.8004"
-    },
-    {
-      "id": "6ca4dd262131408db10af90451555128",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR100/Ethernet 100Gb 2-port QSFP56 PCIe4 x16 MCX653106A-ECAT Adapter : HPE part numbers P23666-B21 and P23666-H21",
-      "version": "20.43.8004"
-    },
-    {
-      "id": "6aac2d7fdad54ca7910ee0bb1e81d6f3",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand NDR200 1-port OSFP PCIe5 x16 MCX75310AAS-HEAT Adapter : HPE part numbers  P45642-B21 and P45642-H21",
-      "version": "28.49.1014"
-    },
-    {
-      "id": "f56420e1793d48958fc061b802e973db",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand NDR200/Ethernet 200Gb 1-port OSFP PCIe5 x16 MCX75310AAS-HEAT Adapter : HPE part numbers  P45642-B22 and P45642-H22",
-      "version": "28.49.1014"
-    },
-    {
-      "id": "a6a815c1e19641d7b77e2e862e63ca3a",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for Mellanox MCX562A-ACAI Ethernet 10/25Gb 2-port SFP28 OCP3 Adapter for HPE",
-      "version": "16.35.8008"
-    },
-    {
-      "id": "f5b93810cc2347bb802707c26e414376",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for Mellanox MCX623105AS-VDAT Ethernet 200Gb 1-port QSFP56 Adapter for HPE",
-      "version": "22.49.1014"
-    },
-    {
-      "id": "23c569ea92fb47f091a7a0c891acff72",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package (FWPKG) for Mellanox MCX623106AS-CDAT Ethernet 100Gb 2-port QSFP56 Adapter for HPE",
-      "version": "22.49.1014"
-    },
-    {
-      "id": "0a8a267d13ac4d5588a19d1f0bcc2f5d",
-      "category": "Network Adapters",
-      "name": "NVIDIA Firmware Package(FWPKG) for HPE Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter",
-      "version": "16.35.8008"
-    },
-    {
-      "id": "fe217a349ea5432eb992dea833e5cc7b",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
-      "version": "1.0.4"
-    },
-    {
-      "id": "ac4d46dcda694f51abe34e6378a53487",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE Mellanox Ethernet only adapters",
-      "version": "1.0.8"
-    },
-    {
-      "id": "605b084308a74c74a0091e855e41c6f1",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on VMware ESXi 8.0",
-      "version": "1.0.7"
-    },
-    {
-      "id": "64511cd7ad8d42fea109336ca7a083a0",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on VMware ESXi 8.0",
-      "version": "1.0.10"
-    },
-    {
-      "id": "7ead0459ae26493fa240dac6ad17d606",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for Mellanox Open Ethernet cards",
-      "version": "1.0.8"
-    },
-    {
-      "id": "b80afd72e0994f04bb439cddf1f507eb",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
-      "version": "1.0.3"
-    },
-    {
-      "id": "84e7c2b1f88e4ba3ad8fe3ec63fe5a60",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE Mellanox Ethernet only adapters",
-      "version": "1.0.3"
-    },
-    {
-      "id": "75dd01ca72594b0686b5c281ad30ac2a",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on VMware ESXi 9.x",
-      "version": "1.0.3"
-    },
-    {
-      "id": "11f86ddaaa3742028089d7f3e7f71098",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on VMware ESXi 9.x",
-      "version": "1.0.4"
-    },
-    {
-      "id": "2b1131d5128b46ff8528f19d5b030560",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for Mellanox Open Ethernet cards",
-      "version": "1.0.3"
-    },
-    {
-      "id": "35cb34a457a347fd86df4f560cf6cf57",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
-      "version": "1.0.10"
-    },
-    {
-      "id": "5c045315a07d45779f552f6cb831a2b4",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE Mellanox Ethernet only adapters",
-      "version": "1.0.25"
-    },
-    {
-      "id": "da6c398c130f48f9a5a32bd3c9213a90",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on Linux x86_64 platform",
-      "version": "1.0.20"
-    },
-    {
-      "id": "dcf87aae93de4d649fef4547bffe751a",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on Linux x86_64 platform",
-      "version": "1.0.20"
-    },
-    {
-      "id": "ec5ba4f75ae340e39f8e129f646a9647",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (Linux x86_64) for Mellanox Open Ethernet cards",
-      "version": "1.0.15"
-    },
-    {
-      "id": "17666522baed46e695f28d4315d6fdb8",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
-      "version": "1.0.0.10"
-    },
-    {
-      "id": "00184010ed0a41829836f7c60269273f",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE Mellanox Ethernet only adapters",
-      "version": "1.0.0.25"
-    },
-    {
-      "id": "cdfe3840d6074900a4d11b774d3e5307",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on Windows x86_64 platform",
-      "version": "1.0.0.19"
-    },
-    {
-      "id": "25bee0f636714c0e8bface2301234fec",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on Windows x86_64 platform",
-      "version": "1.0.0.16"
-    },
-    {
-      "id": "a8ea930bfde1449ab4444eb61f65be31",
-      "category": "Network Adapters",
-      "name": "Online Firmware Upgrade Utility (Windows x64) for Mellanox Open Ethernet cards",
-      "version": "1.0.0.15"
-    },
-    {
-      "id": "12aedd0e69a442908a699d2cefb38320",
-      "category": "Network Adapters",
-      "name": "Red Hat Enterprise Linux 10 Server Update 1 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
-      "version": "14.4.731.20"
-    },
-    {
-      "id": "74b3fe77108f45dc915915f121f04357",
-      "category": "Network Adapters",
-      "name": "Red Hat Enterprise Linux 10 Server Update 2 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
-      "version": "14.4.731.20"
-    },
-    {
-      "id": "4a6cd8bdbba64726bce1bd7c81b875da",
-      "category": "Network Adapters",
-      "name": "Red Hat Enterprise Linux 10 Update 1 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
-      "version": "10.02.16.00-k1"
-    },
-    {
-      "id": "376766abc4f1493fa567046abeb8b7d6",
-      "category": "Network Adapters",
-      "name": "Red Hat Enterprise Linux 10 Update 2 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
-      "version": "10.02.16.00-k1"
-    },
-    {
-      "id": "e760dc1509734b53830053c8a8b00097",
-      "category": "Network Adapters",
-      "name": "Red Hat Enterprise Linux 9 Server Update 7 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapter",
-      "version": "14.4.731.20"
-    },
-    {
-      "id": "02e2779ea258441c8ba6426a8772f536",
-      "category": "Network Adapters",
-      "name": "Red Hat Enterprise Linux 9 Server Update 8 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
-      "version": "14.4.731.20"
-    },
-    {
-      "id": "62fc8de385854321919207903df8d568",
-      "category": "Network Adapters",
-      "name": "Red Hat Enterprise Linux 9 Update 8 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
-      "version": "10.02.16.00-k1"
-    },
-    {
-      "id": "9d355b002f0f45528687c05a8ded7241",
-      "category": "Network Adapters",
-      "name": "Red Hat Enterprise Linux 9 update 7 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
-      "version": "10.02.16.00-k1"
-    },
-    {
-      "id": "cf36f8009ed4464f93a208bf9c35b47b",
-      "category": "Network Adapters",
-      "name": "SuSE Linux Enterprise Server 15 Service Pack 6 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
-      "version": "14.4.731.20"
-    },
-    {
-      "id": "2ef4b1fccb0b4e4aa4c8281327ada522",
-      "category": "Network Adapters",
-      "name": "SuSE Linux Enterprise Server 15 Service Pack 6 Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
-      "version": "10.02.16.00-k1"
-    },
-    {
-      "id": "83fed5e4a427414fb0792283dd57ec37",
-      "category": "Network Adapters",
-      "name": "SuSE Linux Enterprise Server 15 Service Pack 7 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapter",
-      "version": "14.4.731.6"
-    },
-    {
-      "id": "eb66fafd28ff4c39a42b91395104bd05",
-      "category": "Network Adapters",
-      "name": "SuSE Linux Enterprise Server 15 Service Pack 7 Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
-      "version": "10.02.15.00-k1"
-    },
-    {
-      "id": "7c61cb3283de42b790100730aaa7c9b2",
-      "category": "Network Adapters",
-      "name": "SuSE Linux Enterprise Server 16 Service Pack 0 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapter",
-      "version": "14.4.731.20"
-    },
-    {
-      "id": "22b29694299c4b27b67b3dde603d40b0",
-      "category": "Network Adapters",
-      "name": "SuSE Linux Enterprise Server 16 Service Pack 0 Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
-      "version": "10.02.16.00-k1"
-    },
-    {
-      "id": "56422dc0cdb64171addc0c9909a7019a",
-      "category": "SPS",
-      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware  for HPE Gen10 Plus Servers",
-      "version": "04.04.04.925"
-    },
-    {
-      "id": "ffc5db5b28504df99cd08b4bf08ccc7d",
-      "category": "SPS",
-      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE Gen10 Servers",
-      "version": "04.01.05.201"
-    },
-    {
-      "id": "d9b51eadf7e440fc88f26963aec59690",
-      "category": "SPS",
-      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE MicroServer Gen10 Plus",
-      "version": "05.01.05.103"
-    },
-    {
-      "id": "10b8cebc40fb4b69b234ff81bd7e1d1f",
-      "category": "SPS",
-      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant DL20 Gen10 Plus",
-      "version": "06.00.03.708"
-    },
-    {
-      "id": "8bd617958fd64494b0066602dc57ff65",
-      "category": "SPS",
-      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant DL20/ML30 Gen10",
-      "version": "05.01.05.103"
-    },
-    {
-      "id": "fb9faa50a5034cfe8c3861f763b25770",
-      "category": "SPS",
-      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant ML30 Gen10 Plus",
-      "version": "06.00.03.708"
-    },
-    {
-      "id": "348f4fc22c0c4f64b2e050cebccb4347",
-      "category": "SPS",
-      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant MicroServer Gen10 Plus v2",
-      "version": "06.00.03.708"
-    },
-    {
-      "id": "78667359eec84fc9af9066672db940e0",
-      "category": "SPS",
-      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE Gen10 Plus Servers",
-      "version": "04.04.04.925"
-    },
-    {
-      "id": "84d998355c4f4bc6997437e9a6c61fba",
-      "category": "SPS",
-      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE Gen10 Servers",
-      "version": "04.01.05.201"
-    },
-    {
-      "id": "667c48761fdd439199126de11a3666a8",
-      "category": "SPS",
-      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE MicroServer Gen10 Plus",
-      "version": "05.01.05.103"
-    },
-    {
-      "id": "c165fa12d9644f82b813c7e585ce9181",
-      "category": "SPS",
-      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant DL20 Gen10 Plus",
-      "version": "06.00.03.708"
-    },
-    {
-      "id": "e9b531c475a54ce6b287402b5c425933",
-      "category": "SPS",
-      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant DL20/ML30 Gen10",
-      "version": "05.01.05.103"
-    },
-    {
-      "id": "3eab1bf1c35b40e5b35b9f8cbcf441cd",
-      "category": "SPS",
-      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant ML30 Gen10 Plus",
-      "version": "06.00.03.708"
-    },
-    {
-      "id": "c046b36cf8a0464e9240313acab20b06",
-      "category": "SPS",
-      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant MicroServer Gen10 Plus v2",
-      "version": "06.00.03.708"
-    },
-    {
-      "id": "6e357a862ebf4f379b5f531a7eb46680",
-      "category": "SPS",
-      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware  for HPE Gen10 Plus Servers",
-      "version": "04.04.04.925"
-    },
-    {
-      "id": "aacf76bfa7674de086e8a84063eadb98",
-      "category": "SPS",
-      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware  for HPE Gen10 Servers",
-      "version": "05.01.05.103"
-    },
-    {
-      "id": "134da74460bf4b5aa8511e630ba5a272",
-      "category": "SPS",
-      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware  for HPE MicroServer Gen10 Plus",
-      "version": "05.01.05.103"
-    },
-    {
-      "id": "c4ff2ade728c42bfb931931df173daf9",
-      "category": "SPS",
-      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE Gen10 Servers",
-      "version": "04.01.05.201"
-    },
-    {
-      "id": "9a8025d60954436ba6fa5cef6da3dd18",
-      "category": "SPS",
-      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE ProLiant DL20 Gen10 Plus Servers",
-      "version": "06.00.03.708"
-    },
-    {
-      "id": "896b673e61904db68a62db4c589536af",
-      "category": "SPS",
-      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE ProLiant ML30 Gen10 Plus Servers",
-      "version": "06.00.03.708"
-    },
-    {
-      "id": "189fb9052e994ac694bd5d6fb410f76a",
-      "category": "SPS",
-      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE ProLiant MicroServer Gen10 Plus v2 Servers",
-      "version": "06.00.03.708"
-    },
-    {
-      "id": "d6810024a18142b0a4b8ec4db68a4e55",
-      "category": "Storage",
-      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
-      "version": "5.04"
-    },
-    {
-      "id": "12c818024cd141bdb20ae5471187f1ac",
-      "category": "Storage",
-      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
-      "version": "5.04"
-    },
-    {
-      "id": "cd60e68416444c61a56b3c63cb2d1ca3",
-      "category": "Storage",
-      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
-      "version": "5.04"
-    },
-    {
-      "id": "bce1dc60182942cc938b19de857de7fd",
-      "category": "Storage",
-      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
-      "version": "5.04"
-    },
-    {
-      "id": "de51682518bb48a2bb985003f8a8df4e",
-      "category": "Storage",
-      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
-      "version": "6.00"
-    },
-    {
-      "id": "0a4a4367dcbd457bbb50b971046257dd",
-      "category": "Storage",
-      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
-      "version": "6.00"
-    },
-    {
-      "id": "f61d4171b71b4f16a99210ceeba911f6",
-      "category": "Storage",
-      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
-      "version": "6.00"
-    },
-    {
-      "id": "bc3fe657ed304b17aeeab14dfddb1656",
-      "category": "Storage",
-      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
-      "version": "6.00"
-    },
-    {
-      "id": "ce7e63b5ed004965a0bc6af06ca584ef",
-      "category": "Storage",
-      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
-      "version": "2.74"
-    },
-    {
-      "id": "251bfe38793342929fa427f7b456f043",
-      "category": "Storage",
-      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
-      "version": "2.74"
-    },
-    {
-      "id": "8bcfdc333663490ba14bb0a7e2286062",
-      "category": "Storage",
-      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
-      "version": "2.74"
-    },
-    {
-      "id": "6c76dfc1e26441a48559e0f1bee2891e",
-      "category": "Storage",
-      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
-      "version": "2.74"
-    },
-    {
-      "id": "a2d50341a55d404a82473ce007636a93",
-      "category": "Storage",
-      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
-      "version": "0130"
-    },
-    {
-      "id": "942c49f5fada4f3f9198caca6f81e506",
-      "category": "Storage",
-      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
-      "version": "0130"
-    },
-    {
-      "id": "d65fb45f0327449eb7763d2d9cb7bf3e",
-      "category": "Storage",
-      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
-      "version": "0130"
-    },
-    {
-      "id": "33474bdb31ec42199bc00637b81a4d15",
-      "category": "Storage",
-      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
-      "version": "0130"
-    },
-    {
-      "id": "0883e4abd7344c9b834b5e5585107933",
-      "category": "Storage",
-      "name": "HPE MegaRAID Storage Administrator StorCLI for Linux 64-bit (for Gen10P and Gen11 Controllers)",
-      "version": "007.3604.0000.0000"
-    },
-    {
-      "id": "1ba6abb4e9ff40ab8c8d2a6c0f1a1860",
-      "category": "Storage",
-      "name": "HPE MegaRAID Storage Administrator StorCLI for Ubuntu (for Gen10P and Gen11 Controllers)",
-      "version": "007.3604.0000.0000"
-    },
-    {
-      "id": "4899e6b54e3941a4b9c3090a539cf6db",
-      "category": "Storage",
-      "name": "HPE MegaRAID Storage Administrator StorCLI for VMware8.0 (For Gen10P and Gen11 Controllers)",
-      "version": "2026.03.01"
-    },
-    {
-      "id": "0300daf553df4e699178bc1f12267a1f",
-      "category": "Storage",
-      "name": "HPE MegaRAID Storage Administrator StorCLI for VMware9.0 (For Gen10P and Gen11  Controllers)",
-      "version": "2026.03.01"
-    },
-    {
-      "id": "72b6bd7095ec40a7947f8f947956c698",
-      "category": "Storage",
-      "name": "HPE MegaRAID Storage Administrator StorCLI for VMware9.1 (For Gen10P and Gen11  Controllers)",
-      "version": "2026.03.01"
-    },
-    {
-      "id": "6d4e51e8b4c040cc80275ae447831403",
-      "category": "Storage",
-      "name": "HPE MegaRAID Storage Administrator StorCLI for Windows 64-bit (for Gen10P and Gen11 Controllers)",
-      "version": "7.3604.0.0"
-    },
-    {
-      "id": "3013cefa4fe14260a6f6811796f9b1c0",
-      "category": "Storage",
-      "name": "HPE MegaRAID Storage Administrator for RHEL10 (HPE MRSA for MR Controllers)",
-      "version": "8.16.13.0"
-    },
-    {
-      "id": "8f24173ef2e740d2b110bb710e861366",
-      "category": "Storage",
-      "name": "HPE MegaRAID Storage Administrator for RHEL9 ,SLES15 and SLES16 (HPE MRSA for MR Controllers)",
-      "version": "8.16.13.0"
-    },
-    {
-      "id": "e8f02987fae14861a37eb27a43adf117",
+    "4f553e0eca5b43ffbef2ba98a24ef5c1": {
+      "category": "BIOS",
+      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters - Microsoft Windows Server 2022 (x86_64)",
+      "version": "2026.06.02"
+    },
+    "e8f02987fae14861a37eb27a43adf117": {
       "category": "Storage",
       "name": "HPE MegaRAID Storage Administrator for Windows 64-bit (HPE MRSA for MR Controllers)",
       "version": "8.16.13.0"
     },
-    {
-      "id": "614a0c688deb4def90dafbe34fab64bb",
-      "category": "Storage",
-      "name": "HPE ProLiant Gen10 Smart Array and Gen10 Plus and Gen11 Smart RAID Controller Driver for VMware vSphere 8.0 (Driver Component).",
-      "version": "2026.07.01"
+    "aacf76bfa7674de086e8a84063eadb98": {
+      "category": "SPS",
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware  for HPE Gen10 Servers",
+      "version": "05.01.05.103"
     },
-    {
-      "id": "ec9be2d62b6d4bb78b41f4e500d70240",
-      "category": "Storage",
-      "name": "HPE ProLiant Gen10 Smart Array and Gen10 Plus and Gen11 Smart RAID Controller Driver for VMware vSphere 9.0 (Driver Component).",
-      "version": "2026.07.01"
+    "0a8a267d13ac4d5588a19d1f0bcc2f5d": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package(FWPKG) for HPE Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter",
+      "version": "16.35.8008"
     },
-    {
-      "id": "ce8ca413963e4458ade3268c0f9831f6",
-      "category": "Storage",
-      "name": "HPE QLogic Fibre Channel driver component for VMware vSphere 8.0",
-      "version": "2026.04.01"
+    "8e8482d9e6e6494a8e54ec40143d190a": {
+      "category": "Network Adapters",
+      "name": "HPE Broadcom tg3 Ethernet Drivers for SUSE Linux Enterprise Server 15",
+      "version": "3.139y-2"
     },
-    {
-      "id": "98a183458fbc454a86f635797ce90db5",
-      "category": "Storage",
-      "name": "HPE QLogic Fibre Channel driver component for VMware vSphere 9.0",
-      "version": "2026.04.01"
+    "b80afd72e0994f04bb439cddf1f507eb": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
+      "version": "1.0.3"
     },
-    {
-      "id": "241df8b8f5b848a28b8dbce3c7c923e4",
-      "category": "Storage",
-      "name": "HPE QLogic Fibre Channel driver component for VMware vSphere 9.1",
-      "version": "2026.04.01"
+    "cca7377cd12644cab41f5bd7e94cc2bd": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR100/Ethernet 100Gb 1-port QSFP56 PCIe4 x16 MCX653105A-ECAT Adapter : HPE part numbers P23665-B21 and P23665-H21",
+      "version": "20.43.8004"
     },
-    {
-      "id": "1655bc494b334729864d929c38544849",
-      "category": "Storage",
-      "name": "Online ROM Flash Component for VMware ESXi - HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
-      "version": "5.15"
+    "a8ea930bfde1449ab4444eb61f65be31": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (Windows x64) for Mellanox Open Ethernet cards",
+      "version": "1.0.0.15"
     },
-    {
-      "id": "b57ffa2f7fe942a89e589fe3043c5ffa",
-      "category": "Storage",
-      "name": "Online ROM Flash Component for Windows (x64) - HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
-      "version": "5.15"
+    "b50552ebf09d445294b0b81e162643cf": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) - Mellanox MCX631102AS-ADAT Ethernet 10/25Gb 2-port SFP28 Adapter for HPE",
+      "version": "26.49.1014"
     },
-    {
-      "id": "799e6d2dd6574724a67dc3ea392d2873",
-      "category": "Storage",
-      "name": "Supplemental Update / Online ROM Flash Component for Linux (x64) \u2013 HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
-      "version": "5.15"
-    },
-    {
-      "id": "4b83f1a7716845c5a3d89ea69bd8a6a7",
-      "category": "Storage",
-      "name": "Supplemental Update / Online ROM Flash Component for Ubuntu \u2013 HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
-      "version": "5.15"
-    },
-    {
-      "id": "67fb0d734fd248cca1eff5e7b321a8b6",
-      "category": "Video",
-      "name": "Matrox G200eH3 Video Controller Driver for Microsoft Windows 64-bit",
-      "version": "9.15.1.268"
-    },
-    {
-      "id": "fc90f99dec3d4432a73ac738a336cdc1",
-      "category": "iLO",
-      "name": "Agentless Management Service (iLO 5, iLO 6 and iLO 7) for Red Hat Enterprise Linux 10 Server",
-      "version": "4.8.0"
-    },
-    {
-      "id": "6e4df08455db4ce3a3b07b6eecea6280",
-      "category": "iLO",
-      "name": "Agentless Management Service (iLO 5, iLO 6 and iLO 7) for Red Hat Enterprise Linux 9 Server",
-      "version": "4.8.0"
-    },
-    {
-      "id": "db808d6aa2e24648bcc5e3f46d635b1a",
+    "db808d6aa2e24648bcc5e3f46d635b1a": {
       "category": "iLO",
       "name": "HPE Lights-Out Online Configuration Utility for Linux (AMD64/EM64T)",
       "version": "6.1.0.0"
     },
-    {
-      "id": "C9113",
-      "category": "iLO",
-      "name": "HPE Lights-Out Online Configuration Utility for Windows x64 Editions",
-      "version": "6.0.0.0"
+    "bd2780f798b64cefbb3916c847ffd755": {
+      "category": "BIOS",
+      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters for VMware vSphere 8.0",
+      "version": "2026.06.02"
     },
-    {
-      "id": "8aa4f1e30dfc4417885cea85b551314e",
-      "category": "iLO",
-      "name": "Online ROM Flash Component for Linux - HPE Integrated Lights-Out 5",
-      "version": "3.20"
+    "4a6cd8bdbba64726bce1bd7c81b875da": {
+      "category": "Network Adapters",
+      "name": "Red Hat Enterprise Linux 10 Update 1 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
     },
-    {
-      "id": "8384f9a8878649da8d668b07fb30c48e",
-      "category": "iLO",
-      "name": "Online ROM Flash Component for Windows x64 - HPE Integrated Lights-Out 5",
-      "version": "3.20"
+    "dcf87aae93de4d649fef4547bffe751a": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on Linux x86_64 platform",
+      "version": "1.0.20"
     },
-    {
-      "id": "2dc80c4ae4b943faadb938f8fc2b61d5",
+    "72b6bd7095ec40a7947f8f947956c698": {
+      "category": "Storage",
+      "name": "HPE MegaRAID Storage Administrator StorCLI for VMware9.1 (For Gen10P and Gen11  Controllers)",
+      "version": "2026.03.01"
+    },
+    "6adb26c5fc564f219877ab6a448e709b": {
+      "category": "Network Adapters",
+      "name": "Intel Firmware Package For E810-XXVDA4 Ethernet 10/25Gb 4-port SFP28 OCP3 Adapter",
+      "version": "4.91"
+    },
+    "854591aa471148a8b13f9c435ab181af": {
+      "category": "Network Adapters",
+      "name": "HPE Broadcom tg3 Ethernet Drivers for SUSE Linux Enterprise Server 16",
+      "version": "3.139y-2"
+    },
+    "0300daf553df4e699178bc1f12267a1f": {
+      "category": "Storage",
+      "name": "HPE MegaRAID Storage Administrator StorCLI for VMware9.0 (For Gen10P and Gen11  Controllers)",
+      "version": "2026.03.01"
+    },
+    "6522bf51105244bfa55540a1e824854d": {
+      "category": "Innovation Engine",
+      "name": "Online ROM Flash for Windows x64 -  HPE Gen10 Plus Innovation Engine Firmware  for HPE Gen10 Plus Servers",
+      "version": "1.0.0.22"
+    },
+    "251bfe38793342929fa427f7b456f043": {
+      "category": "Storage",
+      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
+      "version": "2.74"
+    },
+    "667c48761fdd439199126de11a3666a8": {
+      "category": "SPS",
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE MicroServer Gen10 Plus",
+      "version": "05.01.05.103"
+    },
+    "bca5397d7ba147ddbb0eb4fee4d4d567": {
+      "category": "BIOS",
+      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters - Linux (x86_64)",
+      "version": "2026.06.02"
+    },
+    "e760dc1509734b53830053c8a8b00097": {
+      "category": "Network Adapters",
+      "name": "Red Hat Enterprise Linux 9 Server Update 7 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapter",
+      "version": "14.4.731.20"
+    },
+    "22b29694299c4b27b67b3dde603d40b0": {
+      "category": "Network Adapters",
+      "name": "SuSE Linux Enterprise Server 16 Service Pack 0 Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
+    },
+    "348f4fc22c0c4f64b2e050cebccb4347": {
+      "category": "SPS",
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant MicroServer Gen10 Plus v2",
+      "version": "06.00.03.708"
+    },
+    "605b084308a74c74a0091e855e41c6f1": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on VMware ESXi 8.0",
+      "version": "1.0.7"
+    },
+    "066920f0b4684f1da260602d0174d2e0": {
+      "category": "Network Adapters",
+      "name": "HPE QLogic FastLinQ Firmware Package for Arrowhead adapters",
+      "version": "8.65.23"
+    },
+    "fbb53cf22a594dbb99b8c7f89e562124": {
+      "category": "Network Adapters",
+      "name": "Intel Firmware Package For E810-XXVDA2 Ethernet 10/25Gb 2-port SFP28 OCP3 Adapter",
+      "version": "4.91"
+    },
+    "ec5ba4f75ae340e39f8e129f646a9647": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (Linux x86_64) for Mellanox Open Ethernet cards",
+      "version": "1.0.15"
+    },
+    "2dc80c4ae4b943faadb938f8fc2b61d5": {
       "category": "iLO",
       "name": "Online ROM Flash Firmware Package - HPE Integrated Lights-Out 5",
       "version": "3.20"
     },
-    {
-      "id": "95e1a7b8a2664cd8b8d67128eff9bb87",
-      "category": "iLO",
-      "name": "iLO 5 Automatic Server Recovery Driver for Microsoft Windows Server 2019",
-      "version": "4.7.1.0"
+    "4c108242693848129dadc44c03c82865": {
+      "category": "Innovation Engine",
+      "name": "ROM Flash Firmware Package - HPE Gen10 Plus Innovation Engine Firmware for HPE Gen10 Plus Servers",
+      "version": "1.0.0.22"
     },
-    {
-      "id": "8c2329b4625b415f9c19a0c86db985e1",
+    "6e4df08455db4ce3a3b07b6eecea6280": {
       "category": "iLO",
-      "name": "iLO 5 Automatic Server Recovery Driver for Microsoft Windows Server 2022",
-      "version": "4.7.1.0"
+      "name": "Agentless Management Service (iLO 5, iLO 6 and iLO 7) for Red Hat Enterprise Linux 9 Server",
+      "version": "4.8.0"
     },
-    {
-      "id": "2ea9059fa42b417a890b2c9927375976",
+    "3f4d9eceae63421389745abdf06f001a": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 2-port QSFP56 PCIe4 x16 OCP3 MCX653436A-HDAI Adapter : HPE part numbers  P31348-B21 and P31348-H21",
+      "version": "20.43.8004"
+    },
+    "C9113": {
       "category": "iLO",
-      "name": "iLO 5 Automatic Server Recovery Driver for Microsoft Windows Server 2025",
-      "version": "4.7.2.0"
+      "name": "HPE Lights-Out Online Configuration Utility for Windows x64 Editions",
+      "version": "6.0.0.0"
     },
-    {
-      "id": "e1ccea24a14a427dabc2aadd846feea9",
+    "31d52cb30bc744dd8031127d1e5b580a": {
+      "category": "BIOS",
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Microsoft Windows Server 2016/2019 x64",
+      "version": "2026.06.01"
+    },
+    "fc90f99dec3d4432a73ac738a336cdc1": {
+      "category": "iLO",
+      "name": "Agentless Management Service (iLO 5, iLO 6 and iLO 7) for Red Hat Enterprise Linux 10 Server",
+      "version": "4.8.0"
+    },
+    "5c045315a07d45779f552f6cb831a2b4": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE Mellanox Ethernet only adapters",
+      "version": "1.0.25"
+    },
+    "3771cd39413d469099d505f7db47003a": {
+      "category": "Network Adapters",
+      "name": "HPE Edgeline 661SFP28 NIC Firmware Pack for Microsoft Windows",
+      "version": "9.20"
+    },
+    "4899e6b54e3941a4b9c3090a539cf6db": {
+      "category": "Storage",
+      "name": "HPE MegaRAID Storage Administrator StorCLI for VMware8.0 (For Gen10P and Gen11 Controllers)",
+      "version": "2026.03.01"
+    },
+    "11f86ddaaa3742028089d7f3e7f71098": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on VMware ESXi 9.x",
+      "version": "1.0.4"
+    },
+    "e1ccea24a14a427dabc2aadd846feea9": {
       "category": "iLO",
       "name": "iLO 5 Channel Interface Driver for Microsoft Windows Server 2019",
       "version": "4.7.1.0"
     },
-    {
-      "id": "094c75ee866a4b1bb6f0e035ac316695",
+    "570234d74f264fc1985961d91a29c03a": {
+      "category": "Network Adapters",
+      "name": "HPE Edgeline X722 NIC Firmware Component for Microsoft Windows",
+      "version": "4.30"
+    },
+    "b57ffa2f7fe942a89e589fe3043c5ffa": {
+      "category": "Storage",
+      "name": "Online ROM Flash Component for Windows (x64) - HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
+      "version": "5.15"
+    },
+    "78667359eec84fc9af9066672db940e0": {
+      "category": "SPS",
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE Gen10 Plus Servers",
+      "version": "04.04.04.925"
+    },
+    "f56420e1793d48958fc061b802e973db": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand NDR200/Ethernet 200Gb 1-port OSFP PCIe5 x16 MCX75310AAS-HEAT Adapter : HPE part numbers  P45642-B22 and P45642-H22",
+      "version": "28.49.1014"
+    },
+    "01dd36b9ad8145f48edf876566d56fdb": {
+      "category": "Network Adapters",
+      "name": "Mellanox Firmware Package(FWPKG) for NVIDIA Ethernet 10/25Gb 2-port SFP28 NVMe-oF Crypto Adapter for HPE",
+      "version": "26.45.1020"
+    },
+    "2ef4b1fccb0b4e4aa4c8281327ada522": {
+      "category": "Network Adapters",
+      "name": "SuSE Linux Enterprise Server 15 Service Pack 6 Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
+    },
+    "c02bbf9a9f6640aeab2edb3ce124d6c6": {
+      "category": "Network Adapters",
+      "name": "HPE Edgeline X722 NIC Firmware Component for Linux",
+      "version": "4.30"
+    },
+    "6ca4dd262131408db10af90451555128": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR100/Ethernet 100Gb 2-port QSFP56 PCIe4 x16 MCX653106A-ECAT Adapter : HPE part numbers P23666-B21 and P23666-H21",
+      "version": "20.43.8004"
+    },
+    "bc3fe657ed304b17aeeab14dfddb1656": {
+      "category": "Storage",
+      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
+      "version": "6.00"
+    },
+    "07117e80b64248dab9811a2280fcc85e": {
+      "category": "Network Adapters",
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 QLogic Storport Driver for Microsoft Windows Server 2022",
+      "version": "9.4.11.20"
+    },
+    "6c76dfc1e26441a48559e0f1bee2891e": {
+      "category": "Storage",
+      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
+      "version": "2.74"
+    },
+    "84e7c2b1f88e4ba3ad8fe3ec63fe5a60": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE Mellanox Ethernet only adapters",
+      "version": "1.0.3"
+    },
+    "1012a84c719148b1b9e7357e885d2199": {
+      "category": "Network Adapters",
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 Emulex Storport Driver for Microsoft Windows Server 2025",
+      "version": "14.4.624.1"
+    },
+    "da6c398c130f48f9a5a32bd3c9213a90": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on Linux x86_64 platform",
+      "version": "1.0.20"
+    },
+    "83fed5e4a427414fb0792283dd57ec37": {
+      "category": "Network Adapters",
+      "name": "SuSE Linux Enterprise Server 15 Service Pack 7 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapter",
+      "version": "14.4.731.6"
+    },
+    "75dd01ca72594b0686b5c281ad30ac2a": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on VMware ESXi 9.x",
+      "version": "1.0.3"
+    },
+    "cd5668ff531a493aafe51794773c6524": {
+      "category": "BIOS",
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Microsoft Windows Server 2022 x64",
+      "version": "2026.06.01"
+    },
+    "954c63f35d4743b2b629b5d17bfd860b": {
+      "category": "Network Adapters",
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 QLogic Storport Driver for Microsoft Windows Server 2025",
+      "version": "9.4.11.20"
+    },
+    "7c61cb3283de42b790100730aaa7c9b2": {
+      "category": "Network Adapters",
+      "name": "SuSE Linux Enterprise Server 16 Service Pack 0 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapter",
+      "version": "14.4.731.20"
+    },
+    "189fb9052e994ac694bd5d6fb410f76a": {
+      "category": "SPS",
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE ProLiant MicroServer Gen10 Plus v2 Servers",
+      "version": "06.00.03.708"
+    },
+    "84d998355c4f4bc6997437e9a6c61fba": {
+      "category": "SPS",
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE Gen10 Servers",
+      "version": "04.01.05.201"
+    },
+    "d65fb45f0327449eb7763d2d9cb7bf3e": {
+      "category": "Storage",
+      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
+      "version": "0130"
+    },
+    "e6fc00ad6a3e4c539778e7419a9fafa6": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 1-port QSFP56 PCIe4 x16 OCP3 MCX653435A-HDAI Adapter : HPE part numbers  P31323-B21 and  P31323-H21",
+      "version": "20.43.8004"
+    },
+    "e9b531c475a54ce6b287402b5c425933": {
+      "category": "SPS",
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant DL20/ML30 Gen10",
+      "version": "05.01.05.103"
+    },
+    "dcff0c4699e341cf85f18eb94d85147c": {
+      "category": "Network Adapters",
+      "name": "HPE Broadcom tg3 Ethernet Drivers for Red Hat Enterprise Linux 9",
+      "version": "3.139y-1"
+    },
+    "a4dfe483f7df4c3993a498bb13f08613": {
+      "category": "Network Adapters",
+      "name": "Broadcom Firmware Package for BCM57414 OCP3 adapter",
+      "version": "237.1.148.0"
+    },
+    "00184010ed0a41829836f7c60269273f": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE Mellanox Ethernet only adapters",
+      "version": "1.0.0.25"
+    },
+    "f5b93810cc2347bb802707c26e414376": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for Mellanox MCX623105AS-VDAT Ethernet 200Gb 1-port QSFP56 Adapter for HPE",
+      "version": "22.49.1014"
+    },
+    "d6810024a18142b0a4b8ec4db68a4e55": {
+      "category": "Storage",
+      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
+      "version": "5.04"
+    },
+    "3eab1bf1c35b40e5b35b9f8cbcf441cd": {
+      "category": "SPS",
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant ML30 Gen10 Plus",
+      "version": "06.00.03.708"
+    },
+    "c165fa12d9644f82b813c7e585ce9181": {
+      "category": "SPS",
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant DL20 Gen10 Plus",
+      "version": "06.00.03.708"
+    },
+    "c046b36cf8a0464e9240313acab20b06": {
+      "category": "SPS",
+      "name": "Online ROM Flash for Linux - Server Platform Services (SPS) Firmware for HPE ProLiant MicroServer Gen10 Plus v2",
+      "version": "06.00.03.708"
+    },
+    "8384f9a8878649da8d668b07fb30c48e": {
+      "category": "iLO",
+      "name": "Online ROM Flash Component for Windows x64 - HPE Integrated Lights-Out 5",
+      "version": "3.20"
+    },
+    "f3f8a4081d78499e9a2dd9c8d9fb4059": {
+      "category": "Network Adapters",
+      "name": "Intel Firmware Package For E810-CQDA2 Ethernet 100Gb 2-port QSFP28 Adapter",
+      "version": "4.91"
+    },
+    "2b1131d5128b46ff8528f19d5b030560": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (ESXi 9.x) for Mellanox Open Ethernet cards",
+      "version": "1.0.3"
+    },
+    "ce7e63b5ed004965a0bc6af06ca584ef": {
+      "category": "Storage",
+      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
+      "version": "2.74"
+    },
+    "ec9be2d62b6d4bb78b41f4e500d70240": {
+      "category": "Storage",
+      "name": "HPE ProLiant Gen10 Smart Array and Gen10 Plus and Gen11 Smart RAID Controller Driver for VMware vSphere 9.0 (Driver Component).",
+      "version": "2026.07.01"
+    },
+    "8bcfdc333663490ba14bb0a7e2286062": {
+      "category": "Storage",
+      "name": "HPE D6020 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
+      "version": "2.74"
+    },
+    "96fe9c5a9b9741d5bcf4ae73623359e0": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE Ethernet 100Gb 1-port QSFP28 PCIe3 x16 MCX515A-CCAT Adapter : HPE part numbers P31246-B21 and P31246-H21",
+      "version": "16.35.8008"
+    },
+    "0883e4abd7344c9b834b5e5585107933": {
+      "category": "Storage",
+      "name": "HPE MegaRAID Storage Administrator StorCLI for Linux 64-bit (for Gen10P and Gen11 Controllers)",
+      "version": "007.3604.0000.0000"
+    },
+    "da435657efe64ff1a664870254b46a1c": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 1-port QSFP56 PCIe4 x16 MCX653105A-HDAT Adapter : HPE part numbers P23664-B21 and P23664-H21",
+      "version": "20.43.8004"
+    },
+    "35cb34a457a347fd86df4f560cf6cf57": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (Linux x86_64) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
+      "version": "1.0.10"
+    },
+    "635ad6621b8d4c52b8b9de3325345e84": {
+      "category": "BIOS",
+      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters - Microsoft Windows Server 2025 (x86_64)",
+      "version": "2026.04.01"
+    },
+    "74b3fe77108f45dc915915f121f04357": {
+      "category": "Network Adapters",
+      "name": "Red Hat Enterprise Linux 10 Server Update 2 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
+      "version": "14.4.731.20"
+    },
+    "56422dc0cdb64171addc0c9909a7019a": {
+      "category": "SPS",
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware  for HPE Gen10 Plus Servers",
+      "version": "04.04.04.925"
+    },
+    "376766abc4f1493fa567046abeb8b7d6": {
+      "category": "Network Adapters",
+      "name": "Red Hat Enterprise Linux 10 Update 2 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
+    },
+    "a77901ff235c43f18df58616eefb654e": {
+      "category": "Network Adapters",
+      "name": "Mellanox Firmware Package(FWPKG) for HPE NVIDIA Ethernet 100Gb 2-port NVMe-oF Offload Adapter for HPE",
+      "version": "22.45.1020"
+    },
+    "62fc8de385854321919207903df8d568": {
+      "category": "Network Adapters",
+      "name": "Red Hat Enterprise Linux 9 Update 8 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
+    },
+    "8aa4f1e30dfc4417885cea85b551314e": {
+      "category": "iLO",
+      "name": "Online ROM Flash Component for Linux - HPE Integrated Lights-Out 5",
+      "version": "3.20"
+    },
+    "95e1a7b8a2664cd8b8d67128eff9bb87": {
+      "category": "iLO",
+      "name": "iLO 5 Automatic Server Recovery Driver for Microsoft Windows Server 2019",
+      "version": "4.7.1.0"
+    },
+    "614a0c688deb4def90dafbe34fab64bb": {
+      "category": "Storage",
+      "name": "HPE ProLiant Gen10 Smart Array and Gen10 Plus and Gen11 Smart RAID Controller Driver for VMware vSphere 8.0 (Driver Component).",
+      "version": "2026.07.01"
+    },
+    "1ba6abb4e9ff40ab8c8d2a6c0f1a1860": {
+      "category": "Storage",
+      "name": "HPE MegaRAID Storage Administrator StorCLI for Ubuntu (for Gen10P and Gen11 Controllers)",
+      "version": "007.3604.0000.0000"
+    },
+    "67fb0d734fd248cca1eff5e7b321a8b6": {
+      "category": "Video",
+      "name": "Matrox G200eH3 Video Controller Driver for Microsoft Windows 64-bit",
+      "version": "9.15.1.268"
+    },
+    "ab42380273374a988dbcb1a25432ed96": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand HDR/Ethernet 200Gb 2-port QSFP56 PCIe4 x16 MCX653106A-HDAT Adapter :  HPE part numbers P31324-B21 and P31324-H21",
+      "version": "20.43.8004"
+    },
+    "ad60a281882240318ac9ec3091a5f1c9": {
+      "category": "Network Adapters",
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 QLogic Storport Driver for Microsoft Windows Server 2019",
+      "version": "9.4.11.20"
+    },
+    "0a4a4367dcbd457bbb50b971046257dd": {
+      "category": "Storage",
+      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
+      "version": "6.00"
+    },
+    "effc199f67764de3b570f964be1aa0ce": {
+      "category": "Innovation Engine",
+      "name": "Online ROM Flash for Windows x64 -  HPE Gen10 Innovation Engine Firmware  for HPE Gen10 Servers",
+      "version": "0.2.3.0"
+    },
+    "2ea9059fa42b417a890b2c9927375976": {
+      "category": "iLO",
+      "name": "iLO 5 Automatic Server Recovery Driver for Microsoft Windows Server 2025",
+      "version": "4.7.2.0"
+    },
+    "33474bdb31ec42199bc00637b81a4d15": {
+      "category": "Storage",
+      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
+      "version": "0130"
+    },
+    "435031f572ea43b79bd116d63a99a58a": {
+      "category": "Network Adapters",
+      "name": "Broadcom Firmware Package for BCM57414 adapter",
+      "version": "237.1.148.0"
+    },
+    "3178a35014a54eb187ac32bf0e1852e0": {
+      "category": "Network Adapters",
+      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for SUSE Linux Enterprise Server 15 SP7 (AMD64/EM64T)",
+      "version": "4.36"
+    },
+    "64511cd7ad8d42fea109336ca7a083a0": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on VMware ESXi 8.0",
+      "version": "1.0.10"
+    },
+    "8bd617958fd64494b0066602dc57ff65": {
+      "category": "SPS",
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant DL20/ML30 Gen10",
+      "version": "05.01.05.103"
+    },
+    "25bee0f636714c0e8bface2301234fec": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE NVIDIA VPI (Ethernet and Infiniband mode) ConnectX6 devices on Windows x86_64 platform",
+      "version": "1.0.0.16"
+    },
+    "d9b51eadf7e440fc88f26963aec59690": {
+      "category": "SPS",
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE MicroServer Gen10 Plus",
+      "version": "05.01.05.103"
+    },
+    "a6a815c1e19641d7b77e2e862e63ca3a": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for Mellanox MCX562A-ACAI Ethernet 10/25Gb 2-port SFP28 OCP3 Adapter for HPE",
+      "version": "16.35.8008"
+    },
+    "241df8b8f5b848a28b8dbce3c7c923e4": {
+      "category": "Storage",
+      "name": "HPE QLogic Fibre Channel driver component for VMware vSphere 9.1",
+      "version": "2026.04.01"
+    },
+    "de51682518bb48a2bb985003f8a8df4e": {
+      "category": "Storage",
+      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
+      "version": "6.00"
+    },
+    "8085229a62d8443d85751340431d38d5": {
+      "category": "Network Adapters",
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 Emulex Storport Driver for Microsoft Windows Server 2022",
+      "version": "14.4.624.1"
+    },
+    "fe217a349ea5432eb992dea833e5cc7b": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
+      "version": "1.0.4"
+    },
+    "01cbc1be755b4243b92be8c9339313eb": {
+      "category": "Network Adapters",
+      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for SUSE Linux Enterprise Server 15 SP6 (AMD64/EM64T)",
+      "version": "4.36"
+    },
+    "ce8ca413963e4458ade3268c0f9831f6": {
+      "category": "Storage",
+      "name": "HPE QLogic Fibre Channel driver component for VMware vSphere 8.0",
+      "version": "2026.04.01"
+    },
+    "a2d50341a55d404a82473ce007636a93": {
+      "category": "Storage",
+      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for Linux (x64)",
+      "version": "0130"
+    },
+    "17666522baed46e695f28d4315d6fdb8": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
+      "version": "1.0.0.10"
+    },
+    "2e4ac8b988164dc087668639a95037d3": {
+      "category": "Network Adapters",
+      "name": "HPE Broadcom tg3 Ethernet Drivers for Red Hat Enterprise Linux 10",
+      "version": "3.139y-1"
+    },
+    "6a4f9209b5474891beaf50886f41470e": {
+      "category": "Network Adapters",
+      "name": "Intel Firmware Package For E810-XXVDA4 Ethernet 10/25Gb 4-port SFP28 MCLK Adapter ",
+      "version": "4.91"
+    },
+    "6d4e51e8b4c040cc80275ae447831403": {
+      "category": "Storage",
+      "name": "HPE MegaRAID Storage Administrator StorCLI for Windows 64-bit (for Gen10P and Gen11 Controllers)",
+      "version": "7.3604.0.0"
+    },
+    "b929c06b33df46a182acd3e907e0dc53": {
+      "category": "BIOS",
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Microsoft Windows Server 2025 x64",
+      "version": "2026.04.01"
+    },
+    "9a74de9c33bb4afeafe66492b230f37e": {
+      "category": "iLO",
+      "name": "iLO 5 Channel Interface Driver for Microsoft Windows Server 2025",
+      "version": "4.7.2.0"
+    },
+    "d56d083f3286405bb8ddda0a530c6d29": {
+      "category": "Network Adapters",
+      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for Red Hat Enterprise Linux 10 Update 1 (x86_64)",
+      "version": "4.36"
+    },
+    "ac4d46dcda694f51abe34e6378a53487": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for HPE Mellanox Ethernet only adapters",
+      "version": "1.0.8"
+    },
+    "0134d053d49b43b1add04e5a51f6ff18": {
+      "category": "Network Adapters",
+      "name": "Intel Firmware Package For E810-XXVDA2 Ethernet 10/25Gb 2-port SFP28 Adapter",
+      "version": "4.91"
+    },
+    "80ea6cb0c7d14159a1a37d37866e5b0c": {
+      "category": "Network Adapters",
+      "name": "Broadcom Firmware Package for BCM57412 OCP3 adapter",
+      "version": "237.1.148.0"
+    },
+    "8c2329b4625b415f9c19a0c86db985e1": {
+      "category": "iLO",
+      "name": "iLO 5 Automatic Server Recovery Driver for Microsoft Windows Server 2022",
+      "version": "4.7.1.0"
+    },
+    "7a201554eb654a4fa5bf0b9e23666148": {
+      "category": "Network Adapters",
+      "name": "Broadcom Firmware Package for BCM57416 OCP3 adapter",
+      "version": "237.1.148.0"
+    },
+    "ffc5db5b28504df99cd08b4bf08ccc7d": {
+      "category": "SPS",
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE Gen10 Servers",
+      "version": "04.01.05.201"
+    },
+    "5c10ef42611f4cada08e038ec64fbce6": {
+      "category": "Network Adapters",
+      "name": "Marvell FastLinQ Firmware Package for Arrowhead adapters",
+      "version": "8.65.21"
+    },
+    "d1422347af3f4f888596c242a7fdb7a6": {
+      "category": "Network Adapters",
+      "name": "HPE QLogic Fibre Channel Enablement Kit for Host Bus Adapter for Linux",
+      "version": "6.0.0.1-4"
+    },
+    "ccd2fccdbff94b0ab75d085d46522784": {
+      "category": "BIOS",
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for Linux (x64)",
+      "version": "2026.06.01"
+    },
+    "bce1dc60182942cc938b19de857de7fd": {
+      "category": "Storage",
+      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for Windows (x64)",
+      "version": "5.04"
+    },
+    "eee95c8d7c02483cb27d5ddd5b263338": {
+      "category": "Network Adapters",
+      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for SUSE Linux Enterprise Server 16 SP0 (AMD64/EM64T)",
+      "version": "4.36"
+    },
+    "e1df01bf9927457096858061671e6c6b": {
+      "category": "BIOS",
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for VMware vSphere  9.0",
+      "version": "2026.06.01"
+    },
+    "d4a139dbc9ee4b60b96431e28f7daab7": {
+      "category": "Network Adapters",
+      "name": "HPE Mellanox MFT prerequisite RPMs for Mellanox adapter firmware update in Secure Boot mode for Red Hat Enterprise Linux 9 Update 7 (x86_64)",
+      "version": "4.36"
+    },
+    "41b320ad66f042c0996f23c6087a171e": {
+      "category": "Network Adapters",
+      "name": "Broadcom Firmware Package for BCM57412 adapter",
+      "version": "237.1.148.0"
+    },
+    "094c75ee866a4b1bb6f0e035ac316695": {
       "category": "iLO",
       "name": "iLO 5 Channel Interface Driver for Microsoft Windows Server 2022",
       "version": "4.7.1.0"
     },
-    {
-      "id": "9a74de9c33bb4afeafe66492b230f37e",
-      "category": "iLO",
-      "name": "iLO 5 Channel Interface Driver for Microsoft Windows Server 2025",
-      "version": "4.7.2.0"
+    "43699ba116594728bcf30612b7c6f5f5": {
+      "category": "Network Adapters",
+      "name": "Broadcom Firmware Package for BCM57504 Ethernet 10/25Gb 4-port SFP28 Adapter",
+      "version": "237.1.148.0"
+    },
+    "58e30c6460374d34ab64c2a8547dafe2": {
+      "category": "Network Adapters",
+      "name": "Intel Firmware Package For E810-2CQDA2 Ethernet 100Gb 2-port QSFP28 Adapter",
+      "version": "4.91"
+    },
+    "1655bc494b334729864d929c38544849": {
+      "category": "Storage",
+      "name": "Online ROM Flash Component for VMware ESXi - HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
+      "version": "5.15"
+    },
+    "4b83f1a7716845c5a3d89ea69bd8a6a7": {
+      "category": "Storage",
+      "name": "Supplemental Update / Online ROM Flash Component for Ubuntu \u2013 HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
+      "version": "5.15"
+    },
+    "134da74460bf4b5aa8511e630ba5a272": {
+      "category": "SPS",
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware  for HPE MicroServer Gen10 Plus",
+      "version": "05.01.05.103"
+    },
+    "cf36f8009ed4464f93a208bf9c35b47b": {
+      "category": "Network Adapters",
+      "name": "SuSE Linux Enterprise Server 15 Service Pack 6 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
+      "version": "14.4.731.20"
+    },
+    "10b8cebc40fb4b69b234ff81bd7e1d1f": {
+      "category": "SPS",
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant DL20 Gen10 Plus",
+      "version": "06.00.03.708"
+    },
+    "f61d4171b71b4f16a99210ceeba911f6": {
+      "category": "Storage",
+      "name": "HPE D3610B/D3710B 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
+      "version": "6.00"
+    },
+    "dc41774861a945f28d388059e656b2ca": {
+      "category": "Network Adapters",
+      "name": "Intel Firmware Package For E810-CQDA2 Ethernet 100Gb 2-port QSFP28 OCP3 Adapter",
+      "version": "4.91"
+    },
+    "896b673e61904db68a62db4c589536af": {
+      "category": "SPS",
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE ProLiant ML30 Gen10 Plus Servers",
+      "version": "06.00.03.708"
+    },
+    "cdfe3840d6074900a4d11b774d3e5307": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (Windows x64) for HPE Mellanox VPI (Ethernet and Infiniband mode) ConnectX4 and ConnectX5 devices on Windows x86_64 platform",
+      "version": "1.0.0.19"
+    },
+    "17cb0fd9f2dc47bb8aba197c6f346c61": {
+      "category": "Network Adapters",
+      "name": "HPE Edgeline 661SFP28 NIC Firmware Pack for Linux",
+      "version": "9.20"
+    },
+    "7ead0459ae26493fa240dac6ad17d606": {
+      "category": "Network Adapters",
+      "name": "Online Firmware Upgrade Utility (ESXi 8.0) for Mellanox Open Ethernet cards",
+      "version": "1.0.8"
+    },
+    "3af72b6238454de589e484681033279c": {
+      "category": "Network Adapters",
+      "name": "Mellanox Firmware Package (FWPKG) for  HPE Edgeline e920 ConnectX-6Lx 10Gb 2-port Mezzanine Adapter :  HPE part number P40899-B21",
+      "version": "26.43.1014"
+    },
+    "799e6d2dd6574724a67dc3ea392d2873": {
+      "category": "Storage",
+      "name": "Supplemental Update / Online ROM Flash Component for Linux (x64) \u2013 HPE 12Gb/s SAS Expander Firmware for HPE Smart Array Controllers and HPE HBA Controllers",
+      "version": "5.15"
+    },
+    "7726a9100f9d46aeb7672151b0d319ea": {
+      "category": "Network Adapters",
+      "name": "HPE Edgeline i210 NIC Firmware Component for Microsoft Windows",
+      "version": "1.2877"
+    },
+    "03c87662bb3a4a57a852807a8f77de3f": {
+      "category": "Innovation Engine",
+      "name": "Online ROM Flash for Linux - HPE Gen10 Plus Innovation Engine Firmware for HPE Gen10 Plus Servers",
+      "version": "1.0.0.22"
+    },
+    "8f24173ef2e740d2b110bb710e861366": {
+      "category": "Storage",
+      "name": "HPE MegaRAID Storage Administrator for RHEL9 ,SLES15 and SLES16 (HPE MRSA for MR Controllers)",
+      "version": "8.16.13.0"
+    },
+    "c1dd5be659f944a486917246089b40e7": {
+      "category": "Network Adapters",
+      "name": "HPE Edgeline i210 NIC Firmware Component for Linux",
+      "version": "1.2877"
+    },
+    "c4ff2ade728c42bfb931931df173daf9": {
+      "category": "SPS",
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE Gen10 Servers",
+      "version": "04.01.05.201"
+    },
+    "3013cefa4fe14260a6f6811796f9b1c0": {
+      "category": "Storage",
+      "name": "HPE MegaRAID Storage Administrator for RHEL10 (HPE MRSA for MR Controllers)",
+      "version": "8.16.13.0"
+    },
+    "d217387da75b452f91f63bc9a4605e37": {
+      "category": "Network Adapters",
+      "name": "HPE Storage Fibre Channel Adapter Kit for the x64 Emulex Storport Driver for Microsoft Windows Server 2019",
+      "version": "14.4.624.0"
+    },
+    "02e2779ea258441c8ba6426a8772f536": {
+      "category": "Network Adapters",
+      "name": "Red Hat Enterprise Linux 9 Server Update 8 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
+      "version": "14.4.731.20"
+    },
+    "7a882d320d3b437c96a87679f2b6ee8f": {
+      "category": "BIOS",
+      "name": "HPE Firmware Flash for QLogic Fibre Channel Host Bus Adapters for VMware vSphere 9.0 and vSphere 9.1",
+      "version": "2026.06.02"
+    },
+    "12c818024cd141bdb20ae5471187f1ac": {
+      "category": "Storage",
+      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
+      "version": "5.04"
+    },
+    "3d28404b009047cd9c6ade47efd24ca6": {
+      "category": "Network Adapters",
+      "name": "Broadcom Firmware Package for BCM57504 Ethernet 10/25Gb 4-port SFP28 OCP3 Adapter",
+      "version": "237.1.148.0"
+    },
+    "27053985f2354572a6633cc6a63bb7ef": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) - Mellanox MCX631432AS-ADAI Ethernet 10/25Gb 2-port SFP28 OCP3 Adapter for HPE",
+      "version": "26.49.1014"
+    },
+    "6e357a862ebf4f379b5f531a7eb46680": {
+      "category": "SPS",
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware  for HPE Gen10 Plus Servers",
+      "version": "04.04.04.925"
+    },
+    "23c569ea92fb47f091a7a0c891acff72": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for Mellanox MCX623106AS-CDAT Ethernet 100Gb 2-port QSFP56 Adapter for HPE",
+      "version": "22.49.1014"
+    },
+    "98a183458fbc454a86f635797ce90db5": {
+      "category": "Storage",
+      "name": "HPE QLogic Fibre Channel driver component for VMware vSphere 9.0",
+      "version": "2026.04.01"
+    },
+    "91adee7c0766499184ce8d25a925669e": {
+      "category": "Innovation Engine",
+      "name": "ROM Flash Firmware Package - HPE Gen10 Innovation Engine Firmware for HPE Gen10 Servers",
+      "version": "0.2.3.0"
+    },
+    "942c49f5fada4f3f9198caca6f81e506": {
+      "category": "Storage",
+      "name": "HPE D8000 12Gb SAS Disk Enclosure ROM Flash Component for Ubuntu (x64)",
+      "version": "0130"
+    },
+    "eb66fafd28ff4c39a42b91395104bd05": {
+      "category": "Network Adapters",
+      "name": "SuSE Linux Enterprise Server 15 Service Pack 7 Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.15.00-k1"
+    },
+    "aedcdb1596004cf4a73ef573a3625e08": {
+      "category": "BIOS",
+      "name": "HPE Firmware Flash for Emulex Fibre Channel Host Bus Adapters for VMware vSphere  8.0",
+      "version": "2026.06.01"
+    },
+    "fb9faa50a5034cfe8c3861f763b25770": {
+      "category": "SPS",
+      "name": "Online ROM Flash Component for Windows x64 - Server Platform Services (SPS) Firmware for HPE ProLiant ML30 Gen10 Plus",
+      "version": "06.00.03.708"
+    },
+    "05f0508175404d989c50e4f9a4e09a23": {
+      "category": "Innovation Engine",
+      "name": "Online ROM Flash for Linux - HPE Gen10 Innovation Engine Firmware for HPE Gen10 Servers ",
+      "version": "0.2.3.0"
+    },
+    "9d355b002f0f45528687c05a8ded7241": {
+      "category": "Network Adapters",
+      "name": "Red Hat Enterprise Linux 9 update 7 Server Fibre Channel Driver Kit for HPE QLogic Host Bus Adapters",
+      "version": "10.02.16.00-k1"
+    },
+    "12aedd0e69a442908a699d2cefb38320": {
+      "category": "Network Adapters",
+      "name": "Red Hat Enterprise Linux 10 Server Update 1 Fibre Channel Driver Kit for HPE Emulex Host Bus Adapters",
+      "version": "14.4.731.20"
+    },
+    "4b7bb75be74941e8987c342978cb18f9": {
+      "category": "Network Adapters",
+      "name": "Broadcom Firmware Package for BCM57416 adapter",
+      "version": "237.1.148.0"
+    },
+    "6aac2d7fdad54ca7910ee0bb1e81d6f3": {
+      "category": "Network Adapters",
+      "name": "NVIDIA Firmware Package (FWPKG) for HPE InfiniBand NDR200 1-port OSFP PCIe5 x16 MCX75310AAS-HEAT Adapter : HPE part numbers  P45642-B21 and P45642-H21",
+      "version": "28.49.1014"
+    },
+    "9a8025d60954436ba6fa5cef6da3dd18": {
+      "category": "SPS",
+      "name": "ROM Flash Firmware Package - Server Platform Services (SPS) Firmware for HPE ProLiant DL20 Gen10 Plus Servers",
+      "version": "06.00.03.708"
+    },
+    "cd60e68416444c61a56b3c63cb2d1ca3": {
+      "category": "Storage",
+      "name": "HPE D3600/D3700/D3610/D3710 12Gb SAS Disk Enclosure ROM Flash Component for VMware (ESXi)",
+      "version": "5.04"
+    },
+    "955cffa0d4fe4b76923c0ea7afeca0bf": {
+      "category": "Network Adapters",
+      "name": "Intel Firmware Package For E810-XXVDA4 Ethernet 10/25Gb 4-port SFP28 Adapter",
+      "version": "4.91"
     }
-  ]
+  }
 }
