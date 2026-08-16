@@ -161,7 +161,7 @@ def main():
         "generations": all_results
     }
     
-    with open('HPE/SPP/SPP_All_Generations_Firmware_Manifest.json', 'w') as f:
+    with open('HPE/SPP/SPP_Firmware_Lookup.json', 'w') as f:
         json.dump(output, f, indent=2)
     
     print(f"Scraped {len(all_results)} SPP generations")
