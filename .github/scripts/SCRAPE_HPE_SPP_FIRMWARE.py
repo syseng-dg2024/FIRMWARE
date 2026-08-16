@@ -19,9 +19,18 @@ CRITICAL_DEVICES = [
     "Intelligent Provisioning",
 ]
 
-def get_latest_spp_version():
-    """Get the latest SPP Gen10 version from the repository listing"""
-    base_url = "https://downloads.linux.hpe.com/SDR/repo/spp-gen10"
+# SPP generations to scrape
+SPP_GENERATIONS = [
+    "spp-gen9",
+    "spp-gen10",
+    "spp-gen11",
+    "spp-gen12",
+    "spp-gen13",
+]
+
+def get_latest_spp_version(generation):
+    """Get the latest SPP version for a specific generation"""
+    base_url = f"https://downloads.linux.hpe.com/SDR/repo/{generation}"
     
     try:
         headers = {
@@ -42,7 +51,6 @@ def get_latest_spp_version():
         return versions_sorted[-1]
     
     except Exception as e:
-        print(f"Error fetching directory listing: {e}")
         return None
 
 def is_critical_device(device_name):
@@ -56,13 +64,11 @@ def is_critical_device(device_name):
             return True
     return False
 
-def scrape_hpe_spp_firmware(version):
-    """Scrape HPE SPP Gen10 firmware with DeviceClass as key"""
-    url = f"https://downloads.linux.hpe.com/SDR/repo/spp-gen10/{version}/manifest/meta.xml"
+def scrape_hpe_spp_firmware(generation, version):
+    """Scrape HPE SPP firmware with DeviceClass as key"""
+    url = f"https://downloads.linux.hpe.com/SDR/repo/{generation}/{version}/manifest/meta.xml"
     
     try:
-        print(f"Fetching SPP manifest from: {url}")
-        
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
         }
@@ -72,8 +78,6 @@ def scrape_hpe_spp_firmware(version):
         
         root = ET.fromstring(xml_content)
         payloads = root.findall('.//payload')
-        
-        print(f"Found {len(payloads)} payload blocks")
         
         # Dictionary to track (name, device_class, version) for deduplication
         device_dedup = {}
@@ -126,28 +130,41 @@ def scrape_hpe_spp_firmware(version):
                 "Version": info["Version"]
             }
         
-        output = {
-            "description": "HPE Service Pack for ProLiant (SPP) Gen10 Critical Firmware Components",
-            "sppVersion": version,
-            "url": url,
-            "lastUpdated": datetime.now().strftime("%-m-%-d-%Y"),
-            "totalComponents": len(components),
-            "components": components
-        }
-        
-        with open('HPE/SPP/SPP_Gen10_Firmware_Manifest.json', 'w') as f:
-            json.dump(output, f, indent=2)
-        
-        print(f"Extracted {len(components)} unique critical firmware components")
-        return len(components)
+        return components, len(components)
     
     except Exception as e:
-        print(f"Error: {e}")
-        return 0
+        return {}, 0
+
+def main():
+    all_results = {}
+    
+    for generation in SPP_GENERATIONS:
+        # Get latest version for this generation
+        latest_version = get_latest_spp_version(generation)
+        
+        if latest_version:
+            components, count = scrape_hpe_spp_firmware(generation, latest_version)
+            
+            if count > 0:
+                all_results[generation] = {
+                    "version": latest_version,
+                    "lastUpdated": datetime.now().strftime("%-m-%-d-%Y"),
+                    "totalComponents": count,
+                    "components": components
+                }
+    
+    # Output combined results
+    output = {
+        "description": "HPE Service Pack for ProLiant (SPP) Critical Firmware Components - All Generations",
+        "generationCount": len(all_results),
+        "lastUpdated": datetime.now().strftime("%-m-%-d-%Y"),
+        "generations": all_results
+    }
+    
+    with open('HPE/SPP/SPP_All_Generations_Firmware_Manifest.json', 'w') as f:
+        json.dump(output, f, indent=2)
+    
+    print(f"Scraped {len(all_results)} SPP generations")
 
 if __name__ == "__main__":
-    latest_version = get_latest_spp_version()
-    if latest_version:
-        scrape_hpe_spp_firmware(latest_version)
-    else:
-        print("Could not determine latest SPP version")
+    main()
