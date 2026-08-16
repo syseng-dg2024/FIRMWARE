@@ -3,11 +3,31 @@
   "sppVersion": "2026.07.00.00",
   "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen10/2026.07.00.00/manifest/meta.xml",
   "lastUpdated": "8-16-2026",
-  "totalComponents": 17,
+  "totalComponents": 66,
   "components": {
     "a6b1a447-382a-5a4f-8086-a3601590028d": {
       "name": "Server Platform Services (SPS) E3 Firmware",
       "version": "05.01.05.103"
+    },
+    "a6b1a447-382a-5a4f-15b3-101715b30116": {
+      "name": "HPE Ethernet 10/25Gb 2-port SFP28 MCX512F-ACAT Adapter",
+      "version": "16.35.8008"
+    },
+    "a6b1a447-382a-5a4f-15B3-1015159002C1": {
+      "name": "HPE Ethernet 10Gb 2-port 548SFP+ Adapter",
+      "version": "14.32.1912"
+    },
+    "a6b1a447-382a-5a4f-15B3-101715B30117": {
+      "name": "HPE Ethernet 100Gb 2-port QSFP28 MCX516A-CCHT Adapter",
+      "version": "16.35.8008"
+    },
+    "a6b1a447-382a-5a4f-15B3-101515B30102": {
+      "name": "HPE Ethernet 10Gb 2-port SFP+ MCX4121A-XCHT Adapter",
+      "version": "14.32.1912"
+    },
+    "a6b1a447-382a-5a4f-15B3-101515B30047": {
+      "name": "HPE Ethernet 10Gb/25Gb 2-port SFP28 MCX4621A-ACAB OCP3 Adapter",
+      "version": "14.32.1912"
     },
     "00000000-0000-0000-0000-000000504d05": {
       "name": "Gen10 Plus Power Management Controller Firmware",
@@ -45,6 +65,22 @@
       "name": "HPE Smart Array E208i-p SR Gen10 Controller",
       "version": "8.23"
     },
+    "a6b1a447-382a-5a4f-1077-80701590021D": {
+      "name": "HPE Ethernet 10/25Gb 2-port 621SFP28 Adapter",
+      "version": "8.65.23"
+    },
+    "a6b1a447-382a-5a4f-1077-80701590021F": {
+      "name": "HPE Ethernet 10/25Gb 2-port 622FLR-SFP28 Adapter",
+      "version": "8.65.23"
+    },
+    "a6b1a447-382a-5a4f-1077-807015900220": {
+      "name": "HPE Ethernet 10Gb 2-port 521T Adapter",
+      "version": "8.65.23"
+    },
+    "a6b1a447-382a-5a4f-1077-8070159002BD": {
+      "name": "HPE Ethernet 10Gb 2-port 524SFP+ Adapter",
+      "version": "8.65.23"
+    },
     "a6b1a447-382a-5a4f-8086-43e080867270": {
       "name": "Server Platform Services Firmware for DL20 Gen10 Plus",
       "version": "06.00.03.708"
@@ -61,17 +97,177 @@
       "name": "iLO 5",
       "version": "3.20"
     },
+    "a6b1a447-382a-5a4f-15B3-101715900246": {
+      "name": "HPE Ethernet 100Gb 1-port 842QSFP28 Adapter",
+      "version": "16.35.8008"
+    },
+    "a6b1a447-382a-5a4f-15B3-1015159000D3": {
+      "name": "HPE Ethernet 25Gb 2-port 640 FLR-SFP28 Adapter",
+      "version": "14.32.1912"
+    },
+    "a6b1a447-382a-5a4f-15B3-1015159000D4": {
+      "name": "HPE Ethernet 25Gb 2-port 640SFP28 Adapter",
+      "version": "14.32.1912"
+    },
+    "a6b1a447-382a-5a4f-8086-158b15900253": {
+      "name": "HPE Ethernet 10/25Gb 2-port 661SFP28 Adapter",
+      "version": "8.30"
+    },
     "a6b1a447-382a-5a4f-3c10-87800a000101": {
       "name": "Server Platform Services (SPS) Firmware",
       "version": "04.04.04.925"
+    },
+    "a6b1a447-382a-5a4f-14E4-165F103C22E8": {
+      "name": "HP Ethernet 1Gb 2-port 332i Adapter (22E8)",
+      "version": "20.37.41"
+    },
+    "a6b1a447-382a-5a4f-14E4-1665103C22BD": {
+      "name": "HP Ethernet 1Gb 2-port 330i Adapter (22BD)",
+      "version": "20.37.41"
+    },
+    "a6b1a447-382a-5a4f-14E4-165F103C1786": {
+      "name": "HP Ethernet 1Gb 2-port 332T Adapter",
+      "version": "20.37.41"
+    },
+    "a6b1a447-382a-5a4f-14E4-1657103C169D": {
+      "name": "HP Ethernet 1Gb 4-port 331FLR Adapter",
+      "version": "20.37.41"
+    },
+    "a6b1a447-382a-5a4f-14E4-1657103C3383": {
+      "name": "HP Ethernet 1Gb 4-port 331T Adapter",
+      "version": "20.37.41"
+    },
+    "a6b1a447-382a-5a4f-14E4-1657103C22BE": {
+      "name": "HP Ethernet 1Gb 4-port 331i Adapter (22BE)",
+      "version": "20.37.41"
+    },
+    "a6b1a447-382a-5a4f-8086-1572808600A1": {
+      "name": "HPE Ethernet 10Gb 2-port SFP+ OCP3 X710-DA2 Adapter",
+      "version": "1.3909.0"
+    },
+    "a6b1a447-382a-5a4f-8086-157280860008": {
+      "name": "HPE Ethernet 10Gb 2-port SFP+ X710-DA2 Adapter",
+      "version": "1.3909.0"
     },
     "a6b1a447-382a-5a4f-3c10-86800a000101": {
       "name": "Server Platform Services (SPS) Firmware",
       "version": "04.01.05.201"
     },
+    "a6b1a447-382a-5a4f-14E4-168E103C339D": {
+      "name": "HPE Ethernet 10Gb 2-port 530SFP+ Adapter",
+      "version": "7.19.27"
+    },
+    "a6b1a447-382a-5a4f-14E4-168E103C18D3": {
+      "name": "HPE Ethernet 10Gb 2-port 530T Adapter",
+      "version": "7.19.27"
+    },
+    "a6b1a447-382a-5a4f-15b3-101d15b30040": {
+      "name": "HPE Ethernet 200Gb 1-port QSFP56 MCX623105AS-VDAT Adapter",
+      "version": "22.49.1014"
+    },
     "a6b1a447-382a-5a4f-3c10-3c100a000303": {
       "name": "Innovation Engine (IE) Fimware",
       "version": "0.2.3.0"
+    },
+    "a6b1a447-382a-5a4f-15b3-101715b30052": {
+      "name": "HPE Ethernet 10/25Gb 2-port SFP28 MCX562A-ACAI OCP3 Adapter",
+      "version": "16.35.8008"
+    },
+    "a6b1a447-382a-5a4f-14E4-16D715900211": {
+      "name": "HPE Ethernet 10/25Gb 2-port 631FLR-SFP28 Adapter",
+      "version": "237.1.148000"
+    },
+    "a6b1a447-382a-5a4f-14E4-16D71590020E": {
+      "name": "HPE Ethernet 10/25Gb 2-port 631SFP28 Adapter",
+      "version": "237.1.148000"
+    },
+    "a6b1a447-382a-5a4f-14E4-16D81590020C": {
+      "name": "HPE Ethernet 10Gb 2-port 535T Adapter",
+      "version": "237.1.148000"
+    },
+    "a6b1a447-382a-5a4f-14E4-16D7159002C3": {
+      "name": "HPE Ethernet 10Gb 2-port 537SFP+ Adapter",
+      "version": "237.1.148000"
+    },
+    "a6b1a447-382a-5a4f-14E4-16D7159002C5": {
+      "name": "HPE Ethernet 10Gb 2-port 537SFP+ FLR Adapter",
+      "version": "237.1.148000"
+    },
+    "a6b1a447-382a-5a4f-14E4-16D815900212": {
+      "name": "HPE Ethernet 10Gb 2-port 535FLR-T Adapter",
+      "version": "237.1.148000"
+    },
+    "a6b1a447-382a-5a4f-8086-37CE15900215": {
+      "name": "HPE Ethernet 10Gb 2-port 568i Adapter",
+      "version": "1.3911.0"
+    },
+    "a6b1a447-382a-5a4f-8086-37D115900216": {
+      "name": "HPE Ethernet 1Gb 2-port 368i Adapter",
+      "version": "1.3911.0"
+    },
+    "a6b1a447-382a-5a4f-8086-37D115900247": {
+      "name": "HPE Ethernet 1Gb 4-port 369i Adapter",
+      "version": "1.3911.0"
+    },
+    "a6b1a447-382a-5a4f-8086-1521103C339E": {
+      "name": "HPE Ethernet 1Gb 2-port 361T Adapter",
+      "version": "1.3911.0"
+    },
+    "a6b1a447-382a-5a4f-8086-1521103C17D1": {
+      "name": "HPE Ethernet 1Gb 4-port 366FLR Adapter",
+      "version": "1.3911.0"
+    },
+    "a6b1a447-382a-5a4f-8086-1521103C8157": {
+      "name": "HPE Ethernet 1Gb 4-port 366T Adapter",
+      "version": "1.3911.0"
+    },
+    "a6b1a447-382a-5a4f-8086-1572103C22FC": {
+      "name": "HPE Ethernet 10Gb 2-port 562FLR-SFP+ Adapter",
+      "version": "11.1.7"
+    },
+    "a6b1a447-382a-5a4f-8086-1563159000D2": {
+      "name": "HPE Ethernet 10Gb 2-port 562FLR-T Adapter",
+      "version": "10.55.3"
+    },
+    "a6b1a447-382a-5a4f-8086-1572103C22FD": {
+      "name": "HPE Ethernet 10Gb 2-port 562SFP+ Adapter",
+      "version": "11.1.7"
+    },
+    "a6b1a447-382a-5a4f-8086-1563159000D1": {
+      "name": "HPE Ethernet 10Gb 2-port 562T Adapter",
+      "version": "10.55.3"
+    },
+    "a6b1a447-382a-5a4f-8086-37D315900219": {
+      "name": "HPE Ethernet 10Gb 2-port 568FLR-MMSFP+ Adapter",
+      "version": "1.3911.0"
+    },
+    "a6b1a447-382a-5a4f-8086-37D115900217": {
+      "name": "HPE Ethernet 1Gb 2-port 368FLR-MMT Adapter",
+      "version": "1.3911.0"
+    },
+    "a6b1a447-382a-5a4f-8086-37D215900218": {
+      "name": "HPE Ethernet 10Gb 2-port 568FLR-MMT Adapter",
+      "version": "1.3911.0"
+    },
+    "a6b1a447-382a-5a4f-8086-1581159000F8": {
+      "name": "HPE Ethernet 10Gb 2-port 563i Adapter",
+      "version": "1.1375.0"
+    },
+    "a6b1a447-382a-5a4f-8086-1521103C337F": {
+      "name": "HPE Ethernet 1Gb 2-port 361i Adapter",
+      "version": "1.3911.0"
+    },
+    "a6b1a447-382a-5a4f-8086-1537FFFF0000": {
+      "name": "HPE Ethernet i210-T1 GbE NIC",
+      "version": "1.2877"
+    },
+    "a6b1a447-382a-5a4f-8086-153700000000": {
+      "name": "HPE Ethernet i210-T1 GbE NIC",
+      "version": "1.2877"
+    },
+    "a6b1a447-382a-5a4f-15b3-101d15b30042": {
+      "name": "HPE Ethernet 100Gb 2-port QSFP56 MCX623106AS-CDAT Adapter",
+      "version": "22.49.1014"
     }
   }
 }
