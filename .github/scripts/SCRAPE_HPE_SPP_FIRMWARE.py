@@ -16,8 +16,7 @@ CRITICAL_DEVICES = [
     "Power Supply",
     "Innovation Engine",
     "Server Platform Services",
-    "HP Ethernet",
-    "HPE Ethernet",
+    "Intelligent Provisioning",
 ]
 
 def get_latest_spp_version():
@@ -57,8 +56,17 @@ def is_critical_device(device_name):
             return True
     return False
 
+def compare_versions(v1, v2):
+    """Compare two version strings - returns True if v1 > v2"""
+    try:
+        v1_parts = tuple(map(int, v1.replace('.', '').split()))
+        v2_parts = tuple(map(int, v2.replace('.', '').split()))
+        return v1_parts > v2_parts
+    except:
+        return v1 > v2
+
 def scrape_hpe_spp_firmware(version):
-    """Scrape HPE SPP Gen10 firmware with critical hardware only"""
+    """Scrape HPE SPP Gen10 firmware with DeviceClass - keep latest per device"""
     url = f"https://downloads.linux.hpe.com/SDR/repo/spp-gen10/{version}/manifest/meta.xml"
     
     try:
@@ -72,30 +80,65 @@ def scrape_hpe_spp_firmware(version):
             xml_content = response.read()
         
         root = ET.fromstring(xml_content)
-        devices = root.findall('.//Device')
+        payloads = root.findall('.//payload')
         
-        print(f"Found {len(devices)} total Device entries")
+        print(f"Found {len(payloads)} payload blocks")
         
-        components = {}
+        # Dictionary to track device name -> latest version info
+        device_latest = {}
         
-        for device in devices:
+        for payload in payloads:
             try:
-                device_name_elem = device.find('DeviceName')
-                target_elem = device.find('Target')
-                version_elem = device.find('Version')
+                # Get DeviceClass from payload level
+                device_class_elem = payload.find('DeviceClass')
+                device_class = device_class_elem.text if device_class_elem is not None else "Unknown"
                 
-                device_name = device_name_elem.text if device_name_elem is not None else None
+                # Get all devices in this payload
+                devices = payload.findall('.//Device')
                 
-                # Only include critical devices
-                if device_name and is_critical_device(device_name):
-                    if target_elem is not None and version_elem is not None:
-                        target_id = target_elem.text
-                        components[target_id] = {
-                            "name": device_name,
-                            "version": version_elem.text
-                        }
+                for device in devices:
+                    try:
+                        device_name_elem = device.find('DeviceName')
+                        target_elem = device.find('Target')
+                        version_elem = device.find('Version')
+                        
+                        device_name = device_name_elem.text if device_name_elem is not None else None
+                        
+                        # Only include critical devices
+                        if device_name and is_critical_device(device_name):
+                            if target_elem is not None and version_elem is not None:
+                                target_id = target_elem.text
+                                fw_version = version_elem.text
+                                
+                                # Check if this device name already exists and if this is a newer version
+                                if device_name not in device_latest:
+                                    device_latest[device_name] = {
+                                        "target_id": target_id,
+                                        "version": fw_version,
+                                        "device_class": device_class
+                                    }
+                                else:
+                                    # Compare versions - keep the newer one
+                                    existing_version = device_latest[device_name]["version"]
+                                    if compare_versions(fw_version, existing_version):
+                                        device_latest[device_name] = {
+                                            "target_id": target_id,
+                                            "version": fw_version,
+                                            "device_class": device_class
+                                        }
+                    except Exception as e:
+                        continue
             except Exception as e:
                 continue
+        
+        # Convert to output format keyed by target_id
+        components = {}
+        for device_name, info in device_latest.items():
+            components[info["target_id"]] = {
+                "name": device_name,
+                "version": info["version"],
+                "device_class": info["device_class"]
+            }
         
         output = {
             "description": "HPE Service Pack for ProLiant (SPP) Gen10 Critical Firmware Components",
@@ -109,7 +152,7 @@ def scrape_hpe_spp_firmware(version):
         with open('HPE/SPP/SPP_Gen10_Firmware_Manifest.json', 'w') as f:
             json.dump(output, f, indent=2)
         
-        print(f"Extracted {len(components)} critical firmware components")
+        print(f"Extracted {len(components)} critical firmware components with DeviceClass")
         return len(components)
     
     except Exception as e:
