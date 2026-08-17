@@ -6,13 +6,20 @@
     "spp-gen10": {
       "version": "2026.07.00.00",
       "lastUpdated": "8-17-2026",
-      "totalComponents": 6,
+      "totalComponents": 7,
       "components": {
         "8e59d79d-ae28-4e35-8d63-3c0d75bee62e": {
           "Name": "Server Platform Services Firmware for DL20 Gen10 Plus",
           "Version": "06.00.03.708",
           "Targets": [
             "a6b1a447-382a-5a4f-8086-43e080867270"
+          ]
+        },
+        "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4": {
+          "Name": "System BIOS - U56",
+          "Version": "v2.64 (04/01/2026)",
+          "Targets": [
+            "00000000-0000-0000-0000-000000000239"
           ]
         },
         "9e48a28a-586c-4519-8405-a04f84e27f0f": {
@@ -57,8 +64,15 @@
     "spp-gen11": {
       "version": "2026.07.00.00",
       "lastUpdated": "8-17-2026",
-      "totalComponents": 3,
+      "totalComponents": 4,
       "components": {
+        "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4": {
+          "Name": "System BIOS - U57",
+          "Version": "v2.94 (06/25/2026)",
+          "Targets": [
+            "00000000-0000-0000-0000-00000000023f"
+          ]
+        },
         "8e59d79d-ae28-4e35-8d63-3c0d75bee62e": {
           "Name": "Server Platform Services Firmware for DL20 ML30 MS Gen11",
           "Version": "06.03.04.069",
@@ -93,8 +107,17 @@
     "spp-gen12": {
       "version": "2026.07.00.00",
       "lastUpdated": "8-17-2026",
-      "totalComponents": 2,
+      "totalComponents": 3,
       "components": {
+        "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4": {
+          "Name": "System BIOS - U71",
+          "Version": "v1.82 (06/26/2026)",
+          "Targets": [
+            "00000000-0000-0000-0000-000000000264",
+            "00000000-0000-0000-0000-000000000273",
+            "00000000-0000-0000-0000-000000000289"
+          ]
+        },
         "9e48a28a-586c-4519-8405-a04f84e27f0f": {
           "Name": "Gen12 Power Management Controller Firmware",
           "Version": "1.1.2",
