@@ -11,6 +11,7 @@ os.makedirs('HPE/SPP', exist_ok=True)
 CRITICAL_DEVICES = [
     "iLO",
     "System ROM",
+    "System BIOS",
     "Smart Array",
     "Power Management",
     "Power Supply",
