@@ -6,172 +6,231 @@
     "spp-gen10": {
       "version": "2026.07.00.00",
       "lastUpdated": "8-17-2026",
-      "totalComponents": 9,
+      "totalComponents": 17,
       "components": {
-        "8e59d79d-ae28-4e35-8d63-3c0d75bee62e": {
-          "Name": "Server Platform Services Firmware for DL20 Gen10 Plus",
-          "Version": "06.00.03.708",
-          "Targets": [
-            "a6b1a447-382a-5a4f-8086-43e080867270"
-          ]
+        "a6b1a447-382a-5a4f-8086-a3601590028d": {
+          "Name": "Server Platform Services (SPS) E3 Firmware",
+          "Version": "05.01.05.103",
+          "DeviceClass": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
         },
-        "79f0c163-0c13-4662-9dea-09235fef90cb": {
-          "Name": "HPE Ethernet 100Gb 2-port QSFP56 MCX623106AS-CDAT Adapter",
-          "Version": "22.49.1014",
-          "Targets": [
-            "a6b1a447-382a-5a4f-15b3-101d15b30042"
-          ]
-        },
-        "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4": {
-          "Name": "System BIOS - U56",
-          "Version": "v2.64 (04/01/2026)",
-          "Targets": [
-            "00000000-0000-0000-0000-000000000239"
-          ]
-        },
-        "757378B9-0016-4DEB-97DB-02BF1CD0B86A": {
-          "Name": "HPE Ethernet i210-T1 GbE NIC",
-          "Version": "1.2877",
-          "Targets": [
-            "a6b1a447-382a-5a4f-8086-1537FFFF0000",
-            "a6b1a447-382a-5a4f-8086-153700000000"
-          ]
-        },
-        "9e48a28a-586c-4519-8405-a04f84e27f0f": {
+        "00000000-0000-0000-0000-000000504d05": {
           "Name": "Gen10 Plus Power Management Controller Firmware",
           "Version": "1.1.4",
-          "Targets": [
-            "00000000-0000-0000-0000-000000504d05"
-          ]
+          "DeviceClass": "9e48a28a-586c-4519-8405-a04f84e27f0f"
         },
-        "c734e171-8721-48c9-9ed6-d5bc7da5ef8d": {
-          "Name": "Innovation Engine (IE) Universal Image.",
-          "Version": "0.2.3.0",
-          "Targets": [
-            "a6b1a447-382a-5a4f-3c10-3c100a000303"
-          ]
+        "a6b1a447-382a-5a4f-3c10-87800a000303": {
+          "Name": "Innovation Engine (IE) Fimware",
+          "Version": "1.0.0.22",
+          "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d"
         },
-        "79F0C163-0C13-4662-9DEA-09235FEF90CB": {
-          "Name": "HPE Ethernet 1Gb 2-port 361i Adapter",
-          "Version": "1.3911.0",
-          "Targets": [
-            "a6b1a447-382a-5a4f-8086-1521103C337F"
-          ]
+        "a6b1a447-382a-5a4f-9005-028f103c1100": {
+          "Name": "HPE Smart Array P816i-a SR Gen10 Controller",
+          "Version": "8.23",
+          "DeviceClass": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
         },
-        "2f317b9d-c9e3-4d76-bff6-b9d0d085a952": {
+        "a6b1a447-382a-5a4f-9005-028f103c0651": {
+          "Name": "HPE Smart Array E208e-p SR Gen10 Controller",
+          "Version": "8.23",
+          "DeviceClass": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
+        },
+        "a6b1a447-382a-5a4f-9005-028f103c0601": {
+          "Name": "HPE Smart Array P408e-p SR Gen10 Controller",
+          "Version": "8.23",
+          "DeviceClass": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
+        },
+        "a6b1a447-382a-5a4f-9005-028f103c0600": {
+          "Name": "HPE Smart Array P408i-p SR Gen10 Controller",
+          "Version": "8.23",
+          "DeviceClass": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
+        },
+        "a6b1a447-382a-5a4f-9005-028f103c0602": {
+          "Name": "HPE Smart Array P408i-a SR Gen10 Controller",
+          "Version": "8.23",
+          "DeviceClass": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
+        },
+        "a6b1a447-382a-5a4f-9005-028f103c0654": {
+          "Name": "HPE Smart Array E208i-a SR Gen10 Controller",
+          "Version": "8.23",
+          "DeviceClass": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
+        },
+        "a6b1a447-382a-5a4f-9005-028f103c0650": {
+          "Name": "HPE Smart Array E208i-p SR Gen10 Controller",
+          "Version": "8.23",
+          "DeviceClass": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
+        },
+        "a6b1a447-382a-5a4f-8086-43e080867270": {
+          "Name": "Server Platform Services Firmware for DL20 Gen10 Plus",
+          "Version": "06.00.03.708",
+          "DeviceClass": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
+        },
+        "9c057a7a-0d48-4260-b033-558f22ef7c6a": {
           "Name": "iLO 5",
           "Version": "3.20",
-          "Targets": [
-            "9c057a7a-0d48-4260-b033-558f22ef7c6a",
-            "c5b14abd-6d2f-41d7-b665-0447dfdac3a7",
-            "c0bcf2b9-1141-49af-aab8-c73791f0349c"
-          ]
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
         },
-        "b34e5677-21dc-45d3-872b-42f76fee9053": {
+        "c5b14abd-6d2f-41d7-b665-0447dfdac3a7": {
+          "Name": "iLO 5",
+          "Version": "3.20",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "c0bcf2b9-1141-49af-aab8-c73791f0349c": {
+          "Name": "iLO 5",
+          "Version": "3.20",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "a6b1a447-382a-5a4f-3c10-87800a000101": {
+          "Name": "Server Platform Services (SPS) Firmware",
+          "Version": "04.04.04.925",
+          "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053"
+        },
+        "a6b1a447-382a-5a4f-3c10-86800a000101": {
           "Name": "Server Platform Services (SPS) Firmware",
           "Version": "04.01.05.201",
-          "Targets": [
-            "a6b1a447-382a-5a4f-3c10-86800a000101"
-          ]
+          "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053"
+        },
+        "a6b1a447-382a-5a4f-3c10-3c100a000303": {
+          "Name": "Innovation Engine (IE) Fimware",
+          "Version": "0.2.3.0",
+          "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d"
         }
       }
     },
     "spp-gen11": {
       "version": "2026.07.00.00",
       "lastUpdated": "8-17-2026",
-      "totalComponents": 6,
+      "totalComponents": 12,
       "components": {
-        "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4": {
-          "Name": "System BIOS - U57",
-          "Version": "v2.94 (06/25/2026)",
-          "Targets": [
-            "00000000-0000-0000-0000-00000000023f"
-          ]
-        },
-        "8e59d79d-ae28-4e35-8d63-3c0d75bee62e": {
+        "00000000-0000-0000-0000-000000000259": {
           "Name": "Server Platform Services Firmware for DL20 ML30 MS Gen11",
           "Version": "06.03.04.069",
-          "Targets": [
-            "00000000-0000-0000-0000-000000000259",
-            "00000000-0000-0000-0000-000000000258",
-            "00000000-0000-0000-0000-000000000257",
-            "00000000-0000-0000-0000-000000000256",
-            "00000000-0000-0000-0000-000000000255"
-          ]
+          "DeviceClass": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
         },
-        "79F0C163-0C13-4662-9DEA-09235FEF90CB": {
-          "Name": "HPE Ethernet 10Gb 2-port SFP+ X710-DA2 Adapter",
-          "Version": "1.3909.0",
-          "Targets": [
-            "a6b1a447-382a-5a4f-8086-157280860008"
-          ]
+        "00000000-0000-0000-0000-000000000258": {
+          "Name": "Server Platform Services Firmware for DL20 ML30 MS Gen11",
+          "Version": "06.03.04.069",
+          "DeviceClass": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
         },
-        "2f317b9d-c9e3-4d76-bff6-b9d0d085a952": {
+        "00000000-0000-0000-0000-000000000257": {
+          "Name": "Server Platform Services Firmware for DL20 ML30 MS Gen11",
+          "Version": "06.03.04.069",
+          "DeviceClass": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
+        },
+        "00000000-0000-0000-0000-000000000256": {
+          "Name": "Server Platform Services Firmware for DL20 ML30 MS Gen11",
+          "Version": "06.03.04.069",
+          "DeviceClass": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
+        },
+        "00000000-0000-0000-0000-000000000255": {
+          "Name": "Server Platform Services Firmware for DL20 ML30 MS Gen11",
+          "Version": "06.03.04.069",
+          "DeviceClass": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
+        },
+        "e6d3c844-14a6-4f1f-84a3-c06013910406": {
           "Name": "iLO 6",
           "Version": "1.77",
-          "Targets": [
-            "e6d3c844-14a6-4f1f-84a3-c06013910406",
-            "e6d3c844-14a6-4f1f-84a3-c06013910306",
-            "e6d3c844-14a6-4f1f-84a3-c06013910206",
-            "e6d3c844-14a6-4f1f-84a3-c06013910106",
-            "e6d3c844-14a6-4f1f-84a3-c06013910006"
-          ]
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
         },
-        "9e48a28a-586c-4519-8405-a04f84e27f0f": {
+        "e6d3c844-14a6-4f1f-84a3-c06013910306": {
+          "Name": "iLO 6",
+          "Version": "1.77",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "e6d3c844-14a6-4f1f-84a3-c06013910206": {
+          "Name": "iLO 6",
+          "Version": "1.77",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "e6d3c844-14a6-4f1f-84a3-c06013910106": {
+          "Name": "iLO 6",
+          "Version": "1.77",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "e6d3c844-14a6-4f1f-84a3-c06013910006": {
+          "Name": "iLO 6",
+          "Version": "1.77",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "00000000-0000-0000-0000-000000504e06": {
+          "Name": "Gen11 Power Management Controller Firmware",
+          "Version": "1.2.2",
+          "DeviceClass": "9e48a28a-586c-4519-8405-a04f84e27f0f"
+        },
+        "00000000-0000-0000-0000-000000504e05": {
           "Name": "Gen11 Power Management Controller Firmware",
           "Version": "1.0.4",
-          "Targets": [
-            "00000000-0000-0000-0000-000000504e05"
-          ]
-        },
-        "79f0c163-0c13-4662-9dea-09235fef90cb": {
-          "Name": "HPE Ethernet 10/25Gb 2-port SFP28 MCX512F-ACAT Adapter",
-          "Version": "16.35.8008",
-          "Targets": [
-            "a6b1a447-382a-5a4f-15b3-101715b30116"
-          ]
+          "DeviceClass": "9e48a28a-586c-4519-8405-a04f84e27f0f"
         }
       }
     },
     "spp-gen12": {
       "version": "2026.07.00.00",
       "lastUpdated": "8-17-2026",
-      "totalComponents": 4,
+      "totalComponents": 13,
       "components": {
-        "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4": {
-          "Name": "System BIOS - U71",
-          "Version": "v1.82 (06/26/2026)",
-          "Targets": [
-            "00000000-0000-0000-0000-000000000264",
-            "00000000-0000-0000-0000-000000000273",
-            "00000000-0000-0000-0000-000000000289"
-          ]
-        },
-        "9e48a28a-586c-4519-8405-a04f84e27f0f": {
+        "00000000-0000-0000-0000-000000505006": {
           "Name": "Gen12 Power Management Controller Firmware",
-          "Version": "1.1.2",
-          "Targets": [
-            "00000000-0000-0000-0000-000000505005"
-          ]
+          "Version": "1.1.0",
+          "DeviceClass": "9e48a28a-586c-4519-8405-a04f84e27f0f"
         },
-        "2f317b9d-c9e3-4d76-bff6-b9d0d085a952": {
+        "e6d3c844-14a6-4f1f-84a3-c06013910406": {
+          "Name": "iLO 6",
+          "Version": "1.77",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "e6d3c844-14a6-4f1f-84a3-c06013910306": {
+          "Name": "iLO 6",
+          "Version": "1.77",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "e6d3c844-14a6-4f1f-84a3-c06013910206": {
+          "Name": "iLO 6",
+          "Version": "1.77",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "e6d3c844-14a6-4f1f-84a3-c06013910106": {
+          "Name": "iLO 6",
+          "Version": "1.77",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "e6d3c844-14a6-4f1f-84a3-c06013910006": {
+          "Name": "iLO 6",
+          "Version": "1.77",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "fb2b2f91-c952-4288-8389-21dee30eff07": {
           "Name": "iLO 7",
           "Version": "1.24.00_pass_17",
-          "Targets": [
-            "fb2b2f91-c952-4288-8389-21dee30eff07",
-            "fb2b2f91-c952-4288-8389-21dee30e0007",
-            "fb2b2f91-c952-4288-8389-21dee30e0107",
-            "fb2b2f91-c952-4288-8389-21dee30e0207",
-            "fb2b2f91-c952-4288-8389-21dee30e0307",
-            "fb2b2f91-c952-4288-8389-21dee30e0407"
-          ]
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
         },
-        "79f0c163-0c13-4662-9dea-09235fef90cb": {
-          "Name": "HPE Ethernet 100Gb 2-port QSFP56 MCX623106AS-CDAT Adapter",
-          "Version": "22.49.1014",
-          "Targets": [
-            "a6b1a447-382a-5a4f-15b3-101d15b30042"
-          ]
+        "fb2b2f91-c952-4288-8389-21dee30e0007": {
+          "Name": "iLO 7",
+          "Version": "1.24.00_pass_17",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "fb2b2f91-c952-4288-8389-21dee30e0107": {
+          "Name": "iLO 7",
+          "Version": "1.24.00_pass_17",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "fb2b2f91-c952-4288-8389-21dee30e0207": {
+          "Name": "iLO 7",
+          "Version": "1.24.00_pass_17",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "fb2b2f91-c952-4288-8389-21dee30e0307": {
+          "Name": "iLO 7",
+          "Version": "1.24.00_pass_17",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "fb2b2f91-c952-4288-8389-21dee30e0407": {
+          "Name": "iLO 7",
+          "Version": "1.24.00_pass_17",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "00000000-0000-0000-0000-000000505005": {
+          "Name": "Gen12 Power Management Controller Firmware",
+          "Version": "1.1.2",
+          "DeviceClass": "9e48a28a-586c-4519-8405-a04f84e27f0f"
         }
       }
     }
