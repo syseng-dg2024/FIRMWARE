@@ -1,81 +1,118 @@
 {
   "description": "HPE Service Pack for ProLiant (SPP) Critical Firmware Components - All Generations",
   "generationCount": 3,
-  "lastUpdated": "8-16-2026",
+  "lastUpdated": "8-17-2026",
   "generations": {
     "spp-gen10": {
       "version": "2026.07.00.00",
-      "lastUpdated": "8-16-2026",
+      "lastUpdated": "8-17-2026",
       "totalComponents": 6,
       "components": {
         "8e59d79d-ae28-4e35-8d63-3c0d75bee62e": {
-          "Target": "a6b1a447-382a-5a4f-8086-43e080867270",
           "Name": "Server Platform Services Firmware for DL20 Gen10 Plus",
-          "Version": "06.00.03.708"
+          "Version": "06.00.03.708",
+          "Targets": [
+            "a6b1a447-382a-5a4f-8086-43e080867270"
+          ]
         },
         "9e48a28a-586c-4519-8405-a04f84e27f0f": {
-          "Target": "00000000-0000-0000-0000-000000504d05",
           "Name": "Gen10 Plus Power Management Controller Firmware",
-          "Version": "1.1.4"
+          "Version": "1.1.4",
+          "Targets": [
+            "00000000-0000-0000-0000-000000504d05"
+          ]
         },
         "c734e171-8721-48c9-9ed6-d5bc7da5ef8d": {
-          "Target": "a6b1a447-382a-5a4f-3c10-3c100a000303",
           "Name": "Innovation Engine (IE) Universal Image.",
-          "Version": "0.2.3.0"
+          "Version": "0.2.3.0",
+          "Targets": [
+            "a6b1a447-382a-5a4f-3c10-3c100a000303"
+          ]
         },
         "79F0C163-0C13-4662-9DEA-09235FEF90CB": {
-          "Target": "a6b1a447-382a-5a4f-9005-028f103c0650",
           "Name": "HPE Smart Array E208i-p SR Gen10 Controller",
-          "Version": "8.23"
+          "Version": "8.23",
+          "Targets": [
+            "a6b1a447-382a-5a4f-9005-028f103c0650"
+          ]
         },
         "2f317b9d-c9e3-4d76-bff6-b9d0d085a952": {
-          "Target": "9c057a7a-0d48-4260-b033-558f22ef7c6a",
           "Name": "iLO 5",
-          "Version": "3.20"
+          "Version": "3.20",
+          "Targets": [
+            "9c057a7a-0d48-4260-b033-558f22ef7c6a",
+            "c5b14abd-6d2f-41d7-b665-0447dfdac3a7",
+            "c0bcf2b9-1141-49af-aab8-c73791f0349c"
+          ]
         },
         "b34e5677-21dc-45d3-872b-42f76fee9053": {
-          "Target": "a6b1a447-382a-5a4f-3c10-86800a000101",
           "Name": "Server Platform Services (SPS) Firmware",
-          "Version": "04.01.05.201"
+          "Version": "04.01.05.201",
+          "Targets": [
+            "a6b1a447-382a-5a4f-3c10-86800a000101"
+          ]
         }
       }
     },
     "spp-gen11": {
       "version": "2026.07.00.00",
-      "lastUpdated": "8-16-2026",
+      "lastUpdated": "8-17-2026",
       "totalComponents": 3,
       "components": {
         "8e59d79d-ae28-4e35-8d63-3c0d75bee62e": {
-          "Target": "00000000-0000-0000-0000-000000000259",
           "Name": "Server Platform Services Firmware for DL20 ML30 MS Gen11",
-          "Version": "06.03.04.069"
+          "Version": "06.03.04.069",
+          "Targets": [
+            "00000000-0000-0000-0000-000000000259",
+            "00000000-0000-0000-0000-000000000258",
+            "00000000-0000-0000-0000-000000000257",
+            "00000000-0000-0000-0000-000000000256",
+            "00000000-0000-0000-0000-000000000255"
+          ]
         },
         "2f317b9d-c9e3-4d76-bff6-b9d0d085a952": {
-          "Target": "e6d3c844-14a6-4f1f-84a3-c06013910406",
           "Name": "iLO 6",
-          "Version": "1.77"
+          "Version": "1.77",
+          "Targets": [
+            "e6d3c844-14a6-4f1f-84a3-c06013910406",
+            "e6d3c844-14a6-4f1f-84a3-c06013910306",
+            "e6d3c844-14a6-4f1f-84a3-c06013910206",
+            "e6d3c844-14a6-4f1f-84a3-c06013910106",
+            "e6d3c844-14a6-4f1f-84a3-c06013910006"
+          ]
         },
         "9e48a28a-586c-4519-8405-a04f84e27f0f": {
-          "Target": "00000000-0000-0000-0000-000000504e05",
           "Name": "Gen11 Power Management Controller Firmware",
-          "Version": "1.0.4"
+          "Version": "1.0.4",
+          "Targets": [
+            "00000000-0000-0000-0000-000000504e05"
+          ]
         }
       }
     },
     "spp-gen12": {
       "version": "2026.07.00.00",
-      "lastUpdated": "8-16-2026",
+      "lastUpdated": "8-17-2026",
       "totalComponents": 2,
       "components": {
         "9e48a28a-586c-4519-8405-a04f84e27f0f": {
-          "Target": "00000000-0000-0000-0000-000000505005",
           "Name": "Gen12 Power Management Controller Firmware",
-          "Version": "1.1.2"
+          "Version": "1.1.2",
+          "Targets": [
+            "00000000-0000-0000-0000-000000505005"
+          ]
         },
         "2f317b9d-c9e3-4d76-bff6-b9d0d085a952": {
-          "Target": "fb2b2f91-c952-4288-8389-21dee30eff07",
           "Name": "iLO 7",
-          "Version": "1.24.00_pass_17"
+          "Version": "1.24.00_pass_17",
+          "Targets": [
+            "fb2b2f91-c952-4288-8389-21dee30eff07",
+            "fb2b2f91-c952-4288-8389-21dee30e0007",
+            "fb2b2f91-c952-4288-8389-21dee30e0107",
+            "fb2b2f91-c952-4288-8389-21dee30e0207",
+            "fb2b2f91-c952-4288-8389-21dee30e0307",
+            "fb2b2f91-c952-4288-8389-21dee30e0407"
+          ]
         }
       }
     }
