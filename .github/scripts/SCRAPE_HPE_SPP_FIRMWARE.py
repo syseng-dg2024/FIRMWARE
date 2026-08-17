@@ -51,6 +51,7 @@ def get_latest_spp_version(generation):
         return versions_sorted[-1]
     
     except Exception as e:
+        print(f"Error fetching {generation} directory: {e}")
         return None
 
 def is_critical_device(device_name):
@@ -65,10 +66,12 @@ def is_critical_device(device_name):
     return False
 
 def scrape_hpe_spp_firmware(generation, version):
-    """Scrape HPE SPP firmware with DeviceClass as key"""
+    """Scrape HPE SPP firmware with all targets listed per DeviceClass"""
     url = f"https://downloads.linux.hpe.com/SDR/repo/{generation}/{version}/manifest/meta.xml"
     
     try:
+        print(f"  Fetching {generation} {version}...")
+        
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
         }
@@ -79,8 +82,8 @@ def scrape_hpe_spp_firmware(generation, version):
         root = ET.fromstring(xml_content)
         payloads = root.findall('.//payload')
         
-        # Dictionary to track (name, device_class, version) for deduplication
-        device_dedup = {}
+        # Dictionary to group all targets per (device_class, name, version)
+        device_groups = {}
         
         for payload in payloads:
             try:
@@ -105,16 +108,18 @@ def scrape_hpe_spp_firmware(generation, version):
                                 target_id = target_elem.text
                                 fw_version = version_elem.text
                                 
-                                # Create dedup key: (name, device_class, version)
-                                dedup_key = (device_name, device_class, fw_version)
+                                # Create grouping key: (device_class, name, version)
+                                group_key = (device_class, device_name, fw_version)
                                 
-                                # Only keep first target_id per dedup key
-                                if dedup_key not in device_dedup:
-                                    device_dedup[dedup_key] = {
-                                        "Target": target_id,
+                                # Add target to this group
+                                if group_key not in device_groups:
+                                    device_groups[group_key] = {
                                         "Name": device_name,
-                                        "Version": fw_version
+                                        "Version": fw_version,
+                                        "Targets": []
                                     }
+                                
+                                device_groups[group_key]["Targets"].append(target_id)
                     except Exception as e:
                         continue
             except Exception as e:
@@ -122,27 +127,42 @@ def scrape_hpe_spp_firmware(generation, version):
         
         # Convert to output format keyed by DeviceClass
         components = {}
-        for dedup_key, info in device_dedup.items():
-            device_class = dedup_key[1]  # device_class is the second element in dedup_key
+        for group_key, info in device_groups.items():
+            device_class = group_key[0]  # device_class is first element
+            
+            # Remove duplicates from Targets list while preserving order
+            unique_targets = []
+            seen = set()
+            for target in info["Targets"]:
+                if target not in seen:
+                    unique_targets.append(target)
+                    seen.add(target)
+            
             components[device_class] = {
-                "Target": info["Target"],
                 "Name": info["Name"],
-                "Version": info["Version"]
+                "Version": info["Version"],
+                "Targets": unique_targets
             }
         
         return components, len(components)
     
     except Exception as e:
+        print(f"    Error scraping: {e}")
         return {}, 0
 
 def main():
+    print("Scraping HPE SPP firmware across all generations...\n")
+    
     all_results = {}
     
     for generation in SPP_GENERATIONS:
+        print(f"Processing {generation}:")
+        
         # Get latest version for this generation
         latest_version = get_latest_spp_version(generation)
         
         if latest_version:
+            print(f"  Latest version: {latest_version}")
             components, count = scrape_hpe_spp_firmware(generation, latest_version)
             
             if count > 0:
@@ -152,6 +172,13 @@ def main():
                     "totalComponents": count,
                     "components": components
                 }
+                print(f"  Extracted {count} critical firmware components")
+            else:
+                print(f"  No critical components found")
+        else:
+            print(f"  Could not determine latest version")
+        
+        print()
     
     # Output combined results
     output = {
@@ -164,7 +191,7 @@ def main():
     with open('HPE/SPP/SPP_Firmware_Lookup.json', 'w') as f:
         json.dump(output, f, indent=2)
     
-    print(f"Scraped {len(all_results)} SPP generations")
+    print(f"Completed scraping {len(all_results)} SPP generations")
 
 if __name__ == "__main__":
     main()
