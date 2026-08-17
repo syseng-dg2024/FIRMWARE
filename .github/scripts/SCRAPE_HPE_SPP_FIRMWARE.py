@@ -11,14 +11,12 @@ os.makedirs('HPE/SPP', exist_ok=True)
 CRITICAL_DEVICES = [
     "iLO",
     "System ROM",
-    "System BIOS",
     "Smart Array",
     "Power Management",
     "Power Supply",
     "Innovation Engine",
     "Server Platform Services",
     "Intelligent Provisioning",
-    "HPE Ethernet",
 ]
 
 # SPP generations to scrape
@@ -53,7 +51,6 @@ def get_latest_spp_version(generation):
         return versions_sorted[-1]
     
     except Exception as e:
-        print(f"Error fetching {generation} directory: {e}")
         return None
 
 def is_critical_device(device_name):
@@ -68,7 +65,7 @@ def is_critical_device(device_name):
     return False
 
 def scrape_hpe_spp_firmware(generation, version):
-    """Scrape HPE SPP firmware with all targets listed per DeviceClass"""
+    """Scrape HPE SPP firmware with Target as key, include null DeviceClass"""
     url = f"https://downloads.linux.hpe.com/SDR/repo/{generation}/{version}/manifest/meta.xml"
     
     try:
@@ -84,14 +81,14 @@ def scrape_hpe_spp_firmware(generation, version):
         root = ET.fromstring(xml_content)
         payloads = root.findall('.//payload')
         
-        # Dictionary to group all targets per (device_class, name, version)
-        device_groups = {}
+        # Dictionary keyed by Target
+        components = {}
         
         for payload in payloads:
             try:
-                # Get DeviceClass from payload level
+                # Get DeviceClass from payload level (can be None)
                 device_class_elem = payload.find('DeviceClass')
-                device_class = device_class_elem.text if device_class_elem is not None else "Unknown"
+                device_class = device_class_elem.text if device_class_elem is not None else None
                 
                 # Get all devices in this payload
                 devices = payload.findall('.//Device')
@@ -110,41 +107,16 @@ def scrape_hpe_spp_firmware(generation, version):
                                 target_id = target_elem.text
                                 fw_version = version_elem.text
                                 
-                                # Create grouping key: (device_class, name, version)
-                                group_key = (device_class, device_name, fw_version)
-                                
-                                # Add target to this group
-                                if group_key not in device_groups:
-                                    device_groups[group_key] = {
-                                        "Name": device_name,
-                                        "Version": fw_version,
-                                        "Targets": []
-                                    }
-                                
-                                device_groups[group_key]["Targets"].append(target_id)
+                                # Key by Target ID
+                                components[target_id] = {
+                                    "Name": device_name,
+                                    "Version": fw_version,
+                                    "DeviceClass": device_class
+                                }
                     except Exception as e:
                         continue
             except Exception as e:
                 continue
-        
-        # Convert to output format keyed by DeviceClass
-        components = {}
-        for group_key, info in device_groups.items():
-            device_class = group_key[0]  # device_class is first element
-            
-            # Remove duplicates from Targets list while preserving order
-            unique_targets = []
-            seen = set()
-            for target in info["Targets"]:
-                if target not in seen:
-                    unique_targets.append(target)
-                    seen.add(target)
-            
-            components[device_class] = {
-                "Name": info["Name"],
-                "Version": info["Version"],
-                "Targets": unique_targets
-            }
         
         return components, len(components)
     
