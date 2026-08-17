@@ -6,7 +6,7 @@
     "spp-gen10": {
       "version": "2026.07.00.00",
       "lastUpdated": "8-17-2026",
-      "totalComponents": 7,
+      "totalComponents": 9,
       "components": {
         "8e59d79d-ae28-4e35-8d63-3c0d75bee62e": {
           "Name": "Server Platform Services Firmware for DL20 Gen10 Plus",
@@ -15,11 +15,26 @@
             "a6b1a447-382a-5a4f-8086-43e080867270"
           ]
         },
+        "79f0c163-0c13-4662-9dea-09235fef90cb": {
+          "Name": "HPE Ethernet 100Gb 2-port QSFP56 MCX623106AS-CDAT Adapter",
+          "Version": "22.49.1014",
+          "Targets": [
+            "a6b1a447-382a-5a4f-15b3-101d15b30042"
+          ]
+        },
         "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4": {
           "Name": "System BIOS - U56",
           "Version": "v2.64 (04/01/2026)",
           "Targets": [
             "00000000-0000-0000-0000-000000000239"
+          ]
+        },
+        "757378B9-0016-4DEB-97DB-02BF1CD0B86A": {
+          "Name": "HPE Ethernet i210-T1 GbE NIC",
+          "Version": "1.2877",
+          "Targets": [
+            "a6b1a447-382a-5a4f-8086-1537FFFF0000",
+            "a6b1a447-382a-5a4f-8086-153700000000"
           ]
         },
         "9e48a28a-586c-4519-8405-a04f84e27f0f": {
@@ -37,10 +52,10 @@
           ]
         },
         "79F0C163-0C13-4662-9DEA-09235FEF90CB": {
-          "Name": "HPE Smart Array E208i-p SR Gen10 Controller",
-          "Version": "8.23",
+          "Name": "HPE Ethernet 1Gb 2-port 361i Adapter",
+          "Version": "1.3911.0",
           "Targets": [
-            "a6b1a447-382a-5a4f-9005-028f103c0650"
+            "a6b1a447-382a-5a4f-8086-1521103C337F"
           ]
         },
         "2f317b9d-c9e3-4d76-bff6-b9d0d085a952": {
@@ -64,7 +79,7 @@
     "spp-gen11": {
       "version": "2026.07.00.00",
       "lastUpdated": "8-17-2026",
-      "totalComponents": 4,
+      "totalComponents": 6,
       "components": {
         "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4": {
           "Name": "System BIOS - U57",
@@ -84,6 +99,13 @@
             "00000000-0000-0000-0000-000000000255"
           ]
         },
+        "79F0C163-0C13-4662-9DEA-09235FEF90CB": {
+          "Name": "HPE Ethernet 10Gb 2-port SFP+ X710-DA2 Adapter",
+          "Version": "1.3909.0",
+          "Targets": [
+            "a6b1a447-382a-5a4f-8086-157280860008"
+          ]
+        },
         "2f317b9d-c9e3-4d76-bff6-b9d0d085a952": {
           "Name": "iLO 6",
           "Version": "1.77",
@@ -101,13 +123,20 @@
           "Targets": [
             "00000000-0000-0000-0000-000000504e05"
           ]
+        },
+        "79f0c163-0c13-4662-9dea-09235fef90cb": {
+          "Name": "HPE Ethernet 10/25Gb 2-port SFP28 MCX512F-ACAT Adapter",
+          "Version": "16.35.8008",
+          "Targets": [
+            "a6b1a447-382a-5a4f-15b3-101715b30116"
+          ]
         }
       }
     },
     "spp-gen12": {
       "version": "2026.07.00.00",
       "lastUpdated": "8-17-2026",
-      "totalComponents": 3,
+      "totalComponents": 4,
       "components": {
         "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4": {
           "Name": "System BIOS - U71",
@@ -135,6 +164,13 @@
             "fb2b2f91-c952-4288-8389-21dee30e0207",
             "fb2b2f91-c952-4288-8389-21dee30e0307",
             "fb2b2f91-c952-4288-8389-21dee30e0407"
+          ]
+        },
+        "79f0c163-0c13-4662-9dea-09235fef90cb": {
+          "Name": "HPE Ethernet 100Gb 2-port QSFP56 MCX623106AS-CDAT Adapter",
+          "Version": "22.49.1014",
+          "Targets": [
+            "a6b1a447-382a-5a4f-15b3-101d15b30042"
           ]
         }
       }
