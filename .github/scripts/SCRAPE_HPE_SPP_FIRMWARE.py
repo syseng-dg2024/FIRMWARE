@@ -18,6 +18,7 @@ CRITICAL_DEVICES = [
     "Innovation Engine",
     "Server Platform Services",
     "Intelligent Provisioning",
+    "HPE Ethernet",
 ]
 
 # SPP generations to scrape
