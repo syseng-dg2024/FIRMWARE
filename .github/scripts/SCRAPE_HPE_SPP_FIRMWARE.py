@@ -17,7 +17,6 @@ CRITICAL_DEVICES = [
     "Innovation Engine",
     "Server Platform Services",
     "Intelligent Provisioning",
-    "HPE Ethernet",
 ]
 
 # SPP generations to scrape
@@ -28,6 +27,15 @@ SPP_GENERATIONS = [
     "spp-gen12",
     "spp-gen13",
 ]
+
+def normalize_version(version_string):
+    """Normalize version by removing leading zeros from each segment"""
+    if not version_string:
+        return version_string
+    
+    parts = version_string.split('.')
+    normalized_parts = [str(int(part)) for part in parts]
+    return '.'.join(normalized_parts)
 
 def get_latest_spp_version(generation):
     """Get the latest SPP version for a specific generation"""
@@ -66,12 +74,10 @@ def is_critical_device(device_name):
     return False
 
 def scrape_hpe_spp_firmware(generation, version):
-    """Scrape HPE SPP firmware with Target as key, include null DeviceClass"""
+    """Scrape HPE SPP firmware with Target as key and normalized versions"""
     url = f"https://downloads.linux.hpe.com/SDR/repo/{generation}/{version}/manifest/meta.xml"
     
     try:
-        print(f"  Fetching {generation} {version}...")
-        
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
         }
@@ -106,7 +112,7 @@ def scrape_hpe_spp_firmware(generation, version):
                         if device_name and is_critical_device(device_name):
                             if target_elem is not None and version_elem is not None:
                                 target_id = target_elem.text
-                                fw_version = version_elem.text
+                                fw_version = normalize_version(version_elem.text)
                                 
                                 # Key by Target ID
                                 components[target_id] = {
@@ -122,38 +128,25 @@ def scrape_hpe_spp_firmware(generation, version):
         return components, len(components)
     
     except Exception as e:
-        print(f"    Error scraping: {e}")
         return {}, 0
 
 def main():
-    print("Scraping HPE SPP firmware across all generations...\n")
-    
     all_results = {}
     
     for generation in SPP_GENERATIONS:
-        print(f"Processing {generation}:")
-        
         # Get latest version for this generation
         latest_version = get_latest_spp_version(generation)
         
         if latest_version:
-            print(f"  Latest version: {latest_version}")
             components, count = scrape_hpe_spp_firmware(generation, latest_version)
             
             if count > 0:
                 all_results[generation] = {
-                    "version": latest_version,
+                    "version": normalize_version(latest_version),
                     "lastUpdated": datetime.now().strftime("%-m-%-d-%Y"),
                     "totalComponents": count,
                     "components": components
                 }
-                print(f"  Extracted {count} critical firmware components")
-            else:
-                print(f"  No critical components found")
-        else:
-            print(f"  Could not determine latest version")
-        
-        print()
     
     # Output combined results
     output = {
@@ -165,8 +158,6 @@ def main():
     
     with open('HPE/SPP/SPP_Firmware_Lookup.json', 'w') as f:
         json.dump(output, f, indent=2)
-    
-    print(f"Completed scraping {len(all_results)} SPP generations")
 
 if __name__ == "__main__":
     main()
