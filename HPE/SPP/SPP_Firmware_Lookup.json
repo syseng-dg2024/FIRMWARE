@@ -6,17 +6,87 @@
     "spp-gen10": {
       "version": "2026.7.0.0",
       "lastUpdated": "8-19-2026",
-      "totalComponents": 17,
+      "totalComponents": 56,
       "components": {
         "a6b1a447-382a-5a4f-8086-a3601590028d": {
           "Name": "Server Platform Services (SPS) E3 Firmware",
           "Version": "5.1.5.103",
           "DeviceClass": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
         },
+        "00000000-0000-0000-0000-00000000022d": {
+          "Name": "System BIOS - A47",
+          "Version": "4.4",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000253": {
+          "Name": "System BIOS - U64",
+          "Version": "2.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000254": {
+          "Name": "System BIOS - U64",
+          "Version": "2.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000021c": {
+          "Name": "System BIOS - A43",
+          "Version": "4.4",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000231": {
+          "Name": "System BIOS - A43",
+          "Version": "4.4",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000232": {
+          "Name": "System BIOS - A43",
+          "Version": "4.4",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000205": {
+          "Name": "System BIOS - U30",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
         "00000000-0000-0000-0000-000000504d05": {
           "Name": "Gen10 Plus Power Management Controller Firmware",
           "Version": "1.1.4",
           "DeviceClass": "9e48a28a-586c-4519-8405-a04f84e27f0f"
+        },
+        "00000000-0000-0000-0000-00000000020b": {
+          "Name": "System BIOS - U33",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000230": {
+          "Name": "System BIOS - A42",
+          "Version": "4.4",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000021d": {
+          "Name": "System BIOS - A42",
+          "Version": "4.4",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000020a": {
+          "Name": "System BIOS - A40",
+          "Version": "3.80",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000208": {
+          "Name": "System BIOS - U31",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000209": {
+          "Name": "System BIOS - U31",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000204": {
+          "Name": "System BIOS - U32",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
         },
         "a6b1a447-382a-5a4f-3c10-87800a000303": {
           "Name": "Innovation Engine (IE) Fimware",
@@ -58,10 +128,30 @@
           "Version": "8.23",
           "DeviceClass": "79F0C163-0C13-4662-9DEA-09235FEF90CB"
         },
+        "00000000-0000-0000-0000-00000000020f": {
+          "Name": "System BIOS - U40",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000219": {
+          "Name": "System BIOS - U45",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
         "a6b1a447-382a-5a4f-8086-43e080867270": {
           "Name": "Server Platform Services Firmware for DL20 Gen10 Plus",
           "Version": "6.0.3.708",
           "DeviceClass": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
+        },
+        "00000000-0000-0000-0000-00000000022b": {
+          "Name": "System BIOS - U50",
+          "Version": "2.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000023c": {
+          "Name": "System BIOS - U61",
+          "Version": "2.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
         },
         "9c057a7a-0d48-4260-b033-558f22ef7c6a": {
           "Name": "iLO 5",
@@ -78,28 +168,168 @@
           "Version": "3.20",
           "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
         },
+        "00000000-0000-0000-0000-000000000229": {
+          "Name": "System BIOS - A46",
+          "Version": "4.4",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000227": {
+          "Name": "System BIOS - U47",
+          "Version": "2.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000023a": {
+          "Name": "System BIOS - H10",
+          "Version": "2.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000221": {
+          "Name": "System BIOS - H08",
+          "Version": "3.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000020c": {
+          "Name": "System BIOS - U34",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000020d": {
+          "Name": "System BIOS - U34",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
         "a6b1a447-382a-5a4f-3c10-87800a000101": {
           "Name": "Server Platform Services (SPS) Firmware",
           "Version": "4.4.4.925",
           "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053"
+        },
+        "00000000-0000-0000-0000-00000000021b": {
+          "Name": "System BIOS - U39",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000213": {
+          "Name": "System BIOS - U38",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000020e": {
+          "Name": "System BIOS - U37",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
         },
         "a6b1a447-382a-5a4f-3c10-86800a000101": {
           "Name": "Server Platform Services (SPS) Firmware",
           "Version": "4.1.5.201",
           "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053"
         },
+        "00000000-0000-0000-0000-000000000216": {
+          "Name": "System BIOS - U41",
+          "Version": "3.66",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000222": {
+          "Name": "System BIOS - U48",
+          "Version": "3.76",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000224": {
+          "Name": "System BIOS - U48",
+          "Version": "3.76",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000022f": {
+          "Name": "System BIOS - A48",
+          "Version": "4.4",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000225": {
+          "Name": "System BIOS - U46",
+          "Version": "2.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000226": {
+          "Name": "System BIOS - U46",
+          "Version": "2.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000022c": {
+          "Name": "System BIOS - U46",
+          "Version": "2.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
         "a6b1a447-382a-5a4f-3c10-3c100a000303": {
           "Name": "Innovation Engine (IE) Fimware",
           "Version": "0.2.3.0",
           "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d"
+        },
+        "00000000-0000-0000-0000-000000000217": {
+          "Name": "System BIOS - A41",
+          "Version": "3.80",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000023e": {
+          "Name": "System BIOS - U60",
+          "Version": "2.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000021a": {
+          "Name": "System BIOS - U44",
+          "Version": "3.76",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000218": {
+          "Name": "System BIOS - U43",
+          "Version": "3.76",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000239": {
+          "Name": "System BIOS - U56",
+          "Version": "2.64",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
         }
       }
     },
     "spp-gen11": {
       "version": "2026.7.0.0",
       "lastUpdated": "8-19-2026",
-      "totalComponents": 12,
+      "totalComponents": 31,
       "components": {
+        "00000000-0000-0000-0000-000000000280": {
+          "Name": "System BIOS - A59",
+          "Version": "2.60",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000249": {
+          "Name": "System BIOS - U63",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000247": {
+          "Name": "System BIOS - U63",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000271": {
+          "Name": "System BIOS - A58",
+          "Version": "2.11",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000242": {
+          "Name": "System BIOS - H11",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000243": {
+          "Name": "System BIOS - A55",
+          "Version": "3.16",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000245": {
+          "Name": "System BIOS - A55",
+          "Version": "3.16",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
         "00000000-0000-0000-0000-000000000259": {
           "Name": "Server Platform Services Firmware for DL20 ML30 MS Gen11",
           "Version": "6.3.4.69",
@@ -125,6 +355,36 @@
           "Version": "6.3.4.69",
           "DeviceClass": "8e59d79d-ae28-4e35-8d63-3c0d75bee62e"
         },
+        "00000000-0000-0000-0000-00000000023d": {
+          "Name": "System BIOS - U58",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000023b": {
+          "Name": "System BIOS - U58",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000024a": {
+          "Name": "System BIOS - U58",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000244": {
+          "Name": "System BIOS - A56",
+          "Version": "3.16",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000246": {
+          "Name": "System BIOS - A56",
+          "Version": "3.16",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000275": {
+          "Name": "System BIOS - A56",
+          "Version": "3.16",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
         "e6d3c844-14a6-4f1f-84a3-c06013910406": {
           "Name": "iLO 6",
           "Version": "1.77",
@@ -150,10 +410,40 @@
           "Version": "1.77",
           "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
         },
+        "00000000-0000-0000-0000-000000000235": {
+          "Name": "System BIOS - U54",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000236": {
+          "Name": "System BIOS - U54",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000237": {
+          "Name": "System BIOS - U54",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
         "00000000-0000-0000-0000-000000504e06": {
           "Name": "Gen11 Power Management Controller Firmware",
           "Version": "1.2.2",
           "DeviceClass": "9e48a28a-586c-4519-8405-a04f84e27f0f"
+        },
+        "00000000-0000-0000-0000-000000000241": {
+          "Name": "System BIOS - U59",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000248": {
+          "Name": "System BIOS - U62",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-00000000023f": {
+          "Name": "System BIOS - U57",
+          "Version": "2.94",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
         },
         "00000000-0000-0000-0000-000000504e05": {
           "Name": "Gen11 Power Management Controller Firmware",
@@ -165,12 +455,37 @@
     "spp-gen12": {
       "version": "2026.7.0.0",
       "lastUpdated": "8-19-2026",
-      "totalComponents": 7,
+      "totalComponents": 30,
       "components": {
+        "00000000-0000-0000-0000-000000000283": {
+          "Name": "System BIOS - U74",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
         "00000000-0000-0000-0000-000000505006": {
           "Name": "Gen12 Power Management Controller Firmware",
           "Version": "1.1.0",
           "DeviceClass": "9e48a28a-586c-4519-8405-a04f84e27f0f"
+        },
+        "00000000-0000-0000-0000-000000000261": {
+          "Name": "System BIOS - U69",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000263": {
+          "Name": "System BIOS - U69",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000284": {
+          "Name": "System BIOS - A66",
+          "Version": "1.56",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000285": {
+          "Name": "System BIOS - A66",
+          "Version": "1.56",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
         },
         "e6d3c844-14a6-4f1f-84a3-c06013910406": {
           "Name": "iLO 6",
@@ -197,10 +512,100 @@
           "Version": "1.77",
           "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
         },
+        "00000000-0000-0000-0000-000000000269": {
+          "Name": "System BIOS - U72",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000268": {
+          "Name": "System BIOS - U72",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000265": {
+          "Name": "System BIOS - U68",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000266": {
+          "Name": "System BIOS - U68",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000267": {
+          "Name": "System BIOS - U68",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000281": {
+          "Name": "System BIOS - U77",
+          "Version": "1.42",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000288": {
+          "Name": "System BIOS - U77",
+          "Version": "1.42",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000274": {
+          "Name": "System BIOS - U66",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "fb2b2f91-c952-4288-8389-21dee30eff07": {
+          "Name": "iLO 7",
+          "Version": "1.24.0",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "fb2b2f91-c952-4288-8389-21dee30e0007": {
+          "Name": "iLO 7",
+          "Version": "1.24.0",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "fb2b2f91-c952-4288-8389-21dee30e0107": {
+          "Name": "iLO 7",
+          "Version": "1.24.0",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "fb2b2f91-c952-4288-8389-21dee30e0207": {
+          "Name": "iLO 7",
+          "Version": "1.24.0",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "fb2b2f91-c952-4288-8389-21dee30e0307": {
+          "Name": "iLO 7",
+          "Version": "1.24.0",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "fb2b2f91-c952-4288-8389-21dee30e0407": {
+          "Name": "iLO 7",
+          "Version": "1.24.0",
+          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
+        },
+        "00000000-0000-0000-0000-000000000277": {
+          "Name": "System BIOS - U70",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
         "00000000-0000-0000-0000-000000505005": {
           "Name": "Gen12 Power Management Controller Firmware",
           "Version": "1.1.2",
           "DeviceClass": "9e48a28a-586c-4519-8405-a04f84e27f0f"
+        },
+        "00000000-0000-0000-0000-000000000264": {
+          "Name": "System BIOS - U71",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000273": {
+          "Name": "System BIOS - U71",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
+        },
+        "00000000-0000-0000-0000-000000000289": {
+          "Name": "System BIOS - U71",
+          "Version": "1.82",
+          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
         }
       }
     }
