@@ -12,6 +12,7 @@ CRITICAL_DEVICES = [
     "iLO",
     "System ROM",
     "System BIOS",
+    "BIOS",
     "Smart Array",
     "Power Management",
     "Power Supply",
