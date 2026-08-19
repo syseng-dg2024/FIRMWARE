@@ -35,9 +35,26 @@ def normalize_version(version_string):
     if not version_string:
         return version_string
     
-    parts = version_string.split('.')
-    normalized_parts = [str(int(part)) for part in parts]
-    return '.'.join(normalized_parts)
+    # Extract only the version number part (before any space or parenthesis)
+    # e.g., "v3.66 (04/01/2026)" -> "3.66"
+    version_string = version_string.strip()
+    
+    # Remove 'v' prefix if present
+    if version_string.startswith('v') or version_string.startswith('V'):
+        version_string = version_string[1:]
+    
+    # Extract only the numeric part before any space or special character
+    match = re.match(r'^([\d.]+)', version_string)
+    if match:
+        version_string = match.group(1)
+    
+    try:
+        parts = version_string.split('.')
+        normalized_parts = [str(int(part)) for part in parts if part]
+        return '.'.join(normalized_parts)
+    except ValueError:
+        # If normalization fails, return original string
+        return version_string
 
 def get_latest_spp_version(generation):
     """Get the latest SPP version for a specific generation"""
