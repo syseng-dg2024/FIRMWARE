@@ -19,6 +19,7 @@ CRITICAL_DEVICES = [
     "Innovation Engine",
     "Server Platform Services",
     "Intelligent Provisioning",
+    "HPE Ethernet",
 ]
 
 # SPP generations to scrape
@@ -35,11 +36,9 @@ def normalize_version(version_string):
     if not version_string:
         return version_string
     
-    # Extract only the version number part (before any space or parenthesis)
-    # e.g., "v3.66 (04/01/2026)" -> "3.66"
     version_string = version_string.strip()
     
-    # Remove 'v' prefix if present
+    # Remove 'v' or 'V' prefix if present
     if version_string.startswith('v') or version_string.startswith('V'):
         version_string = version_string[1:]
     
@@ -144,10 +143,10 @@ def scrape_hpe_spp_firmware(generation, version):
             except Exception as e:
                 continue
         
-        return components, len(components)
+        return components, len(components), url
     
     except Exception as e:
-        return {}, 0
+        return {}, 0, url
 
 def main():
     all_results = {}
@@ -157,11 +156,12 @@ def main():
         latest_version = get_latest_spp_version(generation)
         
         if latest_version:
-            components, count = scrape_hpe_spp_firmware(generation, latest_version)
+            components, count, url = scrape_hpe_spp_firmware(generation, latest_version)
             
             if count > 0:
                 all_results[generation] = {
                     "version": normalize_version(latest_version),
+                    "url": url,
                     "lastUpdated": datetime.now().strftime("%-m-%-d-%Y"),
                     "totalComponents": count,
                     "components": components
