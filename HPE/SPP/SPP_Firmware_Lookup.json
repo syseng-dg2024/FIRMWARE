@@ -1,12 +1,12 @@
 {
   "description": "HPE Service Pack for ProLiant (SPP) Critical Firmware Components - All Generations",
   "generationCount": 4,
-  "lastUpdated": "10-25-2026",
+  "lastUpdated": "10-26-2026",
   "generations": {
     "spp-gen10": {
       "version": "2026.9.0.0",
       "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen10/2026.09.00.00/manifest/meta.xml",
-      "lastUpdated": "10-25-2026",
+      "lastUpdated": "10-26-2026",
       "totalComponents": 99,
       "components": {
         "00000000-0000-0000-0000-00000000021c": {
@@ -509,7 +509,7 @@
     "spp-gen11": {
       "version": "2026.9.0.0",
       "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen11/2026.09.00.00/manifest/meta.xml",
-      "lastUpdated": "10-25-2026",
+      "lastUpdated": "10-26-2026",
       "totalComponents": 37,
       "components": {
         "00000000-0000-0000-0000-000000000257": {
@@ -702,7 +702,7 @@
     "spp-gen12": {
       "version": "2026.9.0.0",
       "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen12/2026.09.00.00/manifest/meta.xml",
-      "lastUpdated": "10-25-2026",
+      "lastUpdated": "10-26-2026",
       "totalComponents": 35,
       "components": {
         "e6d3c844-14a6-4f1f-84a3-c06013910406": {
@@ -885,7 +885,7 @@
     "spp-gen13": {
       "version": "2026.9.0.0",
       "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen13/2026.09.00.00/manifest/meta.xml",
-      "lastUpdated": "10-25-2026",
+      "lastUpdated": "10-26-2026",
       "totalComponents": 9,
       "components": {
         "00000000-0000-0000-0000-000000000290": {
