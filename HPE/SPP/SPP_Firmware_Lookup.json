@@ -1,12 +1,12 @@
 {
   "description": "HPE Service Pack for ProLiant (SPP) Critical Firmware Components - All Generations",
-  "generationCount": 4,
-  "lastUpdated": "11-17-2026",
+  "generationCount": 3,
+  "lastUpdated": "11-18-2026",
   "generations": {
     "spp-gen10": {
       "version": "2026.9.0.0",
       "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen10/2026.09.00.00/manifest/meta.xml",
-      "lastUpdated": "11-17-2026",
+      "lastUpdated": "11-18-2026",
       "totalComponents": 99,
       "components": {
         "00000000-0000-0000-0000-00000000021c": {
@@ -509,7 +509,7 @@
     "spp-gen11": {
       "version": "2026.9.0.0",
       "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen11/2026.09.00.00/manifest/meta.xml",
-      "lastUpdated": "11-17-2026",
+      "lastUpdated": "11-18-2026",
       "totalComponents": 37,
       "components": {
         "00000000-0000-0000-0000-000000000257": {
@@ -702,7 +702,7 @@
     "spp-gen12": {
       "version": "2026.9.0.0",
       "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen12/2026.09.00.00/manifest/meta.xml",
-      "lastUpdated": "11-17-2026",
+      "lastUpdated": "11-18-2026",
       "totalComponents": 35,
       "components": {
         "e6d3c844-14a6-4f1f-84a3-c06013910406": {
@@ -879,59 +879,6 @@
           "Name": "System BIOS - U66",
           "Version": "1.90",
           "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
-        }
-      }
-    },
-    "spp-gen13": {
-      "version": "2026.9.0.0",
-      "url": "https://downloads.linux.hpe.com/SDR/repo/spp-gen13/2026.09.00.00/manifest/meta.xml",
-      "lastUpdated": "11-17-2026",
-      "totalComponents": 9,
-      "components": {
-        "00000000-0000-0000-0000-000000000290": {
-          "Name": "System BIOS - A72",
-          "Version": "1.10",
-          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
-        },
-        "00000000-0000-0000-0000-0000000002a8": {
-          "Name": "System BIOS - A72",
-          "Version": "1.10",
-          "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4"
-        },
-        "a6b1a447-382a-5a4f-15b3-101d15b30042": {
-          "Name": "HPE Ethernet 100Gb 2-port QSFP56 MCX623106AS-CDAT Adapter",
-          "Version": "22.49.1014",
-          "DeviceClass": "79f0c163-0c13-4662-9dea-09235fef90cb"
-        },
-        "fb2b2f91-c952-4288-8389-21dee30eff08": {
-          "Name": "iLO 8",
-          "Version": "1.10.0",
-          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
-        },
-        "fb2b2f91-c952-4288-8389-21dee30e0008": {
-          "Name": "iLO 8",
-          "Version": "1.10.0",
-          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
-        },
-        "fb2b2f91-c952-4288-8389-21dee30e0108": {
-          "Name": "iLO 8",
-          "Version": "1.10.0",
-          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
-        },
-        "fb2b2f91-c952-4288-8389-21dee30e0208": {
-          "Name": "iLO 8",
-          "Version": "1.10.0",
-          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
-        },
-        "fb2b2f91-c952-4288-8389-21dee30e0308": {
-          "Name": "iLO 8",
-          "Version": "1.10.0",
-          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
-        },
-        "fb2b2f91-c952-4288-8389-21dee30e0408": {
-          "Name": "iLO 8",
-          "Version": "1.10.0",
-          "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952"
         }
       }
     }
